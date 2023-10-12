@@ -74,4 +74,5 @@
 
 ## 12th Oct 2023
 * *0.25 hours Preparing for Supervisor Meeting
+* *0.5 hours Research into Pipelines and GitHub-to-DevOps Connection
 * *0.5 hours Supervisor Meeting
