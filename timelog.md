@@ -91,4 +91,9 @@
 * *3.25 hours Creating Wireframes for Chemistry Academic Resources Pages
 
 
+## Week 6 - 
+
+## 25th Oct 2023
+* *0.25 hours Fixing GitRepo to include missing files from template
+* *3 hours Wireframes
 
