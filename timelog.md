@@ -63,7 +63,7 @@
 * *0.25 hours Creating Survey for School of Physics Students
 
 
-## Week 4 -
+## Week 4 - 2.75 hours
 
 ## 10th Oct 2023
 * *0.5 hours Reading Survey Responses from Both Chemistry and Physics Surveys
@@ -76,3 +76,19 @@
 * *0.25 hours Preparing for Supervisor Meeting
 * *0.5 hours Research into Pipelines and GitHub-to-DevOps Connection
 * *0.5 hours Supervisor Meeting
+
+## Week 5 - 8 hours
+
+## 18th Oct 2023
+* *2 hours Designing Wireframes for Homepages
+
+## 19th Oct 2023
+* *2 hours Designing Wireframes for Homepages
+* *0.25 hours Preparing for Supervisor Meeting
+* *0.5 hours Supervisor Meeting
+
+## 22nd Oct 2023
+* *3.25 hours Creating Wireframes for Chemistry Academic Resources Pages
+
+
+
