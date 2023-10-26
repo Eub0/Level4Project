@@ -97,3 +97,9 @@
 * *0.25 hours Fixing GitRepo to include missing files from template
 * *3 hours Wireframes
 
+## 26th Oct 2023
+* *1.25 hours Finalising Wireframes and Making Prototype Functional
+* *0.25 hours Preparation for Supervisor Meeting
+* *1.25 hours System Architecture, ER, and Activities Diagrams
+* *0.5 hours Supervisor Meeting
+
