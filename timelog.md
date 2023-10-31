@@ -108,3 +108,5 @@
 ## 31st October
 * *0.75 hours Creating GitLab for Version Control (Moving Away From Azure)
 * *0.33 hours Setup Code Environment
+
+## 1st November
