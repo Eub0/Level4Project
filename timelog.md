@@ -91,7 +91,7 @@
 * *3.25 hours Creating Wireframes for Chemistry Academic Resources Pages
 
 
-## Week 6 - 
+## Week 6 - 7.5 hours
 
 ## 25th Oct 2023
 * *0.25 hours Fixing GitRepo to include missing files from template
@@ -103,3 +103,8 @@
 * *1.25 hours System Architecture, ER, and Activities Diagrams
 * *0.5 hours Supervisor Meeting
 
+## Week 7 - 
+
+## 31st October
+* *0.75 hours Creating GitLab for Version Control (Moving Away From Azure)
+* *0.33 hours Setup Code Environment
