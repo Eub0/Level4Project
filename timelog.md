@@ -110,3 +110,4 @@
 * *0.33 hours Setup Code Environment
 
 ## 1st November
+* *0.5 hours Began coding of HomePage

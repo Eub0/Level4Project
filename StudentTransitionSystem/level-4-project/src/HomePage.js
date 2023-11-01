@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
 import { Group, Code, ScrollArea, rem } from '@mantine/core';
 import {
   IconNotes,
@@ -12,6 +10,7 @@ import {
 } from '@tabler/icons-react';
 import { UserButton } from '../UserButton/UserButton';
 import { LinksGroup } from '../NavbarLinksGroup/NavbarLinksGroup';
+import { Logo } from './Logo';
 import classes from './NavbarNested.module.css';
 
 const mockdata = [
@@ -57,6 +56,7 @@ export function NavbarNested() {
     <nav className={classes.navbar}>
       <div className={classes.header}>
         <Group justify="space-between">
+          <Logo style={{ width: rem(120) }} />
           <Code fw={700}>v3.1.2</Code>
         </Group>
       </div>
