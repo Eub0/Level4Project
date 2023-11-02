@@ -110,4 +110,9 @@
 * *0.33 hours Setup Code Environment
 
 ## 1st November
-* *0.5 hours Began coding of HomePage
+* *0.5 hours Began coding of base components
+
+## 2nd November
+* *1 hour Continued coding from previous day
+* *0.5 hours Encountered errors in install, reset application
+* *1.5 hours Coding of Layout.tsx, NavbarContent.tsx, and Types.ts
