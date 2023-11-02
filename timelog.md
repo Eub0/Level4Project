@@ -116,3 +116,6 @@
 * *1 hour Continued coding from previous day
 * *0.5 hours Encountered errors in install, reset application
 * *1.5 hours Coding of Layout.tsx, NavbarContent.tsx, and Types.ts
+* *1 hour Continued coding of Layout components
+* *0.5 hours Supervisor Meeting
+* *1.5 hours Continued coding of Layout components
