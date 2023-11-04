@@ -119,3 +119,6 @@
 * *1 hour Continued coding of Layout components
 * *0.5 hours Supervisor Meeting
 * *1.5 hours Continued coding of Layout components
+
+## 4th November
+* *3 hours Continued Coding of Layout Components
