@@ -103,7 +103,7 @@
 * *1.25 hours System Architecture, ER, and Activities Diagrams
 * *0.5 hours Supervisor Meeting
 
-## Week 7 - 
+## Week 7 - 10.58 hours
 
 ## 31st October
 * *0.75 hours Creating GitLab for Version Control (Moving Away From Azure)
@@ -122,3 +122,8 @@
 
 ## 4th November
 * *3 hours Continued Coding of Layout Components
+
+## Week 8 -
+
+## 8th November
+* *4 hours Coding more layout components and helpers. Trying to resolve homepage loading blank error

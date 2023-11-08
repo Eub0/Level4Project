@@ -1,20 +1,19 @@
-import { useMemorizedBreadcrumbs } from '@/helpers/routesHelper';
+import { useMemoizedBreadCrumbs } from '@/helpers/routesHelper';
 import { nextDynamicPath }from '@/helpers/validationHelper';
-import { Breadcrumbs, Button, Text } from "@mantine/core";
-import{ useMediaQuery } from '@mantine/hooks';
-import { Link } from 'next/link';
+import { Breadcrumbs, Button, Text, MediaQuery } from "@mantine/core";
+import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { text } from 'stream/consumers';
 
 export const PageBreadcrumbs = () => {
     const router =useRouter();
-    const breadcrumbs = useMemorizedBreadcrumbs(router);
+    const breadcrumbs = useMemoizedBreadCrumbs(router);
     const shouldRenderBreadcrumbs = router.asPath !== '/homepage/';
 
     return (
         <>
             {shouldRenderBreadcrumbs && (
-                <MediaQuerey smallerThan ="md" styles={{ display: 'none'}}>
+                <MediaQuery smallerThan ="md" styles={{ display: 'none'}}>
                     <Breadcrumbs
                         separator="/"
                         styles={{ separator: {margin: '0 5px'} }}
@@ -42,7 +41,7 @@ export const PageBreadcrumbs = () => {
                             )
                         )}
                     </Breadcrumbs>
-                </MediaQuerey>
+                </MediaQuery>
             )}
         </>
     )

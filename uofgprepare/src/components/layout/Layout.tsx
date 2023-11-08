@@ -1,7 +1,10 @@
-import { AppShell, Box } from '@mantine/core';
+import { AppShell, Box, Header, Navbar } from '@mantine/core';
 import { ReactNode, useState } from'react';
 import { NavbarContent } from './NavbarContent';
 import { HeaderContent } from './HeaderContent';
+import { PageContainer } from './PageContainer';
+import { useRouter } from 'next/router';
+import Head from 'next/head';
 
 interface LayoutProps {
     children: ReactNode;
@@ -29,11 +32,11 @@ export const Layout = ({ children }: LayoutProps) => {
                         },
                     })}
                     navbar = {
-                        <AppShell.Navbar
+                        <Navbar
                             p="sm"
                             hidden = {!opened}
                             hiddenBreakpoint = "sm"
-                            width = {( base: 225)}
+                            width = {{ base: 225 }}
                             styles = {(theme) => ({
                                 root: {
                                     backgroundColor:
@@ -42,10 +45,10 @@ export const Layout = ({ children }: LayoutProps) => {
                             })}
                         >
                             <NavbarContent setNavbarOpened = {setOpened} />
-                        </AppShell.Navbar>
+                        </Navbar>
                     }
                     header = {
-                        <AppShell.Header
+                        <Header
                             height = {60}
                             p = "sm"
                             sx = {(theme) => ({
@@ -56,7 +59,7 @@ export const Layout = ({ children }: LayoutProps) => {
                             })}
                         >
                             <HeaderContent opened = { opened } setOpened = { setOpened } />
-                        </AppShell.Header>
+                        </Header>
                     }
                 >
                     <Box

@@ -1,4 +1,7 @@
-import {MediaQuerey, Navbar, ScrollArea} from '@mantine/core';
+import { NavbarButton } from '@/components/layout/NavbarButton';
+import { navigationItems } from '@/routes/routes';
+import { NavigationItem } from '@/types/Navigation';
+import {MediaQuery, Navbar, ScrollArea} from '@mantine/core';
 import {SetState} from '@/types/Types';
 
 interface Props {
@@ -15,15 +18,9 @@ export const NavbarContent = ({ setNavbarOpened}: Props) => {
                         key = {item.name}
                         item = {item}
                         closeNavbar = {closeNavbar}
-                        disabled = {!hasPermission(item.requiresRole)}
                     />
                 ))}
             </Navbar.Section>
-            <MediaQuerey largerhan="sm" styles={{ display: 'none'}}>
-                <Navbar.Section>
-                    <ProfileButton />
-                </Navbar.Section>
-            </MediaQuerey>
         </>
     )
 }

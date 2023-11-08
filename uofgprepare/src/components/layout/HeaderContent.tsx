@@ -1,4 +1,5 @@
 import {SetState} from '@/types/Types';
+import { PageBreadcrumbs } from '@/components/layout/PageBreadcrumbs';
 import {
     Burger,
     Group,
@@ -40,9 +41,6 @@ export const HeaderContent = ({setOpened, opened}:Props) => {
                     size = "md"
                     color = {dark ? 'white' : 'grey'}
                 />
-            </MediaQuery>
-            <MediaQuery smallerThan="sm" styles={{ display: 'none'}}>
-                <ProfileButton />
             </MediaQuery>
         </Group>
     );

@@ -19,31 +19,24 @@ export const PageHeader = ({
     return (
         <Portal target="#PageHeader">
             <Box
-                sx={(theme) => ({
-                    borderBottom: `1px solid ${
-                        theme.colorScheme === 'dark'
-                        ? theme.colors.dark[5]
-                        : theme.colors.gray[2],
-                    }`,
-                    backgroundColor:
-                        theme.colorScheme === 'dark'
-                            ? theme.colors.dark[5]
-                            : theme.colors.gray[2],
+                style={{
+                    borderBottom: 1,
+                    backgroundColor: 'colors.gray[2]',
                     minHeight: 72,
                     boxSizing: 'border-box',
-            })}
+            }}
             >
                 <Group position="apart" align="center" p="md" sx={{ minHeight: 68 }}>
                     <Stack spacing={0}>
                         {subheading ?? typeof subheading === 'string' ? (
                             <PageSubheadingText>{subheading}</PageSubheadingText>
                         ) : (
-                            {subheading}
+                            subheading
                         )}
                         {heading ?? typeof heading ==='string' ? (
                             <PageHeadingText>{subheading}</PageHeadingText>
                             ) : (
-                                {heading}
+                                heading
                             )}
                     </Stack>
                     {rightSection}

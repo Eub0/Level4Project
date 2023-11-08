@@ -1,3 +1,4 @@
+import { NavigationItem, SubNavigationItem } from '@/types/Navigation';
 import {
     Box,
     Collapse,
@@ -6,8 +7,9 @@ import {
     createStyles,
 } from '@mantine/core';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import { useState } from 'react';
-import { FaCheveronRight, FaChevronRight } from 'react-icons/fa';
+import { FaChevronRight } from 'react-icons/fa';
 
 const useStyles = createStyles((theme) => ({
     button: {
@@ -59,7 +61,7 @@ const useStyles = createStyles((theme) => ({
         paddingLeft: 18,
         borderRadius: `0${theme.radius.sm}px ${theme.radius.sm}px 0`,
         borderLeft: `1px solid ${theme.colorScheme ==='dark' ? theme.colors.dark[4] : theme.colors.gray[3]}`,
-        color: theme.colorScheme === 'dark' ? theme.colors.dark[0] : theme.black.colors.grey[7],
+        color: theme.colorScheme === 'dark' ? theme.colors.dark[0] : theme.colors.grey[7],
         fontSize: theme.fontSizes.sm,
         '&:hover, &:focus': {
             backgroundColor: theme.colorScheme === 'dark' ? theme.colors.dark[6] : 'white',
@@ -72,12 +74,11 @@ const useStyles = createStyles((theme) => ({
 }));
 
 interface Props {
-    item: NavigationItems;
+    item: NavigationItem;
     closeNavbar: ()=> void;
-    disabled: boolean;
 }
 
-export const NavbarButton = ({ item, closeNavbar, disabled }: Props) => {
+export const NavbarButton = ({ item, closeNavbar }: Props) => {
     const { classes } = useStyles();
     const router = useRouter();
 
@@ -96,7 +97,6 @@ export const NavbarButton = ({ item, closeNavbar, disabled }: Props) => {
                     data-cy={`${item.name.toLowerCase().replace(/ /g, '-')}-nav-button`}
                     px="sm"
                     onClick={() => setOpened((o) =>!o)}
-                    disabled = {disabled}
                     className={`${classes.button} ${isCurrentPage(item.path) && classes.active}`}
                 >
                     <Group position="apart" spacing={0}>
@@ -133,7 +133,6 @@ export const NavbarButton = ({ item, closeNavbar, disabled }: Props) => {
                     onClickCapture={navigateToPage}
                     px="sm"
                     my={3}
-                    disabled = {disabled}
                     className={`${classes.button} ${isCurrentPage(item.path) && classes.active}`}
                 >
                     <Group position="apart" spacing={0}>

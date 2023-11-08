@@ -5,10 +5,12 @@ export const PageTabs = ({ children, ...props }: TabsProps) => {
         <Tabs
             defaultValue="relatedLinks"
             orientation="horizontal"
-            style={(theme) => ({
+            styles={(theme) => ({
                 tabsList: {
                     backgroundColor:
-                        theme.colorScheme === 'dark' ? theme.colors.dark[8] :theme.colors.grey[0],
+						theme.colorScheme === 'dark'
+							? theme.colors.dark[8]
+							: theme.colors.gray[0],
                 },
                 tab: {
                     fontWeight: 500,

@@ -37,7 +37,7 @@ export const MantineProviders = ({ children }: { children: ReactNode }) => {
                 emotionCache={emotionCache}
                 theme={{
                     colorScheme,
-                    primaryColor: 'blue.9',
+                    primaryColor: 'blue',
                     cursorType: 'pointer',
                     components: {
                         Title: {
@@ -101,7 +101,7 @@ export const MantineProviders = ({ children }: { children: ReactNode }) => {
                 withGlobalStyles
                 withNormalizeCSS
             >
-                <NotificationsProvider>{ children}</NotificationsProvider>
+                {/* <NotificationsProvider>{ children}</NotificationsProvider> */}
             </MantineProvider>
         </ColorSchemeProvider>
     )

@@ -8,7 +8,7 @@ export const PageHeadingText = ({ children }: TextProps) => {
             <Head>
                 <title>{`UofG Prepare - ${children}`}</title>
             </Head>
-            <Title order={1} size="h3" weight={500}>
+            <Title order={1} size="h3">
                 {children}
             </Title>
         </>
