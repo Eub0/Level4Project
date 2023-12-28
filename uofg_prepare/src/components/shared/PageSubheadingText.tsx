@@ -6,8 +6,7 @@ export const PageSubheadingText = ({ children }: {children: ReactNode}) => {
 		<Title
 			order={2}
 			size="h6"
-			color="dark.3"
-			weight={400}
+			w={400}
 		>
 			{children}
 		</Title>

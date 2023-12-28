@@ -20,8 +20,8 @@ export const PageHeader = ({
 		<Portal target="#PageHeader">
 			<Box
 			>
-				<Group position="apart" align="center" p="md" sx={{ minHeight: 68 }}>
-					<Stack spacing={0}>
+				<Group align="center" p="md">
+					<Stack>
 						{subheading ?? typeof subheading === 'string' ? (
 							<PageSubheadingText>{subheading}</PageSubheadingText>
 						) : (

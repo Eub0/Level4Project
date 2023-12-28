@@ -3,8 +3,7 @@ import {
 	Box,
 	Collapse,
 	Group,
-	UnstyledButton,
-    createTheme
+	UnstyledButton
 } from '@mantine/core';
 import '@mantine/core/styles.css';
 import Link from 'next/link';

@@ -17,7 +17,7 @@ export const Homepage = () => {
                 </Title>
                 <Text>
                 Welcome to Prepare, a system to help you get setup and ready for starting you university journey. 
-                This system is specialised to the schools of chemistry and physics. Here you will find advice and tools to help you get set up for starting uni, as ell as useful areas for throughout your time in your first year, such as study tools and advice. 
+                This system is specialised to the Schools of Chemistry and Physics. Here you will find advice and tools to help you get set up for starting university, as well as useful areas for throughout your time in your first year of study, such as study tools and advice. 
                 We hope you find this system useful in helping prepare you to be a future world changer.
                 </Text>
                 <Image

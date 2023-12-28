@@ -11,7 +11,7 @@ export const PageHeadingText = ({ children }: {children: ReactNode}) => {
 			<Head>
 				<title>{`Backstage - ${children}`}</title>
 			</Head>
-			<Title order={1} size="h3" weight={500}>
+			<Title order={1} size="h3" w={500}>
 				{children}
 			</Title>
 		</>
