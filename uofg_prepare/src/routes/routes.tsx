@@ -7,5 +7,10 @@ export const navigationItems: NavigationItem[] = [
 		name: 'Homepage',
 		icon: <TiHome size={20} />,
 		path: '/homepage',
+	},
+    {
+		name: 'Extracurriculars',
+		icon: <TiHome size={20} />,
+		path: '/extracurriculars',
 	}
 ]

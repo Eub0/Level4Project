@@ -12,6 +12,9 @@ export default function Home() {
   const greetingMessage = greetings();
   return (
     <>
+      <Head>
+        <title>UofG Prepare</title>
+      </Head>
 			<PageHeader
 				heading="Homepage"
 				subheading={`${greetingMessage}`}
