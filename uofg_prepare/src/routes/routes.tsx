@@ -142,6 +142,11 @@ export const navigationItems: NavigationItem[] = [
                         ]
                     },
                 ]
+            },
+            {
+                name: 'The English Language',
+                icon: <IoFlask size={20}/>,
+                path: '/englishlanguage',
             }
         ]
     },

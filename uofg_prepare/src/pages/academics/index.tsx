@@ -42,7 +42,7 @@ export const Academics = () => {
                         cardText="Tighten up on your English with our helpful hub of resources."
                         imgSrc="/images/src.jpg"
                         imgAlt="UofG SRC"
-                        link="academics/englishlangauge"
+                        link="/academics/englishlanguage"
                     />
                 </Grid.Col>
             </Grid>
