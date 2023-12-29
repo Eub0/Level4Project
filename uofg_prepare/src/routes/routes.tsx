@@ -104,25 +104,43 @@ export const navigationItems: NavigationItem[] = [
                             {
                                 name: 'Solids and Surfaces',
                                 path: '/solidsandsurfaces'
+                            }
+                        ]
+                    },
+                    {
+                        name: 'Chemistry 2Y',
+                        path: '/chemistry2y',
+                        subSubSubItems:[
+                            {
+                                name: 'Applied Organic Chemistry',
+                                path: '/appliedorganicchemistry'
                             },
                             {
-                                name: 'Medicinal Chemistry',
-                                path: '/medicinalchemistry'
+                                name: 'Aromatic Chemistry',
+                                path: '/aromaticchemistry'
                             },
                             {
-                                name: 'Organic Chemistry 1',
-                                path: '/organicchemistry1'
+                                name: 'Chemical Thermodynamics',
+                                path: '/chemicalthermodynamics'
                             },
                             {
-                                name: 'Organic Chemistry 2',
-                                path: '/organicchemistry2'
+                                name: 'Co-Ordination Chemistry',
+                                path: '/coordinationchemistry'
                             },
                             {
-                                name: 'Organic Chemistry 3',
-                                path: '/organicchemistry3'
+                                name: 'Introduction to Spectroscopy',
+                                path: '/introductiontospectroscopy'
+                            },
+                            {
+                                name: 'Organic Synthesis',
+                                path: '/organicsynthesis'
+                            },
+                            {
+                                name: 'Solutions and Electrochemistry',
+                                path: '/solutionsandelectrochemistry'
                             },
                         ]
-                    }
+                    },
                 ]
             }
         ]

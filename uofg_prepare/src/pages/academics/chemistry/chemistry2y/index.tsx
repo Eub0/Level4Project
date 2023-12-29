@@ -2,15 +2,15 @@ import { PageHeader } from "@/components/layout/PageHeader";
 import { SubSectionCard } from "@/components/shared/SubSectionCard";
 import { Stack, Title, Text, Grid } from "@mantine/core";
 
-export const Chemistry2 = () => {
+export const Chemistry2Y = () => {
     return (
       <>
         <PageHeader
-            heading="Chemistry 2"
+            heading="Chemistry 2Y"
         />
             <Stack>
             <Title order={1} size="h1">
-                Chemistry 2
+                Chemistry 2Y
             </Title>
             <Text>
             An important part of university life is making sure you have time for you. 
@@ -26,59 +26,59 @@ export const Chemistry2 = () => {
                 <Grid>
                     <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                         <SubSectionCard
-                            cardTitle="Quantum Mechanics and Chemical Bonding"
+                            cardTitle="Introduction to Spectroscopy "
                             cardText="One of the two student unions on campus."
                             imgSrc="/images/guu.jpeg"
                             imgAlt="UofG GUU"
-                            link="/academics/chemistry/chemistry2x/quantummechanicsandchemicalbonding"
+                            link="/academics/chemistry/chemistry2y/introductiontospectroscopy"
                         />
                         <SubSectionCard
-                            cardTitle="Enols and Enolates"
+                            cardTitle="Organic Synthesis"
                             cardText="The Sports Council of the University of Glasgow."
                             imgSrc="/images/gusa.jpg"
                             imgAlt="UofG GUSA"
-                            link="/academics/chemistry/chemistry2x/enolsandenolates"
+                            link="/academics/chemistry/chemistry2y/organicsynthesis"
                         />
                     </Grid.Col>
                     <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                     <SubSectionCard
-                            cardTitle="Isomerism and Sterochemistry"
+                            cardTitle="Co-ordination Chemistry"
                             cardText="One of the two student unions on campus."
                             imgSrc="/images/qmu.png"
                             imgAlt="UofG QMU"
-                            link="/academics/chemistry/chemistry2x/isomerismandsterochemistry"
+                            link="/academics/chemistry/chemistry2y/coordinationchemistry"
                         />
                         <SubSectionCard
-                            cardTitle="Organometallic Chemistry"
+                            cardTitle="Chemical Thermodynamics"
                             cardText="The Sports Council of the University of Glasgow."
                             imgSrc="/images/gusa.jpg"
                             imgAlt="UofG GUSA"
-                            link="/academics/chemistry/chemistry2x/organometallicchemistry"
+                            link="/academics/chemistry/chemistry2y/chemicalthermodynamics"
                         />
                     </Grid.Col>
                     <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                         <SubSectionCard
-                            cardTitle="Main Group Chemistry"
+                            cardTitle="Aromatic Chemistry"
                             cardText="One of the two student unions on campus."
                             imgSrc="/images/guu.jpeg"
                             imgAlt="UofG GUU"
-                            link="/academics/chemistry/chemistry2x/organicchemistry1"
+                            link="/academics/chemistry/chemistry2y/aromaticchemistry"
                         />
                         <SubSectionCard
-                            cardTitle="Solids and Surfaces"
+                            cardTitle="Applied Organic Chemistry "
                             cardText="The Sports Council of the University of Glasgow."
                             imgSrc="/images/gusa.jpg"
                             imgAlt="UofG GUSA"
-                            link="/academics/chemistry/chemistry2x/solidsandsurfaces"
+                            link="/academics/chemistry/chemistry2y/appliedorganicchemistry"
                         />
                     </Grid.Col>
                     <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                         <SubSectionCard
-                            cardTitle="Principles of Spectroscopy"
+                            cardTitle="Solutions and Electrochemistry"
                             cardText="One of the two student unions on campus."
                             imgSrc="/images/guu.jpeg"
                             imgAlt="UofG GUU"
-                            link="/academics/chemistry/chemistry2x/principlesofspectroscopy"
+                            link="/academics/chemistry/chemistry2y/solutionsandelectrochemistry"
                         />
                     </Grid.Col>
                 </Grid>
@@ -87,4 +87,4 @@ export const Chemistry2 = () => {
     );
 }
 
-export default Chemistry2;
+export default Chemistry2Y;

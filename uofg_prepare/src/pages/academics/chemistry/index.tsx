@@ -42,7 +42,7 @@ export const Chemistry = () => {
                         cardText="Chemistry of the Natural World"
                         imgSrc="/images/src.jpg"
                         imgAlt="UofG SRC"
-                        link="https://www.glasgowunisrc.org/"
+                        link="/academics/chemistry/chemistry2y"
                     />
                 </Grid.Col>
             </Grid>
