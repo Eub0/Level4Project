@@ -1,6 +1,6 @@
 import { PageHeader } from "@/components/layout/PageHeader";
 import { SubSectionCard } from "@/components/shared/SubSectionCard";
-import { Stack, Title, Text, Grid, GridCol } from "@mantine/core";
+import { Stack, Title, Text, Grid } from "@mantine/core";
 
 export const Extracurriculars = () => {
     return (

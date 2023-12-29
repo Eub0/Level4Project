@@ -1,4 +1,4 @@
-import { NavigationItem, SubNavigationItem } from '@/types/Navigation';
+import { NavigationItem, SubNavigationItem, SubSubNavigationItem } from '@/types/Navigation';
 import {
 	Box,
 	Collapse,
@@ -28,39 +28,42 @@ export const NavbarButton = ({ item, closeNavbar }: Props) => {
 	const [opened, setOpened] = useState(false);
 
 	if (item.subItems) {
-		return (
-			<>
-				<UnstyledButton
-					data-cy={`${item.name.toLowerCase().replace(/ /g, '-')}-nav-button`}
-					px="sm"
-					onClick={() => setOpened((o) => !o)}
-				>
-					<Group p="apart" >
-						<Box>
-							<div className="navbar-icon">{item.icon}</div>
-							<Box ml="xs">{item.name}</Box>
-						</Box>
-						<FaChevronRight
-							size={14}
-							style={{ transform: opened ? `rotate(90deg)` : 'none' }}
-						/>
-					</Group>
-				</UnstyledButton>
-				<Collapse in={opened}>
-					{item.subItems.map((subItem: SubNavigationItem) => (
-						<Link
-							href={item.path + subItem.path}
-							key={subItem.name}
-							onClick={closeNavbar}
+		for (let subItem=0; subItem < (item.subItems).length; subItem++) {
+			if (item.subItems[subItem].subSubItems) {
+				return (
+					<>
+						<UnstyledButton
+							data-cy={`${item.name.toLowerCase().replace(/ /g, '-')}-nav-button`}
+							px="sm"
+							onClick={() => setOpened((o) => !o)}
 						>
-							{subItem.name}
-						</Link>
-					))}
-				</Collapse>
-			</>
-		);
-	} else {
-		return (
+							<Group p="apart" >
+								<Box>
+									<div className="navbar-icon">{item.icon}</div>
+									<Box ml="xs">{item.name}</Box>
+								</Box>
+								<FaChevronRight
+									size={14}
+									style={{ transform: opened ? `rotate(90deg)` : 'none' }}
+								/>
+							</Group>
+						</UnstyledButton>
+						<Collapse in={opened}>
+							{item.subItems.map((subItem: SubNavigationItem) => (
+								<Link
+									href={item.path + subItem.path}
+									key={subItem.name}
+									onClick={closeNavbar}
+								>
+									{subItem.name}
+								</Link>
+							))}
+						</Collapse>
+					</>
+				);
+			}
+		} 
+	} else {return (
 			<UnstyledButton
 				data-cy={`${item.name.toLowerCase().replace(/ /g, '-')}-nav-button`}
 				onClick={navigateToPage}
