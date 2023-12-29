@@ -72,6 +72,56 @@ export const navigationItems: NavigationItem[] = [
                                 path: '/transitionmetals'
                             },
                         ]
+                    },
+                    {
+                        name: 'Chemistry 2X',
+                        path: '/chemistry2x',
+                        subSubSubItems:[
+                            {
+                                name: 'Enols and Enolates',
+                                path: '/enolsandenolates'
+                            },
+                            {
+                                name: 'Isomerism and Sterochemistry',
+                                path: '/isomerismandsterochemistry'
+                            },
+                            {
+                                name: 'Main Group Chemistry',
+                                path: '/maingroupchemistry'
+                            },
+                            {
+                                name: 'Orgonometallic Chemistry',
+                                path: '/orgonometallicchemistry'
+                            },
+                            {
+                                name: 'Principles of Spectroscopy',
+                                path: '/principlesofspectroscopy'
+                            },
+                            {
+                                name: 'Quantum Mechanics and Chemical Bonding',
+                                path: '/quantummechanicsandchemicalbonding'
+                            },
+                            {
+                                name: 'Solids and Surfaces',
+                                path: '/solidsandsurfaces'
+                            },
+                            {
+                                name: 'Medicinal Chemistry',
+                                path: '/medicinalchemistry'
+                            },
+                            {
+                                name: 'Organic Chemistry 1',
+                                path: '/organicchemistry1'
+                            },
+                            {
+                                name: 'Organic Chemistry 2',
+                                path: '/organicchemistry2'
+                            },
+                            {
+                                name: 'Organic Chemistry 3',
+                                path: '/organicchemistry3'
+                            },
+                        ]
                     }
                 ]
             }

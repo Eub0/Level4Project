@@ -21,7 +21,7 @@ export const Chemistry = () => {
                 <Grid.Col span={{ base: 12, md: 10, lg: 4 }}>
                     <SubSectionCard
                         cardTitle="Chemistry 1"
-                        cardText="Your hub for all things Level 1 & 2 Chemisrty."
+                        cardText="Your hub for all things Level 1 Chemisrty."
                         imgSrc="/images/guu.jpeg"
                         imgAlt="UofG GUU"
                         link="/academics/chemistry/chemistry1"
@@ -30,16 +30,16 @@ export const Chemistry = () => {
                 <Grid.Col span={{ base: 12, md: 6, lg: 4 }}>
                 <SubSectionCard
                         cardTitle="Chemisrty 2X"
-                        cardText="Your hub for all things Level 1 & 2 Physics."
+                        cardText="Molecules Matter: The Fundamentals"
                         imgSrc="/images/qmu.png"
                         imgAlt="UofG QMU"
-                        link="https://www.qmunion.org.uk/"
+                        link="/academics/chemistry/chemistry2x"
                     />
                 </Grid.Col>
                 <Grid.Col span={{ base: 12, md: 6, lg: 4 }}>
                     <SubSectionCard
                         cardTitle="Chemistry 2Y"
-                        cardText="Tighten up on your English with our helpful hub of resources."
+                        cardText="Chemistry of the Natural World"
                         imgSrc="/images/src.jpg"
                         imgAlt="UofG SRC"
                         link="https://www.glasgowunisrc.org/"
