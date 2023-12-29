@@ -123,7 +123,69 @@
 ## 4th November
 * *3 hours Continued Coding of Layout Components
 
-## Week 8 -
+## Week 8 - 4.5 hours
 
 ## 8th November
 * *4 hours Coding more layout components and helpers. Trying to resolve homepage loading blank error
+
+## 9th November
+* *0.5 hours Supervisor Meeting
+
+## Week 9 - 10.5 hours
+
+## 15h November
+* *2 hours Meeting with Beth and Francis from the School of Chemistry to discuss the system, showcase wireframes, and get materials
+
+## 16th November
+* *4 hours Looking into ways to resolve the blank screen error
+* *0.5 hours Supervisor Meeting
+
+## 17th November
+* *2 hours Reading papers on Physics
+
+## 18th November
+* *2 hours Reading papers on Chemistry & Physics
+
+## Week 10 - 2.5 hours
+
+## 21st November
+* *2 hours Looking into ways to resolve the blank screen error
+
+## 23rd November
+* *0.5 hours Supervisor Meeting
+
+## Week 11 - 3.5 hours
+
+## 28th November
+* * 1 hour Reading over resources provided by the School of Chemistry
+
+## 29th November
+* *2 hours Rethinking ways to do project, cant resolve blank screen
+
+## 30th November
+* * 0.5 hours Supervisor Meeting
+
+## Week 12 - 0 hours
+* * Exam Week, Did not touch this week
+
+## Week 13 - 1.5 hours
+ 
+## 14th December
+* * 1 hour Writing up Progress Report
+* * 0.5 hours Supervisor meeting
+ 
+## Week 14 - 8 hours
+
+## 23rd December
+* *8 hours Restarted the project. Reloaded the next app and started to reimplement what I had before, being careful not to break anything this time.
+
+## Week 15 - 
+
+## 27th December
+* * 8 hours Almost deleted everything trying to resolve an issue on the Git Repo, most of this time was spent resolving this. Created some key layout components which will be used across the majority of the system
+
+## 28th December
+* *8 hours Got the mantine components to work. Created the home and extracurriculars pages. Created helper components to prevent repeat code for these pages and to be used in more in future.
+
+## 29th December
+* *10 hours Coded the Academics and Contacts Sections. Created all the templates for the Chemistry pages for the sections, including the individual modules for the academics section. Spent time refining the code with new layout components to avoid repeat code. Updated timelog to be up to date. (I was writing on a local copy before)
