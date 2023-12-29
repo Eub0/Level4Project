@@ -151,6 +151,21 @@ export const navigationItems: NavigationItem[] = [
         ]
     },
     {
+        name: 'Contacts',
+        icon: <TiSocialDribbble size={20} />,
+		path: '/contacts',
+        subItems: [
+            {
+                name: 'School of Chemistry',
+                path: '/chemistry',
+            },
+            {
+                name: 'School of Physics',
+                path: '/physics',
+            },
+        ]
+    },
+    {
 		name: 'Extracurriculars',
 		icon: <TiSocialDribbble size={20} />,
 		path: '/extracurriculars',

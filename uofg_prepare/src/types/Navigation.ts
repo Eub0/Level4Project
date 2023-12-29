@@ -5,7 +5,7 @@ export interface NavigationItem extends SubNavigationItem {
 
 export interface SubNavigationItem {
 	name: string;
-	icon: JSX.Element;
+	icon?: JSX.Element;
 	path: string;
 	subSubItems?: SubSubNavigationItem[];
 }
