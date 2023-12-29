@@ -1,5 +1,6 @@
 import { NavigationItem } from "@/types/Navigation";
-import { TiHome } from "react-icons/ti";
+import { TiHome, TiClipboard, TiSocialDribbble } from "react-icons/ti";
+import { IoFlask } from "react-icons/io5";
 
 
 export const navigationItems: NavigationItem[] = [
@@ -9,8 +10,26 @@ export const navigationItems: NavigationItem[] = [
 		path: '/homepage',
 	},
     {
+        name: 'Academic Resources',
+        icon: <TiClipboard size={20}/>,
+        path: '/academics',
+        subItems: [
+            {
+                name: 'School of Chemistry',
+                icon: <IoFlask size={20}/>,
+                path: '/chemistry',
+                subSubItems: [
+                    {
+                        name: 'Chemistry 1',
+                        path: '/chemistry1'
+                    }
+                ]
+            }
+        ]
+    },
+    {
 		name: 'Extracurriculars',
-		icon: <TiHome size={20} />,
+		icon: <TiSocialDribbble size={20} />,
 		path: '/extracurriculars',
 	}
 ]

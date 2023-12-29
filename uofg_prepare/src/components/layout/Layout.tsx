@@ -34,7 +34,7 @@ export const Layout = ({ children }: LayoutProps) => {
                     }}
                     navbar={{
                     breakpoint:"sm",
-                    width:225,
+                    width:250,
                     }}
                     >
                         <AppShell.Header
