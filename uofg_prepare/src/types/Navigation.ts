@@ -13,4 +13,10 @@ export interface SubNavigationItem {
 export interface SubSubNavigationItem {
 	name: string;
 	path: string;
+	subSubSubItems: SubSubSubNavigationItem[];
+}
+
+export interface SubSubSubNavigationItem {
+	name: string;
+	path: string;
 }

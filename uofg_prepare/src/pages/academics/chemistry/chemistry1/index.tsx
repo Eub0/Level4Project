@@ -30,7 +30,7 @@ export const Chemistry1 = () => {
                             cardText="One of the two student unions on campus."
                             imgSrc="/images/guu.jpeg"
                             imgAlt="UofG GUU"
-                            link="https://www.guu.co.uk/"
+                            link="/academics/chemistry/chemistry1/elementsandatoms"
                         />
                     </Grid.Col>
                     <Grid.Col span={{ base: 12, md: 6, lg: 2 }}>
@@ -39,7 +39,7 @@ export const Chemistry1 = () => {
                             cardText="One of the two student unions on campus."
                             imgSrc="/images/qmu.png"
                             imgAlt="UofG QMU"
-                            link="https://www.qmunion.org.uk/"
+                            link="/academics/chemistry/chemistry1/compoundsandmolecules"
                         />
                     </Grid.Col>
                     <Grid.Col span={{ base: 12, md: 6, lg: 2 }}>
@@ -48,7 +48,7 @@ export const Chemistry1 = () => {
                             cardText="One of the two student unions on campus."
                             imgSrc="/images/guu.jpeg"
                             imgAlt="UofG GUU"
-                            link="https://www.guu.co.uk/"
+                            link="/academics/chemistry/chemistry1/organicchemistry1"
                         />
                     </Grid.Col>
                     <Grid.Col span={{ base: 12, md: 6, lg: 2 }}>
@@ -57,7 +57,7 @@ export const Chemistry1 = () => {
                             cardText="One of the two student unions on campus."
                             imgSrc="/images/guu.jpeg"
                             imgAlt="UofG GUU"
-                            link="https://www.guu.co.uk/"
+                            link="/academics/chemistry/chemistry1/organicchemistry2"
                         />
                     </Grid.Col>
                     <Grid.Col span={{ base: 12, md: 6, lg: 2 }}>
@@ -66,7 +66,7 @@ export const Chemistry1 = () => {
                             cardText="One of the two student unions on campus."
                             imgSrc="/images/guu.jpeg"
                             imgAlt="UofG GUU"
-                            link="https://www.guu.co.uk/"
+                            link="/academics/chemistry/chemistry1/organicchemistry3"
                         />
                     </Grid.Col>
                     <Grid.Col span={{ base: 12, md: 6, lg:2 }}>
@@ -75,7 +75,7 @@ export const Chemistry1 = () => {
                             cardText="The Sports Council of the University of Glasgow."
                             imgSrc="/images/gusa.jpg"
                             imgAlt="UofG GUSA"
-                            link="https://www.gla.ac.uk/myglasgow/sport/gusa/"
+                            link="/academics/chemistry/chemistry1/attractionsandrepulsions"
                         />
                     </Grid.Col>
                 </Grid>

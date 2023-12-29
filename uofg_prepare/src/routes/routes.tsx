@@ -21,7 +21,33 @@ export const navigationItems: NavigationItem[] = [
                 subSubItems: [
                     {
                         name: 'Chemistry 1',
-                        path: '/chemistry1'
+                        path: '/chemistry1',
+                        subSubSubItems:[
+                            {
+                                name: 'Attractions and Repulsions',
+                                path: '/attractionsandrepulsions'
+                            },
+                            {
+                                name: 'Compounds and Molecules',
+                                path: '/compoundsandmolecules'
+                            },
+                            {
+                                name: 'Elements and Atoms',
+                                path: '/elementsandatoms'
+                            },
+                            {
+                                name: 'Organic Chemistry 1',
+                                path: '/organicchemistry1'
+                            },
+                            {
+                                name: 'Organic Chemistry 2',
+                                path: '/organicchemistry2'
+                            },
+                            {
+                                name: 'Organic Chemistry 3',
+                                path: '/organicchemistry3'
+                            },
+                        ]
                     }
                 ]
             }
