@@ -24,16 +24,36 @@ export const navigationItems: NavigationItem[] = [
                         path: '/chemistry1',
                         subSubSubItems:[
                             {
+                                name: 'Aqueous Equilibria and pH',
+                                path: '/aqueousequilibriaandph'
+                            },
+                            {
                                 name: 'Attractions and Repulsions',
                                 path: '/attractionsandrepulsions'
+                            },
+                            {
+                                name: 'Chemical Energy Changes',
+                                path: '/chemicalenergychanges'
+                            },
+                            {
+                                name: 'Chemical Kenetics',
+                                path: '/chemicalkenetics'
                             },
                             {
                                 name: 'Compounds and Molecules',
                                 path: '/compoundsandmolecules'
                             },
                             {
+                                name: 'Data Analysis',
+                                path: '/dataanalysis'
+                            },
+                            {
                                 name: 'Elements and Atoms',
                                 path: '/elementsandatoms'
+                            },
+                            {
+                                name: 'Medicinal Chemistry',
+                                path: '/medicinalchemistry'
                             },
                             {
                                 name: 'Organic Chemistry 1',
@@ -46,6 +66,10 @@ export const navigationItems: NavigationItem[] = [
                             {
                                 name: 'Organic Chemistry 3',
                                 path: '/organicchemistry3'
+                            },
+                            {
+                                name: 'Transition Metals',
+                                path: '/transitionmetals'
                             },
                         ]
                     }
