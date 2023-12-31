@@ -1,13 +1,14 @@
 import { NavigationItem } from "@/types/Navigation";
-import { TiHome, TiClipboard, TiSocialDribbble } from "react-icons/ti";
+import { TiHomeOutline, TiClipboard, TiSocialDribbble } from "react-icons/ti";
 import { IoFlask } from "react-icons/io5";
-import { RiContactsFill } from "react-icons/ri";
+import { RiContactsLine } from "react-icons/ri";
+import { BsCalendar2Range } from "react-icons/bs";
 
 
 export const navigationItems: NavigationItem[] = [
 	{
 		name: 'Homepage',
-		icon: <TiHome size={20} />,
+		icon: <TiHomeOutline size={20} />,
 		path: '/homepage',
 	},
     {
@@ -152,18 +153,23 @@ export const navigationItems: NavigationItem[] = [
         ]
     },
     {
+		name: 'Timetable',
+		icon: <BsCalendar2Range size={20} />,
+		path: '/timetable',
+	},
+    {
         name: 'Contacts',
-        icon: <RiContactsFill size={20} />,
+        icon: <RiContactsLine size={20} />,
 		path: '/contacts',
         subItems: [
             {
                 name: 'School of Chemistry',
+                icon: <IoFlask size={20}/>,
                 path: '/chemistry',
-            },
-            {
-                name: 'School of Physics',
-                path: '/physics',
-            },
+                subSubItems: [
+
+                ]
+            }, 
         ]
     },
     {
