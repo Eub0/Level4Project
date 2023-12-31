@@ -13,7 +13,7 @@ export const NavbarContent = ({ setNavbarOpened }: Props) => {
 
 	return (
 		<>
-			<AppShell.Section grow component={ScrollArea} mx="-xs" px="xs">
+			<AppShell.Section grow component={ScrollArea} mx="xs" px="md">
 				{navigationItems.map((item: NavigationItem) => (
 					<NavbarButton
 						key={item.name}

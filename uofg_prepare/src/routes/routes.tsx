@@ -1,6 +1,7 @@
 import { NavigationItem } from "@/types/Navigation";
 import { TiHome, TiClipboard, TiSocialDribbble } from "react-icons/ti";
 import { IoFlask } from "react-icons/io5";
+import { RiContactsFill } from "react-icons/ri";
 
 
 export const navigationItems: NavigationItem[] = [
@@ -152,7 +153,7 @@ export const navigationItems: NavigationItem[] = [
     },
     {
         name: 'Contacts',
-        icon: <TiSocialDribbble size={20} />,
+        icon: <RiContactsFill size={20} />,
 		path: '/contacts',
         subItems: [
             {
