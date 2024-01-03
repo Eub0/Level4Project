@@ -1,13 +1,14 @@
 import { NavigationItem } from "@/types/Navigation";
-import { TiHome, TiClipboard, TiSocialDribbble } from "react-icons/ti";
+import { TiHome, TiClipboard, TiSocialDribbble, TiHomeOutline } from "react-icons/ti";
 import { IoFlask } from "react-icons/io5";
-import { RiContactsFill } from "react-icons/ri";
+import { RiContactsFill, RiContactsLine } from "react-icons/ri";
+import { LuListTodo } from "react-icons/lu";
 
 
 export const navigationItems: NavigationItem[] = [
 	{
 		name: 'Homepage',
-		icon: <TiHome size={20} />,
+		icon: <TiHomeOutline size={20} />,
 		path: '/homepage',
 	},
     {
@@ -153,7 +154,7 @@ export const navigationItems: NavigationItem[] = [
     },
     {
         name: 'Contacts',
-        icon: <RiContactsFill size={20} />,
+        icon: <RiContactsLine size={20} />,
 		path: '/contacts',
         subItems: [
             {
@@ -166,6 +167,11 @@ export const navigationItems: NavigationItem[] = [
             },
         ]
     },
+    {
+		name: 'To-Do',
+		icon: <LuListTodo size={20} />,
+		path: '/todo',
+	},
     {
 		name: 'Extracurriculars',
 		icon: <TiSocialDribbble size={20} />,

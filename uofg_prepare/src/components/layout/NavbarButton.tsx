@@ -28,8 +28,8 @@ export const NavbarButton = ({ item, closeNavbar }: Props) => {
 	const [opened, setOpened] = useState(false);
 
 	if (item.subItems) {
-		for (let subItem=0; subItem < (item.subItems).length; subItem++) {
-			if (item.subItems[subItem].subSubItems) {
+		// for (let subItem=0; subItem < (item.subItems).length; subItem++) {
+		// 	if (item.subItems[subItem].subSubItems) {
 				return (
 					<>
 						<UnstyledButton
@@ -62,8 +62,9 @@ export const NavbarButton = ({ item, closeNavbar }: Props) => {
 					</>
 				);
 			}
-		} 
-	} else {return (
+		// } 
+	// } 
+	else {return (
 			<UnstyledButton
 				data-cy={`${item.name.toLowerCase().replace(/ /g, '-')}-nav-button`}
 				onClick={navigateToPage}
