@@ -1,8 +1,9 @@
 import { NavigationItem } from "@/types/Navigation";
-import { TiHome, TiClipboard, TiSocialDribbble, TiHomeOutline } from "react-icons/ti";
+import { TiClipboard, TiSocialDribbble, TiHomeOutline } from "react-icons/ti";
 import { IoFlask } from "react-icons/io5";
-import { RiContactsFill, RiContactsLine } from "react-icons/ri";
+import { RiContactsLine } from "react-icons/ri";
 import { LuListTodo } from "react-icons/lu";
+import { BsCalendar2Week } from "react-icons/bs"
 
 
 export const navigationItems: NavigationItem[] = [
@@ -152,6 +153,11 @@ export const navigationItems: NavigationItem[] = [
             }
         ]
     },
+    {
+		name: 'Timetable',
+		icon: <BsCalendar2Week size={20} />,
+		path: '/timetable',
+	},
     {
         name: 'Contacts',
         icon: <RiContactsLine size={20} />,
