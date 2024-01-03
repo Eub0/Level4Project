@@ -72,10 +72,10 @@ export const Chemistry = () => {
                         Click on the module pannles bellow to find more about what is covered in each, so that you can prepare yourself for begining.
                     </Text>  
                 <Title order={3} size="h3">
-                    Semester 1
+                    Semester 1 Modules
                 </Title>  
                 <Grid>
-                    <Grid.Col span={{ base: 12, md: 6, lg: 2 }}>
+                    <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                         <SubSectionCard
                             cardTitle="Elements and Atoms"
                             cardText="One of the two student unions on campus."
@@ -84,7 +84,7 @@ export const Chemistry = () => {
                             link="/academics/chemistry/chemistry1/elementsandatoms"
                         />
                     </Grid.Col>
-                    <Grid.Col span={{ base: 12, md: 6, lg: 2 }}>
+                    <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                     <SubSectionCard
                             cardTitle="Compounds and Molecules"
                             cardText="One of the two student unions on campus."
@@ -93,7 +93,7 @@ export const Chemistry = () => {
                             link="/academics/chemistry/chemistry1/compoundsandmolecules"
                         />
                     </Grid.Col>
-                    <Grid.Col span={{ base: 12, md: 6, lg: 2 }}>
+                    <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                         <SubSectionCard
                             cardTitle="Organic Chemistry 1"
                             cardText="One of the two student unions on campus."
@@ -102,7 +102,7 @@ export const Chemistry = () => {
                             link="/academics/chemistry/chemistry1/organicchemistry1"
                         />
                     </Grid.Col>
-                    <Grid.Col span={{ base: 12, md: 6, lg: 2 }}>
+                    <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                         <SubSectionCard
                             cardTitle="Organic Chemistry 2"
                             cardText="One of the two student unions on campus."
@@ -111,7 +111,7 @@ export const Chemistry = () => {
                             link="/academics/chemistry/chemistry1/organicchemistry2"
                         />
                     </Grid.Col>
-                    <Grid.Col span={{ base: 12, md: 6, lg: 2 }}>
+                    <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                         <SubSectionCard
                             cardTitle="Organic Chemistry 3"
                             cardText="One of the two student unions on campus."
@@ -120,7 +120,7 @@ export const Chemistry = () => {
                             link="/academics/chemistry/chemistry1/organicchemistry3"
                         />
                     </Grid.Col>
-                    <Grid.Col span={{ base: 12, md: 6, lg:2 }}>
+                    <Grid.Col span={{ base: 12, md: 6, lg:3 }}>
                         <SubSectionCard
                             cardTitle="Attractions and Repulsions"
                             cardText="The Sports Council of the University of Glasgow."
@@ -133,10 +133,10 @@ export const Chemistry = () => {
             </Stack>
             <Stack pt={10}>
                 <Title order={3} size="h3">
-                    Semester 2
+                    Semester 2 Modules
                 </Title>
                 <Grid>
-                    <Grid.Col span={{ base: 12, md: 6, lg: 2 }}>
+                    <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                         <SubSectionCard
                             cardTitle="Data Analysis"
                             cardText="One of the two student unions on campus."
@@ -145,7 +145,7 @@ export const Chemistry = () => {
                             link="/academics/chemistry/chemistry1/dataanalysis"
                         />
                     </Grid.Col>
-                    <Grid.Col span={{ base: 12, md: 6, lg: 2 }}>
+                    <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                     <SubSectionCard
                             cardTitle="Chemical Energy Changes"
                             cardText="One of the two student unions on campus."
@@ -154,7 +154,7 @@ export const Chemistry = () => {
                             link="/academics/chemistry/chemistry1/chemicalenergychanges"
                         />
                     </Grid.Col>
-                    <Grid.Col span={{ base: 12, md: 6, lg: 2 }}>
+                    <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                         <SubSectionCard
                             cardTitle="Chemical Kenetics"
                             cardText="One of the two student unions on campus."
@@ -163,7 +163,7 @@ export const Chemistry = () => {
                             link="/academics/chemistry/chemistry1/chemicalkenetics"
                         />
                     </Grid.Col>
-                    <Grid.Col span={{ base: 12, md: 6, lg: 2 }}>
+                    <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                         <SubSectionCard
                             cardTitle="Aqueous Equilibria and pH"
                             cardText="One of the two student unions on campus."
@@ -172,7 +172,7 @@ export const Chemistry = () => {
                             link="/academics/chemistry/chemistry1/aqueousequilibriaandph"
                         />
                     </Grid.Col>
-                    <Grid.Col span={{ base: 12, md: 6, lg: 2 }}>
+                    <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                         <SubSectionCard
                             cardTitle="Transition Metals"
                             cardText="One of the two student unions on campus."
@@ -181,7 +181,7 @@ export const Chemistry = () => {
                             link="/academics/chemistry/chemistry1/transitionmetals"
                         />
                     </Grid.Col>
-                    <Grid.Col span={{ base: 12, md: 6, lg:2 }}>
+                    <Grid.Col span={{ base: 12, md: 6, lg:3 }}>
                         <SubSectionCard
                             cardTitle="Medicinal Chemistry"
                             cardText="The Sports Council of the University of Glasgow."
@@ -201,6 +201,9 @@ export const Chemistry = () => {
                         It runs over semester 1, where you will cover the fundamentals of molecular chemistry.
                         Click on the module pannles bellow to find more about what is covered in each, so that you can prepare yourself for begining.
                         </Text>
+                        <Title order={3} size="h3">
+                            Modules
+                        </Title>
                         <Grid>
                             <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                                 <SubSectionCard
@@ -270,6 +273,9 @@ export const Chemistry = () => {
                     It runs over semester 2, where you will cover the chemistry of the natural world.
                     Click on the module pannles bellow to find more about what is covered in each, so that you can prepare yourself for begining.
                 </Text>
+                <Title order={3} size="h3">
+                    Modules
+                </Title>
                 <Grid>
                     <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                         <SubSectionCard
