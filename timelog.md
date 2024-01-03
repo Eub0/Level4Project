@@ -189,3 +189,20 @@
 
 ## 29th December
 * *10 hours Coded the Academics and Contacts Sections. Created all the templates for the Chemistry pages for the sections, including the individual modules for the academics section. Spent time refining the code with new layout components to avoid repeat code. Updated timelog to be up to date. (I was writing on a local copy before)
+
+## 31st December
+* *0.5 hours Implementing the hub page for the timetable section
+* *0.5 hours Looking over the example timetables provided by the School of Chemistry for Chemistry 1, 2X, and 2Y
+* *0.5 hours Considering different ways to implement the example timetables into the system
+* *0.5 hours Looking at the different mantine components which could be used to help implement the example timetables
+
+## Week 16 -
+
+## 2nd January
+* *2 hours Implementing templates for the remaining areas of the system
+
+## 3rd January
+* *2 hours Finishing ToDo section implementation, routing, and academics UI changes
+* *2 hours Changing the content grid implementation to allow for lists components to be used
+* *3 hours Populating the Chemistry 1 module grids with the module aims and objectives
+* *3 hours Populating the Chemistry 2X and 2Y module grids with the module aims and objectives
