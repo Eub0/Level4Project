@@ -6,7 +6,8 @@ export const MainGroupChemistry = () => {
         <ContentGrid
                 heading="Main Group Chemistry"
                 title="Main Group Chemistry"
-                moduleDescription=""
+                moduleAims="Main Group Chemistry aims to introduce the students to main group chemistry, and in particular the chemistry of elements in groups 1, 2 and 15. Many of the concepts within this course are fundamental to a basic understanding of chemical behaviour and reactivity. This course also provides a foundation for subsequent courses on main group chemistry in years 3 and 4. "
+                moduleOutline={[""]}
                 usefulWebsites=""
                 recommendedReading=""
                 cardTitle="Unit Quiz"

@@ -6,7 +6,8 @@ export const AppliedOrganicChemistry = () => {
         <ContentGrid
                 heading="Applied Organic Chemistry"
                 title="Applied Organic Chemistry"
-                moduleDescription=""
+                moduleAims="Applied Organic Chemistry aims to give a general introduction to the applications of organic chemistry including medicinal, biological and supramolecular chemistry and utilisation of natural products and their biological significance."
+                moduleOutline={[""]}
                 usefulWebsites=""
                 recommendedReading=""
                 cardTitle="Unit Quiz"
