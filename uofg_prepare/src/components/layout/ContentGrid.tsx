@@ -44,7 +44,7 @@ export const ContentGrid = ({heading, title, moduleAims, moduleOutline, usefulWe
                         </Title>
                         <Card>
                             <Text>{moduleAims}</Text>
-                            <Text>
+                            <Text pt={10}>
                                 In this module you will cover the following:
                             </Text>
                             {outlineList(moduleOutline)}
