@@ -6,7 +6,8 @@ export const IsomerismAndSterochemistry = () => {
         <ContentGrid
                 heading="Isomerism and Sterochemistry"
                 title="Isomerism and Sterochemistry"
-                moduleDescription=""
+                moduleAims="Isomerism and Sterochemistry aims tTo give an understanding of molecular shape, and to introduce the importance of stereochemistry in organic reactions. "
+                moduleOutline={[""]}
                 usefulWebsites=""
                 recommendedReading=""
                 cardTitle="Unit Quiz"

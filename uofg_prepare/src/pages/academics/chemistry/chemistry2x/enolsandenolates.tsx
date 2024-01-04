@@ -6,7 +6,8 @@ export const EnolsAndEnolates = () => {
         <ContentGrid
                 heading="Enols and Enolates"
                 title="Enols and Enolates"
-                moduleDescription=""
+                moduleAims="Enols and Enolates aims to explore the reactivity of the carbonyl group and to show how it reacts with nucleophiles. To describe how the carbonyl group can also be used to generate carbanions and to function as nucleophiles in carbon-carbon bond forming reactions. To apply this knowledge for the total synthesis of organic molecules. "
+                moduleOutline={[""]}
                 usefulWebsites=""
                 recommendedReading=""
                 cardTitle="Unit Quiz"

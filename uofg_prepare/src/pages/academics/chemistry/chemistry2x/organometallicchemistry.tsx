@@ -6,7 +6,8 @@ export const OrganometallicChemistry = () => {
         <ContentGrid
                 heading="Organometallic Chemistry"
                 title="Organometallic Chemistry"
-                moduleDescription=""
+                moduleAims="Organometallic Chemistry aims to introduce the chemical diversity and value of organometallic compounds of the transition metals. The course and the examination will consolidate synthesis, structure and reactivity."
+                moduleOutline={[""]}
                 usefulWebsites=""
                 recommendedReading=""
                 cardTitle="Unit Quiz"

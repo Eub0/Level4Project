@@ -1,11 +1,12 @@
 import { PageHeader } from "@/components/layout/PageHeader";
 import { SubSectionCard } from "@/components/shared/SubSectionCard";
-import { Stack, Title, Text, Grid, Card } from "@mantine/core";
+import { Stack, Title, Text, Grid, Card, List } from "@mantine/core";
 
 interface Props {
     heading: string,
     title: string,
-    moduleDescription: string,
+    moduleAims: string,
+    moduleOutline: string[],
     usefulWebsites: string,
     recommendedReading: string,
     cardTitle: string,
@@ -15,7 +16,16 @@ interface Props {
     link: string,
 }
 
-export const ContentGrid = ({heading, title, moduleDescription, usefulWebsites, recommendedReading, cardTitle, cardText, imgSrc, imgAlt, link}: Props) => {
+export const ContentGrid = ({heading, title, moduleAims, moduleOutline, usefulWebsites, recommendedReading, cardTitle, cardText, imgSrc, imgAlt, link}: Props) => {
+
+    function outlineList (moduleOutline: string[]) {
+        const rows = [];
+        for (let i = 0; i < moduleOutline.length; i++) {
+            rows.push(<List.Item >{moduleOutline[i]}</List.Item>);
+        }
+        return <List>{rows}</List>;
+    }
+ 
     return (
       <>
         <PageHeader
@@ -33,9 +43,11 @@ export const ContentGrid = ({heading, title, moduleDescription, usefulWebsites, 
                             Module Description:
                         </Title>
                         <Card>
-                            <Text>
-                                {moduleDescription}
+                            <Text>{moduleAims}</Text>
+                            <Text pt={10}>
+                                In this module you will cover the following:
                             </Text>
+                            {outlineList(moduleOutline)}
                         </Card>
                         <Title order={4} size="h4">
                             Useful Websites:

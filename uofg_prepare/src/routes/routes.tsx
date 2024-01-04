@@ -5,7 +5,6 @@ import { RiContactsLine } from "react-icons/ri";
 import { LuListTodo } from "react-icons/lu";
 import { BsCalendar2Week } from "react-icons/bs"
 
-
 export const navigationItems: NavigationItem[] = [
 	{
 		name: 'Homepage',

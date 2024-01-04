@@ -6,7 +6,8 @@ export const SolidsAndSurfaces = () => {
         <ContentGrid
                 heading="Solids and Surfaces"
                 title="Solids and Surfaces"
-                moduleDescription=""
+                moduleAims="Solids and Surfaces aims to examine the packing arrangements of atoms/ions in metals, ionic crystals, covalent crystals and some minerals and to develop an appreciation of some of their surface properties/structures. "
+                moduleOutline={[""]}
                 usefulWebsites=""
                 recommendedReading=""
                 cardTitle="Unit Quiz"

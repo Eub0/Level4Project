@@ -6,7 +6,8 @@ export const CoordinationChemistry = () => {
         <ContentGrid
                 heading="Co-Ordination Chemistry"
                 title="Co-Ordination Chemistry"
-                moduleDescription=""
+                moduleAims="Co-Ordination Chemistry aims to provide an introduction to coordination complexes of the first row d-block elements and to use crystal field theory to explain aspects of structural, magnetic and spectroscopic properties. "
+                moduleOutline={[""]}
                 usefulWebsites=""
                 recommendedReading=""
                 cardTitle="Unit Quiz"
