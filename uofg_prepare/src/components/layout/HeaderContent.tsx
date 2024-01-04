@@ -8,6 +8,7 @@ import {
 	Text,
 	Title,
 } from '@mantine/core';
+import { redirect } from 'next/dist/server/api-utils';
 
 interface Props {
 	setOpened: SetState<boolean>;
