@@ -12,7 +12,8 @@
     border-radius: var(--radius-sm);
   
     .navbar-icon {
-      color: var(--mantine-color-blue);
+      color: var(--mantine-color-blue-9);
+      background-color: var(--mantine-color-blue-9);
       display: flex;
       align-items: center;
     }
@@ -24,6 +25,7 @@
   
     .navbar-icon {
       color: var(--mantine-color-white);
+      background-color: var(--mantine-color-blue-9);
     }
   }
   

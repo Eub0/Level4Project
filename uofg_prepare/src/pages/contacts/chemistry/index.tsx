@@ -1,5 +1,4 @@
 import { ContactsGrid } from "@/components/layout/ContactsGrid"
-import ContentGrid from "@/components/layout/ContentGrid"
 import { PageHeader } from "@/components/layout/PageHeader"
 import { Stack, Title } from "@mantine/core"
 
