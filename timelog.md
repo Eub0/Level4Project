@@ -206,3 +206,8 @@
 * *2 hours Changing the content grid implementation to allow for lists components to be used
 * *3 hours Populating the Chemistry 1 module grids with the module aims and objectives
 * *3 hours Populating the Chemistry 2X and 2Y module grids with the module aims and objectives
+
+## 4th January
+* *2 hours Added styling to the navbar buttons
+* *5 hours Further styling, including page header styling, tabs styling, and layout changes to extracurriculars (Tabs styling caused some issues)
+* *1 hour Implemented the ToDo Lists for the ToDo section, as well as adding the physics contacts page, and editing the layout of the contacts section
