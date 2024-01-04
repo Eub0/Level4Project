@@ -6,7 +6,7 @@ import {
 	Group,
 	Image,
 	Text,
-	useMantineColorScheme,
+	Title,
 } from '@mantine/core';
 
 interface Props {
@@ -15,8 +15,6 @@ interface Props {
 }
 
 export const HeaderContent = ({ setOpened, opened }: Props) => {
-	const { colorScheme } = useMantineColorScheme();
-	const dark = colorScheme === 'dark';
 	return (
 			<Group>
 				<Image
@@ -26,15 +24,15 @@ export const HeaderContent = ({ setOpened, opened }: Props) => {
                     height={70}
                     p={10}
 				/>
-				<Text size="xl" mb={4} w={600}>
+				<Title size="h2" c='white'>
 					Prepare - Chemistry & Physics
-				</Text>
+				</Title>
                 <Affix position={{top:15, right: 15}}>
                     <Burger
                     opened={opened}
                     onClick={() => setOpened((current: any) => !current)}
                     size="md"
-                    color={dark ? 'white' : 'grey'}
+					color='white'
                     />
                 </Affix>
             </Group> 

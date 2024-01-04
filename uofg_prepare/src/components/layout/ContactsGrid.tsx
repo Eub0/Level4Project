@@ -24,7 +24,7 @@ export const ContactsGrid = ({data}: Props) => {
                 <Grid.Col span={{ base: 12, md: 10, lg: 8 }}>
                     <Card>
                         <Table miw={700}>
-                            <Table.Thead className={cx(classes.header)}>
+                            <Table.Thead classNames={classes}>
                             <Table.Tr>
                                 <Table.Th>Role</Table.Th>
                                 <Table.Th>Name</Table.Th>

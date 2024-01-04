@@ -38,7 +38,7 @@ export function SubSectionCard( {cardTitle, cardText, imgSrc, imgAlt, link}: Pro
         {cardText}
       </Text>
       <Center p={5}>
-        <Button variant='filled' size='md' onClick={navigateToPage}>
+        <Button variant='filled' size='md' onClick={navigateToPage} color='blue.9'>
           Find Out More Here
         </Button>
       </Center>

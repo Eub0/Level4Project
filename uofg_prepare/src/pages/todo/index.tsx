@@ -3,6 +3,7 @@ import { SubSectionCard } from "@/components/shared/SubSectionCard";
 import { Stack, Title, Text, Tabs, rem } from "@mantine/core";
 import React from "react";
 import { IoPersonOutline, IoSchoolOutline,IoHomeOutline } from "react-icons/io5";
+import classes from "@/styles/Tabs.module.css";
 
 export const ToDo = () => {
 
@@ -22,8 +23,8 @@ export const ToDo = () => {
                     To make things easier, we have put together some lists of things you should do before you start, and in your first week.
                 </Text>
             </Stack>
-            <Tabs defaultValue="gallery">
-                <Tabs.List>
+            <Tabs defaultValue="gallery" variant="unstyled" classNames={classes} pt={15}>
+                <Tabs.List grow>
                     <Tabs.Tab value="gallery" leftSection={<IoHomeOutline style={iconStyle} />}>
                     Pre-University
                     </Tabs.Tab>
