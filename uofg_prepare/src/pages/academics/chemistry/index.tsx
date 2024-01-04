@@ -3,6 +3,7 @@ import { SubSectionCard } from "@/components/shared/SubSectionCard";
 import { Stack, Title, Text, Grid, Tabs, rem } from "@mantine/core";
 import { GiChemicalDrop, GiChemicalTank } from "react-icons/gi";
 import { SlChemistry } from "react-icons/sl";
+import classes from '@/styles/Tabs.module.css';
 
 export const Chemistry = () => {
     const iconStyle = { width: rem(12), height: rem(12) };
@@ -17,54 +18,24 @@ export const Chemistry = () => {
                 School of Chemistry
             </Title>
             <Text>
-            As you prepare to enter your university life, and also to assist you throughout your entry year, this section aims to provide help with your academics. 
-            Select the school you wish to look at, and find a range of study tool, tips, quizzes, and links to external useful academic resources.
+                Select from level 1 (Chemistry 1) and level 2 (Chemistry 2X, Chemistry 2Y) courses, and discover what modules are covered and how you can prepare for them.
             </Text>
             </Stack>
-            {/* <Grid pt={20}>
-                <Grid.Col span={{ base: 12, md: 10, lg: 4 }}>
-                    <SubSectionCard
-                        cardTitle="Chemistry 1"
-                        cardText="Your hub for all things Level 1 Chemisrty."
-                        imgSrc="/images/guu.jpeg"
-                        imgAlt="UofG GUU"
-                        link="/academics/chemistry/chemistry1"
-                    />
-                </Grid.Col>
-                <Grid.Col span={{ base: 12, md: 6, lg: 4 }}>
-                <SubSectionCard
-                        cardTitle="Chemisrty 2X"
-                        cardText="Molecules Matter: The Fundamentals"
-                        imgSrc="/images/qmu.png"
-                        imgAlt="UofG QMU"
-                        link="/academics/chemistry/chemistry2x"
-                    />
-                </Grid.Col>
-                <Grid.Col span={{ base: 12, md: 6, lg: 4 }}>
-                    <SubSectionCard
-                        cardTitle="Chemistry 2Y"
-                        cardText="Chemistry of the Natural World"
-                        imgSrc="/images/src.jpg"
-                        imgAlt="UofG SRC"
-                        link="/academics/chemistry/chemistry2y"
-                    />
-                </Grid.Col>
-            </Grid> */}
 
-            <Tabs defaultValue="gallery">
-                <Tabs.List>
-                    <Tabs.Tab value="gallery" leftSection={<GiChemicalDrop style={iconStyle} />}>
+            <Tabs variant="unstyled" defaultValue="Chemistry 1" classNames={classes} pt={15}>
+                <Tabs.List grow>
+                    <Tabs.Tab value="Chemistry 1" leftSection={<GiChemicalDrop style={iconStyle} />}>
                     Chemistry 1
                     </Tabs.Tab>
-                    <Tabs.Tab value="messages" leftSection={<GiChemicalTank style={iconStyle} />}>
+                    <Tabs.Tab value="Chemistry 2X" leftSection={<GiChemicalTank style={iconStyle} />}>
                     Chemistry 2X
                     </Tabs.Tab>
-                    <Tabs.Tab value="settings" leftSection={<SlChemistry style={iconStyle} />}>
+                    <Tabs.Tab value="Chemistry 2Y" leftSection={<SlChemistry style={iconStyle} />}>
                     Chemistry 2Y
                     </Tabs.Tab>
                 </Tabs.List>
 
-                <Tabs.Panel value="gallery">
+                <Tabs.Panel value="Chemistry 1">
                 <Stack>
                     <Text pt={10}>
                         Chemistry 1 is the level 1 (first year) course for Chemisrty. 
@@ -194,7 +165,7 @@ export const Chemistry = () => {
                 </Stack>
                 </Tabs.Panel>
 
-                <Tabs.Panel value="messages">
+                <Tabs.Panel value="Chemistry 2X">
                         <Stack pt={10}>
                         <Text>
                         Chemistry 2X is one of the two level 2 (second year) courses for Chemisrty. 
@@ -266,7 +237,7 @@ export const Chemistry = () => {
                     </Stack>
                 </Tabs.Panel>
 
-                <Tabs.Panel value="settings">
+                <Tabs.Panel value="Chemistry 2Y">
                 <Stack pt={10}>
                 <Text>
                     Chemistry 2Y is one of the two level 2 (second year) courses for Chemisrty. 

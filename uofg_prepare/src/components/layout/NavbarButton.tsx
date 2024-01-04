@@ -60,7 +60,7 @@ export const NavbarButton = ({ item, closeNavbar }: Props) => {
 							{item.subItems.map((subItem: SubNavigationItem) => (
 								<Link
 									className={`${classes.link} ${
-										isCurrentPage(item.path + subItem.path) ? classes.active : ''
+										isCurrentPage(item.path + subItem.path) && classes.active
 									}`}
 									href={item.path + subItem.path}
 									key={subItem.name}

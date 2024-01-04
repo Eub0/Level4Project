@@ -5,6 +5,7 @@ import { AppShell, Box } from '@mantine/core';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { ReactNode, useState } from 'react';
+import classes from '@/styles/Layout.module.css';
 
 interface LayoutProps {
 	children: ReactNode;
@@ -38,6 +39,7 @@ export const Layout = ({ children }: LayoutProps) => {
                     }}
                     >
                         <AppShell.Header
+							className={classes.header}
 							// sx={(theme) => ({
 							// 	display: 'flex',
 							// 	alignItems: 'center',
