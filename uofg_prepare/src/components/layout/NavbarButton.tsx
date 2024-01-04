@@ -39,6 +39,8 @@ export const NavbarButton = ({ item, closeNavbar }: Props) => {
 							data-cy={`${item.name.toLowerCase().replace(/ /g, '-')}-nav-button`}
 							px="sm"
 							onClick={() => setOpened((o) => !o)}
+							pt={15}
+							pb={15}
 						>
 							<Group
 								className={classes.group}
@@ -56,7 +58,7 @@ export const NavbarButton = ({ item, closeNavbar }: Props) => {
 								/>
 							</Group>
 						</UnstyledButton>
-						<Collapse in={opened}>
+						<Collapse in={opened} pb={20}>
 							{item.subItems.map((subItem: SubNavigationItem) => (
 								<Link
 									className={`${classes.link} ${
@@ -84,6 +86,8 @@ export const NavbarButton = ({ item, closeNavbar }: Props) => {
 				onClick={navigateToPage}
 				px="sm"
 				my={3}
+				pt={15}
+				pb={15}
 			>
 				<Group 
 					className={classes.group}
