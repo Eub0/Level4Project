@@ -1,6 +1,7 @@
 import { PageHeader } from "@/components/layout/PageHeader";
 import { SubSectionCard } from "@/components/shared/SubSectionCard";
-import { Stack, Title, Text, Grid, Card, List } from "@mantine/core";
+import { Stack, Title, Text, Grid, Card, List, ThemeIcon, rem } from "@mantine/core";
+import { BiAtom } from "react-icons/bi";
 
 interface Props {
     heading: string,
@@ -23,7 +24,17 @@ export const ContentGrid = ({heading, title, moduleAims, moduleOutline, usefulWe
         for (let i = 0; i < moduleOutline.length; i++) {
             rows.push(<List.Item >{moduleOutline[i]}</List.Item>);
         }
-        return <List>{rows}</List>;
+        return <List 
+            spacing="xs"
+            size="sm"
+            center
+            icon={
+            <ThemeIcon color="blue.9" size={24} radius="xl">
+                <BiAtom style={{ width: rem(16), height: rem(16) }} />
+            </ThemeIcon>
+        }>
+            {rows}
+        </List>;
     }
  
     return (

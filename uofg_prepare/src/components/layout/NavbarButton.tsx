@@ -10,6 +10,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useState } from 'react';
 import { FaChevronRight } from 'react-icons/fa';
+import classes from '@/styles/NavbarButton.module.css';
 
 interface Props {
 	item: NavigationItem;
@@ -33,16 +34,23 @@ export const NavbarButton = ({ item, closeNavbar }: Props) => {
 				return (
 					<>
 						<UnstyledButton
+							className={`${classes.button} ${
+								isCurrentPage(item.path) && classes.active}`}
 							data-cy={`${item.name.toLowerCase().replace(/ /g, '-')}-nav-button`}
 							px="sm"
 							onClick={() => setOpened((o) => !o)}
 						>
-							<Group p="apart" >
-								<Box>
+							<Group
+								className={classes.group}
+							>
+								<Box
+									className={classes.box}
+								>
 									<div className="navbar-icon">{item.icon}</div>
 									<Box ml="xs">{item.name}</Box>
 								</Box>
 								<FaChevronRight
+									className={classes.chevron}
 									size={14}
 									style={{ transform: opened ? `rotate(90deg)` : 'none' }}
 								/>
@@ -51,6 +59,9 @@ export const NavbarButton = ({ item, closeNavbar }: Props) => {
 						<Collapse in={opened}>
 							{item.subItems.map((subItem: SubNavigationItem) => (
 								<Link
+									className={`${classes.link} ${
+										isCurrentPage(item.path + subItem.path) ? classes.active : ''
+									}`}
 									href={item.path + subItem.path}
 									key={subItem.name}
 									onClick={closeNavbar}
@@ -66,13 +77,20 @@ export const NavbarButton = ({ item, closeNavbar }: Props) => {
 	// } 
 	else {return (
 			<UnstyledButton
+				className={`${classes.button} ${
+					isCurrentPage(item.path) && classes.active
+				}`}
 				data-cy={`${item.name.toLowerCase().replace(/ /g, '-')}-nav-button`}
 				onClick={navigateToPage}
 				px="sm"
 				my={3}
 			>
-				<Group p="apart">
-					<Box>
+				<Group 
+					className={classes.group}
+				>
+					<Box
+						className={classes.box}
+					>
 						<div className="navbar-icon">{item.icon}</div>
 						<Box ml="xs">{item.name}</Box>
 					</Box>
