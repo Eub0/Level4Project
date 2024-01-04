@@ -1,8 +1,13 @@
 import { PageHeader } from "@/components/layout/PageHeader";
 import { SubSectionCard } from "@/components/shared/SubSectionCard";
-import { Stack, Title, Text, Grid } from "@mantine/core";
+import { Stack, Title, Text, Grid, Tabs, rem } from "@mantine/core";
+import classes from "@/styles/Tabs.module.css";
+import { SlChemistry } from "react-icons/sl";
+import { BiAtom } from "react-icons/bi";
+import ContactsGrid from "@/components/layout/ContactsGrid";
 
 export const Contacts = () => {
+    const iconStyle = { width: rem(12), height: rem(12) };
     return (
       <>
         <PageHeader
@@ -17,26 +22,38 @@ export const Contacts = () => {
                 We have compiled together the essential contacts for both schools for you.
             </Text>
             </Stack>
-            <Grid pt={20}>
-                <Grid.Col span={{ base: 12, md: 10, lg: 6 }}>
-                    <SubSectionCard
-                        cardTitle="School of Chemistry"
-                        cardText="Essential contacts for the Schoolof Chemistry."
-                        imgSrc="/images/guu.jpeg"
-                        imgAlt="UofG GUU"
-                        link="contacts/chemistry"
+            <Tabs defaultValue="School of Chemistry" variant="unstyled" classNames={classes} pt={15}>
+                <Tabs.List grow>
+                    <Tabs.Tab value="School of Chemistry" leftSection={<SlChemistry style={iconStyle} />}>
+                    School of Chemistry
+                    </Tabs.Tab>
+                    <Tabs.Tab value="School of Physics" leftSection={<BiAtom style={iconStyle} />}>
+                    School of Physics
+                    </Tabs.Tab>
+                </Tabs.List>
+                <Tabs.Panel value="School of Chemistry">
+                    <ContactsGrid 
+                        data={[
+                            {
+                                role:"Level 1 Head",
+                                name: "Mr Test",
+                                email: "test@test.com"
+                            }
+                        ]}            
                     />
-                </Grid.Col>
-                <Grid.Col span={{ base: 12, md: 6, lg: 6 }}>
-                <SubSectionCard
-                        cardTitle="School of Physics"
-                        cardText="Essential contacts for the School of Physics."
-                        imgSrc="/images/qmu.png"
-                        imgAlt="UofG QMU"
-                        link="contacts/physics"
+                </Tabs.Panel>
+                <Tabs.Panel value="School of Physics">
+                    <ContactsGrid 
+                        data={[
+                            {
+                                role:"Level 1 Head",
+                                name: "Mr Test",
+                                email: "test@test.com"
+                            }
+                        ]}            
                     />
-                </Grid.Col>
-            </Grid>
+                </Tabs.Panel>
+            </Tabs> 
         </>
     );
 }

@@ -146,6 +146,11 @@ export const navigationItems: NavigationItem[] = [
                 ]
             },
             {
+                name: 'School of Physics',
+                icon: <IoFlask size={20}/>,
+                path: '/physics',
+            },
+            {
                 name: 'The English Language',
                 icon: <IoFlask size={20}/>,
                 path: '/englishlanguage',
@@ -161,16 +166,6 @@ export const navigationItems: NavigationItem[] = [
         name: 'Contacts',
         icon: <RiContactsLine size={20} />,
 		path: '/contacts',
-        subItems: [
-            {
-                name: 'School of Chemistry',
-                path: '/chemistry',
-            },
-            {
-                name: 'School of Physics',
-                path: '/physics',
-            },
-        ]
     },
     {
 		name: 'To-Do',
