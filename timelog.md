@@ -211,3 +211,6 @@
 * *2 hours Added styling to the navbar buttons
 * *5 hours Further styling, including page header styling, tabs styling, and layout changes to extracurriculars (Tabs styling caused some issues)
 * *1 hour Implemented the ToDo Lists for the ToDo section, as well as adding the physics contacts page, and editing the layout of the contacts section
+
+## 5th January
+* *1 hour Looking up relevant societies to include in the extracurriculars section, and messaging to ask permission to include them
