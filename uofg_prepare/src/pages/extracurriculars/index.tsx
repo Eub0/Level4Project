@@ -55,7 +55,7 @@ export const Extracurriculars = () => {
                         <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                             <SubSectionCard
                                 cardTitle="Student Representatvive Council (SRC)"
-                                cardText="The Student Repsreentative Council of the University of Glasgow. Click here to discover more."
+                                cardText="The University's Student Representative Council."
                                 imgSrc="/images/src.jpg"
                                 imgAlt="UofG SRC"
                                 link="https://www.glasgowunisrc.org/"
@@ -64,7 +64,7 @@ export const Extracurriculars = () => {
                         <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                         <SubSectionCard
                                 cardTitle="Glasgow University Soprts Association (GUSA)"
-                                cardText="The Sports Council of the University of Glasgow."
+                                cardText="The University's Sports Association."
                                 imgSrc="/images/gusa.jpg"
                                 imgAlt="UofG GUSA"
                                 link="https://www.gla.ac.uk/myglasgow/sport/gusa/"
@@ -76,39 +76,12 @@ export const Extracurriculars = () => {
                     <Grid pt={15}>
                         <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                             <SubSectionCard
-                                cardTitle="Glasgow University Union (GUU)"
-                                cardText="One of the two student unions on campus."
-                                imgSrc="/images/guu.jpeg"
-                                imgAlt="UofG GUU"
-                                link="https://www.guu.co.uk/"
-                            />
-                        </Grid.Col>
-                        <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
-                        <SubSectionCard
-                                cardTitle="Queen Margret Union (QMU)"
-                                cardText="One of the two student unions on campus."
-                                imgSrc="/images/qmu.png"
-                                imgAlt="UofG QMU"
-                                link="https://www.qmunion.org.uk/"
-                            />
-                        </Grid.Col>
-                        <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
-                            <SubSectionCard
-                                cardTitle="Student Representatvive Council (SRC)"
-                                cardText="The Student Repsreentative Council of the University of Glasgow. Click here to discover more."
-                                imgSrc="/images/src.jpg"
-                                imgAlt="UofG SRC"
-                                link="https://www.glasgowunisrc.org/"
-                            />
-                        </Grid.Col>
-                        <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
-                        <SubSectionCard
-                                cardTitle="Glasgow University Soprts Association (GUSA)"
-                                cardText="The Sports Council of the University of Glasgow."
-                                imgSrc="/images/gusa.jpg"
-                                imgAlt="UofG GUSA"
-                                link="https://www.gla.ac.uk/myglasgow/sport/gusa/"
-                            />
+                                        cardTitle="Women in STEM Society (WiSTEM)"
+                                        cardText="Instagram:@wistemglasgow"
+                                        imgSrc="/images/wistem.jpg"
+                                        imgAlt="WiSTEM Glasgow"
+                                        link="https://wistemglasgow.wordpress.com/"
+                                    />
                         </Grid.Col>
                     </Grid>
                 </Tabs.Panel>
