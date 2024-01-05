@@ -33,9 +33,9 @@ export const Layout = ({ children }: LayoutProps) => {
 						>
 							<HeaderContent opened={opened} setOpened={setOpened} />
 						</AppShell.Header>
-						{opened && <AppShell.Navbar>
+						<AppShell.Navbar visibleFrom={opened ? '-xs' : 'sm'}>
 							<NavbarContent setNavbarOpened={setOpened} />
-						</AppShell.Navbar>}
+						</AppShell.Navbar>
                        <AppShell.Main>
 					        <PageContainer>{children}</PageContainer>
                         </AppShell.Main> 
