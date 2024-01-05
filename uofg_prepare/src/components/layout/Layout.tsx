@@ -18,18 +18,8 @@ export const Layout = ({ children }: LayoutProps) => {
 
 	return (
 		<>
-			{/* <Head>
-				<title>Prepare - Loading...</title>
-			</Head>
-			{showLayout ? ( */}
 				<AppShell
 					padding={20}
-					// styles={(theme) => ({
-					// 	root: {
-					// 		backgroundColor:
-					// 			theme.colorScheme === 'dark' ? theme.colors.dark[7] : 'white',
-					// 	},
-					// })}
                     header={{
                         height:70,
                     }}
@@ -40,34 +30,16 @@ export const Layout = ({ children }: LayoutProps) => {
                     >
                         <AppShell.Header
 							className={classes.header}
-							// sx={(theme) => ({
-							// 	display: 'flex',
-							// 	alignItems: 'center',
-							// 	backgroundColor:
-							// 		theme.colorScheme === 'dark' ? theme.colors.dark[9] : 'white',
-							// })}
 						>
 							<HeaderContent opened={opened} setOpened={setOpened} />
 						</AppShell.Header>
-						<AppShell.Navbar
-							// styles={(theme) => ({
-							// 	root: {
-							// 		backgroundColor:
-							// 			theme.colorScheme === 'dark'
-							// 				? theme.colors.dark[8]
-							// 				: theme.colors.gray[1],
-							// 	},
-							// })}
-						>
+						{opened && <AppShell.Navbar>
 							<NavbarContent setNavbarOpened={setOpened} />
-						</AppShell.Navbar>
+						</AppShell.Navbar>}
                        <AppShell.Main>
 					        <PageContainer>{children}</PageContainer>
                         </AppShell.Main> 
 				</AppShell>
-			{/* ) : (
-				<>{children}</>
-			)} */}
 		</>
 	);
 };
