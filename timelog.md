@@ -214,3 +214,6 @@
 
 ## 5th January
 * *1 hour Looking up relevant societies to include in the extracurriculars section, and messaging to ask permission to include them
+* *0.5 hours Implementing WiSTEM Card and contacting student bodies
+* *2 hours Looking into ways to implement mobile view support,and implementing said ways
+* *1 hour Looking into dark mode, implemented button for darkmode
