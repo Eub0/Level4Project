@@ -36,7 +36,7 @@ export const ContactsGrid = ({data}: Props) => {
                     </Card>
                 </Grid.Col>
                 <Grid.Col span={{ base: 12, md: 6, lg: 4 }}>
-                    <Card>
+                    <Card visibleFrom="sm">
                         <Image src='/images/uofgSpire.jpg' alt='UofG Spire' />
                     </Card>  
                 </Grid.Col>

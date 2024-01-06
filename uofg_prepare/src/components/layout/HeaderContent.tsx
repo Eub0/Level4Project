@@ -2,13 +2,12 @@ import { SetState } from '@/types/Types';
 import {
     Affix,
 	Burger,
-	Container,
 	Group,
 	Image,
 	Text,
 	Title,
 } from '@mantine/core';
-import { redirect } from 'next/dist/server/api-utils';
+import classes from '@/styles/Layout.module.css'
 
 interface Props {
 	setOpened: SetState<boolean>;
@@ -16,6 +15,7 @@ interface Props {
 }
 
 export const HeaderContent = ({ setOpened, opened }: Props) => {
+
 	return (
 			<Group>
 				<Image
@@ -25,16 +25,16 @@ export const HeaderContent = ({ setOpened, opened }: Props) => {
                     height={70}
                     p={10}
 				/>
-				<Title size="h2" c='white'>
+				<Title size="h2" c='white' visibleFrom='sm'>
 					Prepare - Chemistry & Physics
 				</Title>
                 <Affix position={{top:15, right: 15}}>
                     <Burger
                     opened={opened}
-                    onClick={() => setOpened((current: any) => !current)}
+                    onClick={() => setOpened((current) => !current)}
                     size="md"
 					color='white'
-                    />
+					hiddenFrom='sm' />
                 </Affix>
             </Group> 
 	);
