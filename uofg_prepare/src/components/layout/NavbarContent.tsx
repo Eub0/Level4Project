@@ -3,6 +3,8 @@ import { navigationItems } from '@/routes/routes';
 import { NavigationItem } from '@/types/Navigation';
 import { SetState } from '@/types/Types';
 import { AppShell, ScrollArea } from '@mantine/core';
+import { UserButton } from '@/components/shared/UserButton';
+import classes from '@/styles/NavbarContent.module.css'
 
 interface Props {
 	setNavbarOpened: SetState<boolean>;
@@ -22,6 +24,9 @@ export const NavbarContent = ({ setNavbarOpened }: Props) => {
 					/>
 				))}
 			</AppShell.Section>
+			<div className={classes.footer}>
+        		<UserButton />
+      		</div>
 		</>
 	);
 };
