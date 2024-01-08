@@ -1,7 +1,13 @@
 import { PageHeader } from "@/components/layout/PageHeader";
-import { Stack, Title, Text } from "@mantine/core";
+import { Stack, Title, Text, CloseButton, Input, PasswordInput } from "@mantine/core";
+import { useState } from "react";
+import { HiOutlineAtSymbol } from "react-icons/hi";
+import { FiLock, FiUser } from "react-icons/fi";
 
 export const Account = () => {
+    
+    const [value, setValue] = useState('Clear me');
+
     return (
         <>
             <PageHeader
@@ -15,7 +21,48 @@ export const Account = () => {
                 Edit your account details here.
             </Text>
             </Stack>
-
+            <Stack pt={30}>
+                <Text>
+                    Username:
+                </Text>
+                <Input 
+                placeholder="Your username" 
+                leftSection={<FiUser size={16} />} 
+                rightSection={
+                    <CloseButton
+                      aria-label="Clear input"
+                      onClick={() => setValue('')}
+                      style={{ display: value ? undefined : 'none' }}
+                    />
+                  }/>
+                <Text>
+                    email:
+                </Text>
+                <Input 
+                placeholder="Your email" 
+                leftSection={<HiOutlineAtSymbol size={16} />} 
+                rightSection={
+                    <CloseButton
+                      aria-label="Clear input"
+                      onClick={() => setValue('')}
+                      style={{ display: value ? undefined : 'none' }}
+                    />
+                  }/>
+                <Text>
+                    Password:
+                </Text>
+                <PasswordInput 
+                placeholder="Your password" 
+                leftSection={<FiLock size={16} />} 
+                // rightSection={
+                //     <CloseButton
+                //       aria-label="Clear input"
+                //       onClick={() => setValue('')}
+                //       style={{ display: value ? undefined : 'none' }}
+                //     />
+                //   }
+                  />
+            </Stack>
         </>
     );
 }
