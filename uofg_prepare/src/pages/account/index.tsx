@@ -27,6 +27,7 @@ export const Account = () => {
                 </Text>
                 <Input 
                 placeholder="Your username" 
+                size="lg"
                 leftSection={<FiUser size={16} />} 
                 rightSection={
                     <CloseButton
@@ -40,6 +41,7 @@ export const Account = () => {
                 </Text>
                 <Input 
                 placeholder="Your email" 
+                size="lg"
                 leftSection={<HiOutlineAtSymbol size={16} />} 
                 rightSection={
                     <CloseButton
@@ -53,6 +55,7 @@ export const Account = () => {
                 </Text>
                 <PasswordInput 
                 placeholder="Your password" 
+                size="lg"
                 leftSection={<FiLock size={16} />} 
                 // rightSection={
                 //     <CloseButton
