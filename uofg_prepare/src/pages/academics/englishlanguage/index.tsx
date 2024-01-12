@@ -18,7 +18,7 @@ export const EnglishLanguage = () => {
                 The following resources are some ways you can ensure that your Enlish is in a strong position before you begin.
             </Text>
             </Stack>
-            <Grid>
+            <Grid pt={15}>
                 <Grid.Col span={{ base: 12, md: 6, lg: 4 }}>
                     <SubSectionCard
                         cardTitle="The Oxford English Dictionary"
@@ -40,10 +40,19 @@ export const EnglishLanguage = () => {
                 <Grid.Col span={{ base: 12, md: 6, lg: 4 }}>
                     <SubSectionCard
                         cardTitle="Duolingo"
-                        cardText="Duolingo provides a course where you can strengthen your English with just 5 minutes of practice a day."
+                        cardText="Strengthen you English with Duolingo."
                         imgSrc="/images/englishLanguage/duolingo.png"
                         imgAlt="Duolingo"
                         link="https://www.duolingo.com/course/en/uk/Learn-English"
+                    />
+                </Grid.Col>
+                <Grid.Col span={{ base: 12, md: 6, lg: 4 }}>
+                    <SubSectionCard
+                        cardTitle="UofG SLD"
+                        cardText="Student Learning Dicipline."
+                        imgSrc="/images/englishLanguage/Logo-University-of-Glasgow.jpg"
+                        imgAlt="UofG SLD"
+                        link="https://www.gla.ac.uk/myglasgow/sld/"
                     />
                 </Grid.Col>
             </Grid>

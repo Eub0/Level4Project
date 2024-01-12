@@ -217,3 +217,18 @@
 * *0.5 hours Implementing WiSTEM Card and contacting student bodies
 * *2 hours Looking into ways to implement mobile view support,and implementing said ways
 * *1 hour Looking into dark mode, implemented button for darkmode
+
+## 6th January
+* *4 hours Trialing and erroring dark mode implementation, tried things with style sheet
+
+## Week 17 -
+
+## 8th January
+* *4 hours Implementing accounts front end, including the accounts page, loggin age, and account button
+* *0.5 hours Emailing Chemistry and Physics to organise meetings
+
+## 10th January
+* *0.5 hours Supervisor meeting
+
+## 12th January
+* *1 hour Implementing new card for English language section, and some layout fixing, plus timelog updating
