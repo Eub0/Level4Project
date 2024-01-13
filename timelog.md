@@ -232,3 +232,6 @@
 
 ## 12th January
 * *1 hour Implementing new card for English language section, and some layout fixing, plus timelog updating
+
+## 13th January 
+* *2 hours Experimenting with css for pages content section. Once that was figured out, began implementing dark mode for the layout components such as navbar, header and content section
