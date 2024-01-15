@@ -1,13 +1,16 @@
 import { SetState } from '@/types/Types';
 import {
+	ActionIcon,
     Affix,
 	Burger,
 	Group,
 	Image,
 	Text,
 	Title,
+	useMantineColorScheme,
 } from '@mantine/core';
-import classes from '@/styles/Layout.module.css'
+import { LuMoonStar } from "react-icons/lu";
+import { LuSun } from "react-icons/lu";
 
 interface Props {
 	setOpened: SetState<boolean>;
@@ -15,7 +18,9 @@ interface Props {
 }
 
 export const HeaderContent = ({ setOpened, opened }: Props) => {
-
+	const { colorScheme, toggleColorScheme } = useMantineColorScheme();
+  	const dark = colorScheme === 'dark';
+	
 	return (
 			<Group>
 				<Image
@@ -29,6 +34,14 @@ export const HeaderContent = ({ setOpened, opened }: Props) => {
 					Prepare - Chemistry & Physics
 				</Title>
                 <Affix position={{top:15, right: 15}}>
+					<ActionIcon
+						variant="outline"
+						color={dark ? 'yellow' : 'white'}
+						onClick={() => toggleColorScheme()}
+						title="Toggle color scheme"
+					>
+						{dark ? <LuSun size="1.1rem" /> : <LuMoonStar size="1.1rem" />}
+					</ActionIcon>
                     <Burger
                     opened={opened}
                     onClick={() => setOpened((current) => !current)}

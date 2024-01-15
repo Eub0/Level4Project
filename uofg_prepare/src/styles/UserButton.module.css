@@ -12,3 +12,7 @@
 .chevron {
     color: var(--mantine-color-blue-9);
 }
+
+.chevron_dark {
+  color: var(--mantine-color-white);
+}

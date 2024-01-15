@@ -3,7 +3,8 @@ import {
 	Box,
 	Collapse,
 	Group,
-	UnstyledButton
+	UnstyledButton,
+	useMantineColorScheme
 } from '@mantine/core';
 import '@mantine/core/styles.css';
 import Link from 'next/link';
@@ -28,13 +29,18 @@ export const NavbarButton = ({ item, closeNavbar }: Props) => {
 	};
 	const [opened, setOpened] = useState(false);
 
+	const { colorScheme, toggleColorScheme } = useMantineColorScheme();
+	const dark = colorScheme === 'dark';
+
 	if (item.subItems) {
 		// for (let subItem=0; subItem < (item.subItems).length; subItem++) {
 		// 	if (item.subItems[subItem].subSubItems) {
 				return (
 					<>
 						<UnstyledButton
-							className={`${classes.button} ${
+							className={dark ? `${classes.button_dark} ${
+								isCurrentPage(item.path) && classes.active_dark}` :
+								`${classes.button} ${
 								isCurrentPage(item.path) && classes.active}`}
 							data-cy={`${item.name.toLowerCase().replace(/ /g, '-')}-nav-button`}
 							px="sm"
@@ -61,7 +67,9 @@ export const NavbarButton = ({ item, closeNavbar }: Props) => {
 						<Collapse in={opened} pb={20}>
 							{item.subItems.map((subItem: SubNavigationItem) => (
 								<Link
-									className={`${classes.link} ${
+									className={dark ? `${classes.link_dark} ${
+										isCurrentPage(item.path + subItem.path) && classes.active_dark
+									}`: `${classes.link} ${
 										isCurrentPage(item.path + subItem.path) && classes.active
 									}`}
 									href={item.path + subItem.path}
@@ -79,7 +87,9 @@ export const NavbarButton = ({ item, closeNavbar }: Props) => {
 	// } 
 	else {return (
 			<UnstyledButton
-				className={`${classes.button} ${
+				className={dark ? `${classes.button_dark} ${
+					isCurrentPage(item.path) && classes.active_dark
+				}` : `${classes.button} ${
 					isCurrentPage(item.path) && classes.active
 				}`}
 				data-cy={`${item.name.toLowerCase().replace(/ /g, '-')}-nav-button`}

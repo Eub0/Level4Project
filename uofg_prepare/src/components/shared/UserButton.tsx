@@ -1,4 +1,4 @@
-import { UnstyledButton, Group, Avatar, Text, rem } from '@mantine/core';
+import { UnstyledButton, Group, Avatar, Text, rem, useMantineColorScheme } from '@mantine/core';
 import { FaChevronRight } from 'react-icons/fa';
 import { FiUser } from "react-icons/fi";
 import classes from '@/styles/UserButton.module.css';
@@ -10,15 +10,18 @@ export function UserButton() {
         router.push('/account');
 	};
 
+  const { colorScheme, toggleColorScheme } = useMantineColorScheme();
+  	const dark = colorScheme === 'dark';
+
   return (
     <UnstyledButton className={classes.user} onClick={navigateToAccountPage}>
       <Group>
-      <Avatar color='blue.9' radius="lg">
+      <Avatar color={dark ? "white" : "blue.9"} radius="lg">
         <FiUser size="1.5rem" />
       </Avatar>
 
         <div style={{ flex: 1 }}>
-          <Text size="sm" fw={500} c="blue.9">
+          <Text size="sm" fw={500} c={dark ? "white" : "blue.9"}>
             Mr Test Testington
           </Text>
 
@@ -27,7 +30,7 @@ export function UserButton() {
           </Text>
         </div>
 
-        <FaChevronRight className={classes.chevron} style={{ width: rem(45), height: rem(14) }}/>
+        <FaChevronRight className={dark ? classes.chevron_dark : classes.chevron} style={{ width: rem(45), height: rem(14) }}/>
       </Group>
     </UnstyledButton>
   );
