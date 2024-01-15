@@ -15,6 +15,7 @@
 }
 
 .main {
+    color: var(--mantine-color-black);
     background-color: var(--mantine-color-white);
 }
 
