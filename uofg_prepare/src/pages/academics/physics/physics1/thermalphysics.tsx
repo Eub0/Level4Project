@@ -4,27 +4,21 @@ export const ThermalPhysics = () => {
     return (
         <>
             <ContentGrid
-                heading="Aqueous Equilibria and pH"
-                title="Aqueous Equilibria and pH"
-                moduleAims="Aqueous Equilibria and pH aims to introduce topics relating to aqueous solutions and the factors that influence pH."
-                moduleOutline={["Water as a solvent",
-                "Hydrogen bonding",
-                "Dipoles; dielectric constant",
-                "Ice structure",
-                "Concentrations",
-                "Electrolytes",
-                "Degree of dissociation in relation to a range of solutes",
-                "Characteristics of sparingly soluble solutes, including the common ion effect and solubility product",
-                "Dissociation of weak acids and bases and associated constants such as Ka, pKa, Kb , pKb",
-                "Various definitions of acids and bases",
-                "pH and pOH calculations for strong and weak acids and bases",
-                "Degree of ionisation of weak acids and bases at various pHs",
-                "Salt hydrolysis and its influence upon pH; buffers",
-                "Le Chatelier’s Principle",
-                "Henderson-Hasselbalch equation, examples of buffers and their importance in biological systems; titrations",
-                "Indicators"]}
+                heading="Thermal Physics"
+                title="Thermal Physics"
+                moduleAims="Thermal Physics aims to provide a comprehensive understanding of temperature, heat transfer, and the thermal properties of solids, liquids, and gases. 
+                The objectives include exploring the relationship between temperature and kinetic energy for ideal gases, discerning the disparities between ideal and real gas behavior, 
+                and studying fundamental concepts of hydrostatics and hydrodynamics. Additionally, the course covers the behavior of matter under various forces, such as tensile, compressive, 
+                and shear forces, and introduces basic properties of solids, emphasizing the connection between structure, bonding, and mechanical properties. Ultimately, students are expected 
+                to acquire the skills to solve simple problems in diverse application areas involving both thermal and mechanical properties."
+                moduleOutline={["Temperature and heat",
+                "Mechanisms of heat transfer",
+                "Ideal and real gases",
+                "Molecular properties of matter",
+                "Hydrostatic and hydrodynamics",
+                "Elasticity and plasticity"]}
                 usefulWebsites=""
-                recommendedReading=""
+                recommendedReading="Young & Freedman 15th Edition"
                 cardTitle="Unit Quiz"
                 cardText="Take the quiz to test your knowlegde on the topic"
                 imgSrc="asasa"

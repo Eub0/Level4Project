@@ -4,27 +4,23 @@ export const DynamicsAndRelativity = () => {
     return (
         <>
             <ContentGrid
-                heading="Aqueous Equilibria and pH"
-                title="Aqueous Equilibria and pH"
-                moduleAims="Aqueous Equilibria and pH aims to introduce topics relating to aqueous solutions and the factors that influence pH."
-                moduleOutline={["Water as a solvent",
-                "Hydrogen bonding",
-                "Dipoles; dielectric constant",
-                "Ice structure",
-                "Concentrations",
-                "Electrolytes",
-                "Degree of dissociation in relation to a range of solutes",
-                "Characteristics of sparingly soluble solutes, including the common ion effect and solubility product",
-                "Dissociation of weak acids and bases and associated constants such as Ka, pKa, Kb , pKb",
-                "Various definitions of acids and bases",
-                "pH and pOH calculations for strong and weak acids and bases",
-                "Degree of ionisation of weak acids and bases at various pHs",
-                "Salt hydrolysis and its influence upon pH; buffers",
-                "Le Chatelier’s Principle",
-                "Henderson-Hasselbalch equation, examples of buffers and their importance in biological systems; titrations",
-                "Indicators"]}
+                heading="Dynamics & Relativity"
+                title="Dynamics & Relativity"
+                moduleAims="Dynamics & Relativity aims to discuss laws pertaining to objects in motion and study the basic principles of the
+                special theory of relativity, as well as developing good understanding of linear, circular and periodic motion for point
+                particles. The module will introduce ideas relating to conservation of energy, linear and angular momentum. Students should  be able 
+                to solve simple problems relating to current applications of dynamics and relativity"
+                moduleOutline={[
+                "Motion in one dimension",
+                "Uniform circular motion",
+                "Newton's laws of motion",
+                "Work and kinetic energy",
+                "Conservation of energy",
+                "Linear momentum and collisions",
+                "Special theory of relativity"
+                ]}
                 usefulWebsites=""
-                recommendedReading=""
+                recommendedReading="Young & Freedman 15th Edition"
                 cardTitle="Unit Quiz"
                 cardText="Take the quiz to test your knowlegde on the topic"
                 imgSrc="asasa"

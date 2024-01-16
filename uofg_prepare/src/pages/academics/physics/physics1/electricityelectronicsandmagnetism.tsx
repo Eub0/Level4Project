@@ -4,27 +4,18 @@ export const ElectricityElectronicsAndMagnetism = () => {
     return (
         <>
             <ContentGrid
-                heading="Aqueous Equilibria and pH"
-                title="Aqueous Equilibria and pH"
-                moduleAims="Aqueous Equilibria and pH aims to introduce topics relating to aqueous solutions and the factors that influence pH."
-                moduleOutline={["Water as a solvent",
-                "Hydrogen bonding",
-                "Dipoles; dielectric constant",
-                "Ice structure",
-                "Concentrations",
-                "Electrolytes",
-                "Degree of dissociation in relation to a range of solutes",
-                "Characteristics of sparingly soluble solutes, including the common ion effect and solubility product",
-                "Dissociation of weak acids and bases and associated constants such as Ka, pKa, Kb , pKb",
-                "Various definitions of acids and bases",
-                "pH and pOH calculations for strong and weak acids and bases",
-                "Degree of ionisation of weak acids and bases at various pHs",
-                "Salt hydrolysis and its influence upon pH; buffers",
-                "Le Chatelier’s Principle",
-                "Henderson-Hasselbalch equation, examples of buffers and their importance in biological systems; titrations",
-                "Indicators"]}
+                heading="Electricity, Electronics, and Magnetism"
+                title="Electricity, Electronics, and Magnetism"
+                moduleAims="Electricity, Electronics, and Magnetism emphasizes the significance of electromagnetism in both physics and modern technology. 
+                It introduces fundamental principles such as electrostatics, current electricity, operational amplifiers, and magnetism. 
+                The goal is to illustrate these principles through real-world examples from modern technology, showcasing the practical applications of electromagnetism. 
+                The course also aims to equip students with problem-solving skills in these areas, enabling them to apply theoretical concepts to practical situations within 
+                the realm of electromagnetism and its applications in technology."
+                moduleOutline={["Electrostatics",
+                "Magnestism",
+                "Current electricity and electronics"]}
                 usefulWebsites=""
-                recommendedReading=""
+                recommendedReading="Young & Freedman 15th Edition"
                 cardTitle="Unit Quiz"
                 cardText="Take the quiz to test your knowlegde on the topic"
                 imgSrc="asasa"
