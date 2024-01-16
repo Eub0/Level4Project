@@ -239,7 +239,11 @@
 ## Week 18 -
 
 ## 15th January
-* *1 hour Meeting with Chemisrty reps to showcase progress, and get clarification and resources to finish populating system
+* *1 hour Meeting with Chemistry reps to showcase progress, and get clarification and resources to finish populating system
 * *1 hour Meeting with Physics rep to showcase progress, and get clarification and resources to finish populating system
 * *1.5 hours Finishing implementation of dark mode for the system
 * *1.5 hours Creating hub page, templates, and routing for the physics section under academic resources
+
+## 16th January
+* *2 hours Populating Physics pages
+* *1 hour ensuring teams and moodle meeting minutes are up-to-date (I have been saving local copies on google drive, forget to move over to moodle sometimes)
