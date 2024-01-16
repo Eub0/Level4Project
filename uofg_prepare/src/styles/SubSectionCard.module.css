@@ -1,6 +1,11 @@
 .card {
     position: relative;
-    background-color: var(--mantine-color-body);
+    background-color: var(--mantine-color-gray-1);
+  }
+
+  .card_dark {
+    position: relative;
+    background-color: var(--mantine-color-dark-6);
   }
   
   .rating {

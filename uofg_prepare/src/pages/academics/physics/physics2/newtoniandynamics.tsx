@@ -4,9 +4,12 @@ export const NewtonianDynamics = () => {
     return (
         <>
             <ContentGrid
-                heading="Aqueous Equilibria and pH"
-                title="Aqueous Equilibria and pH"
-                moduleAims="Aqueous Equilibria and pH aims to introduce topics relating to aqueous solutions and the factors that influence pH."
+                heading="Newtonian Dynamics"
+                title="Newtonian Dyanamics"
+                moduleAims="Newtonian Dyanamics focuses on solving Newton's equation for constant acceleration, providing students with the tools to analyze and understand motion under such conditions. 
+                It also extends the study to describe the multi-dimensional motion of rigid bodies, incorporating rotation. 
+                Additionally, the course introduces the effects of damping into Newton's equation, allowing students to explore how damping influences the dynamics of moving objects. 
+                Through this curriculum, students will develop a comprehensive understanding of the Newtonian approach to motion, incorporating both linear and rotational aspects, as well as the impact of damping forces."
                 moduleOutline={["Water as a solvent",
                 "Hydrogen bonding",
                 "Dipoles; dielectric constant",
@@ -24,7 +27,7 @@ export const NewtonianDynamics = () => {
                 "Henderson-Hasselbalch equation, examples of buffers and their importance in biological systems; titrations",
                 "Indicators"]}
                 usefulWebsites=""
-                recommendedReading=""
+                recommendedReading="Physics, Volume 1, K.S. Krane R. Resnick, D. Halliday (ISBN 0471559172)"
                 cardTitle="Unit Quiz"
                 cardText="Take the quiz to test your knowlegde on the topic"
                 imgSrc="asasa"

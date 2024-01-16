@@ -4,9 +4,13 @@ export const PhysicsOfSolids = () => {
     return (
         <>
             <ContentGrid
-                heading="Aqueous Equilibria and pH"
-                title="Aqueous Equilibria and pH"
-                moduleAims="Aqueous Equilibria and pH aims to introduce topics relating to aqueous solutions and the factors that influence pH."
+                heading="Physics of Solids"
+                title="Physics of Solids"
+                moduleAims="Physics of Solids is designed to illustrate the fundamental role of interatomic forces in shaping the structure of simple crystalline materials. 
+                It emphasizes the use of diffraction experiments as a powerful tool for probing the properties of materials. 
+                Additionally, the course delves into the explanation of basic electrical and magnetic properties of metals and semiconductors. 
+                By exploring these topics, students will gain insights into the microscopic forces that govern material structures and the practical applications of diffraction techniques in materials science. 
+                The course also provides an understanding of the electrical and magnetic behaviors of metals and semiconductors, offering a comprehensive perspective on the properties of crystalline materials."
                 moduleOutline={["Water as a solvent",
                 "Hydrogen bonding",
                 "Dipoles; dielectric constant",
@@ -24,7 +28,8 @@ export const PhysicsOfSolids = () => {
                 "Henderson-Hasselbalch equation, examples of buffers and their importance in biological systems; titrations",
                 "Indicators"]}
                 usefulWebsites=""
-                recommendedReading=""
+                recommendedReading="Introductory Solid State Physics, H.P. Myers (ISBN 0-7484-0660-3)
+                                    Introduction to Solid State Physics, C. Kittel"
                 cardTitle="Unit Quiz"
                 cardText="Take the quiz to test your knowlegde on the topic"
                 imgSrc="asasa"

@@ -4,27 +4,20 @@ export const MathematicalTechniques = () => {
     return (
         <>
             <ContentGrid
-                heading="Aqueous Equilibria and pH"
-                title="Aqueous Equilibria and pH"
-                moduleAims="Aqueous Equilibria and pH aims to introduce topics relating to aqueous solutions and the factors that influence pH."
-                moduleOutline={["Water as a solvent",
-                "Hydrogen bonding",
-                "Dipoles; dielectric constant",
-                "Ice structure",
-                "Concentrations",
-                "Electrolytes",
-                "Degree of dissociation in relation to a range of solutes",
-                "Characteristics of sparingly soluble solutes, including the common ion effect and solubility product",
-                "Dissociation of weak acids and bases and associated constants such as Ka, pKa, Kb , pKb",
-                "Various definitions of acids and bases",
-                "pH and pOH calculations for strong and weak acids and bases",
-                "Degree of ionisation of weak acids and bases at various pHs",
-                "Salt hydrolysis and its influence upon pH; buffers",
-                "Le Chatelier’s Principle",
-                "Henderson-Hasselbalch equation, examples of buffers and their importance in biological systems; titrations",
-                "Indicators"]}
+                heading="Mathematical Techniques"
+                title="Mathematical Techniques"
+                moduleAims="Mathematical Techniques covers the representation of variations in the measurement of physical quantities through frequency distributions, particularly focusing on Poisson and Gaussian distributions. 
+                Students will gain the skills to calculate mean, standard deviation, and standard error from data sets, incorporating the combination of errors. 
+                The application of least squares fitting for straight-line analysis is emphasized, providing a foundation for understanding and utilizing this technique. 
+                Additionally, basic techniques in both differential and integral calculus are introduced, contributing to a comprehensive understanding of mathematical concepts in the context of physical measurements."
+                moduleOutline={["Construct frequency distributions and calculate mean and standard deviation.",
+                "Understand and apply standard error in the mean, and its relationship to standard deviation.",
+                "Differentiate between random and systematic errors.",
+                "Identify and comprehend properties of Poisson and Gaussian distributions, emphasizing Gaussian distributions in handling random errors.",
+                "Apply statistical concepts, such as least squares fitting, derivatives, and error propagation, to solve physics problems, demonstrating proficiency in tackling unseen problems."
+                ]}
                 usefulWebsites=""
-                recommendedReading=""
+                recommendedReading="Measurments and their Uncertainties, I. Hughes and T. Hase (ISBN 0-199-566-33X)"
                 cardTitle="Unit Quiz"
                 cardText="Take the quiz to test your knowlegde on the topic"
                 imgSrc="asasa"

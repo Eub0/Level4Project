@@ -4,9 +4,12 @@ export const Optics = () => {
     return (
         <>
             <ContentGrid
-                heading="Aqueous Equilibria and pH"
-                title="Aqueous Equilibria and pH"
-                moduleAims="Aqueous Equilibria and pH aims to introduce topics relating to aqueous solutions and the factors that influence pH."
+                heading="Optics"
+                title="Optics"
+                moduleAims="Optics aims to provide a comprehensive exploration of the superposition of light waves, covering both qualitative and quantitative aspects of their interference and diffraction phenomena. 
+                Students will gain an in-depth understanding of the properties of electromagnetic waves, with a particular focus on the visible region of the spectrum. 
+                The qualitative discussion will involve examining how light waves combine, interfere, and diffract, while the quantitative analysis will delve into the mathematical aspects of these phenomena. 
+                Through this study, students will develop a thorough knowledge of the behavior of light waves and their intricate interactions, especially within the visible spectrum."
                 moduleOutline={["Water as a solvent",
                 "Hydrogen bonding",
                 "Dipoles; dielectric constant",
@@ -24,7 +27,7 @@ export const Optics = () => {
                 "Henderson-Hasselbalch equation, examples of buffers and their importance in biological systems; titrations",
                 "Indicators"]}
                 usefulWebsites=""
-                recommendedReading=""
+                recommendedReading="Optics, E. Hecht (ISBN 1292021578)"
                 cardTitle="Unit Quiz"
                 cardText="Take the quiz to test your knowlegde on the topic"
                 imgSrc="asasa"

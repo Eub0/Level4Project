@@ -29,7 +29,7 @@ export const Layout = ({ children }: LayoutProps) => {
                     breakpoint:"sm",
                     width:250,
                     }}
-                    >
+                >
                         <AppShell.Header
 							className={dark ? classes.header_dark : classes.header}
 						>

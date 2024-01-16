@@ -4,27 +4,22 @@ export const ClassicalAndQuantumWaves = () => {
     return (
         <>
             <ContentGrid
-                heading="Aqueous Equilibria and pH"
-                title="Aqueous Equilibria and pH"
-                moduleAims="Aqueous Equilibria and pH aims to introduce topics relating to aqueous solutions and the factors that influence pH."
-                moduleOutline={["Water as a solvent",
-                "Hydrogen bonding",
-                "Dipoles; dielectric constant",
-                "Ice structure",
-                "Concentrations",
-                "Electrolytes",
-                "Degree of dissociation in relation to a range of solutes",
-                "Characteristics of sparingly soluble solutes, including the common ion effect and solubility product",
-                "Dissociation of weak acids and bases and associated constants such as Ka, pKa, Kb , pKb",
-                "Various definitions of acids and bases",
-                "pH and pOH calculations for strong and weak acids and bases",
-                "Degree of ionisation of weak acids and bases at various pHs",
-                "Salt hydrolysis and its influence upon pH; buffers",
-                "Le Chatelier’s Principle",
-                "Henderson-Hasselbalch equation, examples of buffers and their importance in biological systems; titrations",
-                "Indicators"]}
+                heading="Classical & Quantum Waves"
+                title="Classical & Quantum Waves"
+                moduleAims="Classical & Quantum Waves aims to equip students with the essential mathematical techniques required for a comprehensive understanding of the physics of waves and vibrations, encompassing both classical and quantum aspects. 
+                The curriculum involves a detailed examination of standing and traveling wave solutions to the wave equation, providing a solid foundation in wave mechanics. 
+                Additionally, the course introduces the concept of matter waves, exploring standing waves as a representation of a particle in a box, and delving into the time-independent Schrödinger wave equation. 
+                Through this study, students will develop the mathematical proficiency necessary for analyzing waves and vibrations in classical and quantum contexts, laying the groundwork for further exploration in the physics of wave phenomena."
+                moduleOutline={["Understand oscillating systems using complex exponentials.",
+                "Derive the differential equation for simple harmonic motion.",
+                "Verify and express the solution, considering initial conditions and utilizing complex notation.",
+                "Explore energy relations and derive the quadratic form for potential energy in harmonic oscillators.",
+                "Solve the equation of motion for damped harmonic oscillators, categorizing damping as weak, strong, or critical.",
+                "Analyze system behavior with specific initial conditions using the solution.",
+                "Discuss the impact of periodic driving forces on oscillatory systems, solving steady-state equations for both undamped and damped harmonic oscillators."
+            ]}
                 usefulWebsites=""
-                recommendedReading=""
+                recommendedReading="The Physics of Vibration and Waves, H.J.pain (ISBN 0-471-98543-0)"
                 cardTitle="Unit Quiz"
                 cardText="Take the quiz to test your knowlegde on the topic"
                 imgSrc="asasa"

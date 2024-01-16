@@ -4,27 +4,20 @@ export const ThermalPhysics = () => {
     return (
         <>
             <ContentGrid
-                heading="Aqueous Equilibria and pH"
-                title="Aqueous Equilibria and pH"
-                moduleAims="Aqueous Equilibria and pH aims to introduce topics relating to aqueous solutions and the factors that influence pH."
-                moduleOutline={["Water as a solvent",
-                "Hydrogen bonding",
-                "Dipoles; dielectric constant",
-                "Ice structure",
-                "Concentrations",
-                "Electrolytes",
-                "Degree of dissociation in relation to a range of solutes",
-                "Characteristics of sparingly soluble solutes, including the common ion effect and solubility product",
-                "Dissociation of weak acids and bases and associated constants such as Ka, pKa, Kb , pKb",
-                "Various definitions of acids and bases",
-                "pH and pOH calculations for strong and weak acids and bases",
-                "Degree of ionisation of weak acids and bases at various pHs",
-                "Salt hydrolysis and its influence upon pH; buffers",
-                "Le Chatelier’s Principle",
-                "Henderson-Hasselbalch equation, examples of buffers and their importance in biological systems; titrations",
-                "Indicators"]}
+                heading="Thermal Physics"
+                title="Thermal Physics"
+                moduleAims="Thermal Physics aims to review fundamental concepts such as heat, temperature, work, and energy within thermal systems. 
+                It emphasizes the connection between microscopic and macroscopic perspectives of thermal systems, highlighting the statistical nature of the macroscopic approach. 
+                Additionally, the course explores the properties of ideal gases and delves into the study of the laws of classical thermodynamics. 
+                Through this exploration, students will gain a comprehensive understanding of the principles governing thermal systems and their underlying microscopic and macroscopic descriptions."
+                moduleOutline={["Construct frequency distributions and calculate mean and standard deviation.",
+                "Understand and apply standard error in the mean, and its relationship to standard deviation.",
+                "Differentiate between random and systematic errors.",
+                "Identify and comprehend properties of Poisson and Gaussian distributions, emphasizing Gaussian distributions in handling random errors.",
+                "Apply statistical concepts, such as least squares fitting, derivatives, and error propagation, to solve physics problems, demonstrating proficiency in tackling unseen problems."
+                ]}
                 usefulWebsites=""
-                recommendedReading=""
+                recommendedReading="Thermal Physics, C.B.P. Finn"
                 cardTitle="Unit Quiz"
                 cardText="Take the quiz to test your knowlegde on the topic"
                 imgSrc="asasa"

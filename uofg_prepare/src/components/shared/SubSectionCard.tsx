@@ -4,6 +4,7 @@ import {
     Center,
     Image,
     Text,
+    useMantineColorScheme,
   } from '@mantine/core';
 import classes from '@/styles/SubSectionCard.module.css';
 import router from 'next/router';
@@ -23,9 +24,12 @@ export function SubSectionCard( {cardTitle, cardText, imgSrc, imgAlt, link}: Pro
 		router.push(link);
 	};
 
+  const { colorScheme, toggleColorScheme } = useMantineColorScheme();
+  const dark = colorScheme === 'dark';
+
 
   return (
-    <Card withBorder radius="md" className={classes.card} h={350}>
+    <Card withBorder radius="md" className={dark ? classes.card_dark : classes.card} h={350}>
       <Card.Section>
         <Image src={imgSrc} alt={imgAlt} height={200} onClick={navigateToPage}/>
       </Card.Section>

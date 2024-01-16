@@ -107,8 +107,8 @@ export const Physics = () => {
                                 <SubSectionCard
                                     cardTitle="Mathematical Techniques"
                                     cardText="One of the two student unions on campus."
-                                    imgSrc="/images/guu.jpeg"
-                                    imgAlt="UofG GUU"
+                                    imgSrc="/images/physics/mathtech.jpg"
+                                    imgAlt="Mathematical Techniques"
                                     link="/academics/physics/physics2/mathematicaltechniques"
                                 />
                             </Grid.Col>
