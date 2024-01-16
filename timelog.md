@@ -235,3 +235,11 @@
 
 ## 13th January 
 * *2 hours Experimenting with css for pages content section. Once that was figured out, began implementing dark mode for the layout components such as navbar, header and content section
+
+## Week 18 -
+
+## 15th January
+* *1 hour Meeting with Chemisrty reps to showcase progress, and get clarification and resources to finish populating system
+* *1 hour Meeting with Physics rep to showcase progress, and get clarification and resources to finish populating system
+* *1.5 hours Finishing implementation of dark mode for the system
+* *1.5 hours Creating hub page, templates, and routing for the physics section under academic resources
