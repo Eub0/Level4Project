@@ -250,17 +250,17 @@ export const Chemistry = () => {
                 <Grid>
                     <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                         <SubSectionCard
-                            cardTitle="Introduction to Spectroscopy "
+                            cardTitle="Introduction to Spectroscopy"
                             cardText="One of the two student unions on campus."
-                            imgSrc="/images/guu.jpeg"
-                            imgAlt="UofG GUU"
+                            imgSrc="/images/chemistry/chemistry2y/introductionToSpectroscopy.png"
+                            imgAlt="Introduction to Spectroscopy"
                             link="/academics/chemistry/chemistry2y/introductiontospectroscopy"
                         />
                         <SubSectionCard
                             cardTitle="Organic Synthesis"
                             cardText="The Sports Council of the University of Glasgow."
-                            imgSrc="/images/gusa.jpg"
-                            imgAlt="UofG GUSA"
+                            imgSrc="/images/chemistry/chemistry2y/organicSynthesis.jpg"
+                            imgAlt="Organic Synthesis"
                             link="/academics/chemistry/chemistry2y/organicsynthesis"
                         />
                     </Grid.Col>
@@ -268,15 +268,15 @@ export const Chemistry = () => {
                     <SubSectionCard
                             cardTitle="Co-ordination Chemistry"
                             cardText="One of the two student unions on campus."
-                            imgSrc="/images/qmu.png"
-                            imgAlt="UofG QMU"
+                            imgSrc="/images/chemistry/chemistry2y/coordinationChemistry.png"
+                            imgAlt="Co-ordination Chemistry"
                             link="/academics/chemistry/chemistry2y/coordinationchemistry"
                         />
                         <SubSectionCard
                             cardTitle="Chemical Thermodynamics"
                             cardText="The Sports Council of the University of Glasgow."
-                            imgSrc="/images/gusa.jpg"
-                            imgAlt="UofG GUSA"
+                            imgSrc="/images/chemistry/chemistry2y/chemicalThermodynamics.jpeg"
+                            imgAlt="Chemical Thermodynamics"
                             link="/academics/chemistry/chemistry2y/chemicalthermodynamics"
                         />
                     </Grid.Col>
@@ -284,15 +284,15 @@ export const Chemistry = () => {
                         <SubSectionCard
                             cardTitle="Aromatic Chemistry"
                             cardText="One of the two student unions on campus."
-                            imgSrc="/images/guu.jpeg"
-                            imgAlt="UofG GUU"
+                            imgSrc="/images/chemistry/chemistry2y/aromaticChemistry.jpeg"
+                            imgAlt="Aromatic Chemistry"
                             link="/academics/chemistry/chemistry2y/aromaticchemistry"
                         />
                         <SubSectionCard
-                            cardTitle="Applied Organic Chemistry "
+                            cardTitle="Applied Organic Chemistry"
                             cardText="The Sports Council of the University of Glasgow."
-                            imgSrc="/images/gusa.jpg"
-                            imgAlt="UofG GUSA"
+                            imgSrc="/images/chemistry/chemistry2y/appliedOrganicChemistry.jpeg"
+                            imgAlt="Applied Organic Chemistry"
                             link="/academics/chemistry/chemistry2y/appliedorganicchemistry"
                         />
                     </Grid.Col>
@@ -300,8 +300,8 @@ export const Chemistry = () => {
                         <SubSectionCard
                             cardTitle="Solutions and Electrochemistry"
                             cardText="One of the two student unions on campus."
-                            imgSrc="/images/guu.jpeg"
-                            imgAlt="UofG GUU"
+                            imgSrc="/images/chemistry/chemistry2y/solutionsAndElectrochemistry.png"
+                            imgAlt="Solutions and Electrochemistry"
                             link="/academics/chemistry/chemistry2y/solutionsandelectrochemistry"
                         />
                     </Grid.Col>
