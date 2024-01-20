@@ -47,8 +47,8 @@ export const Physics = () => {
                         <SubSectionCard
                             cardTitle="Optics, Waves, & Lasers"
                             cardText="One of the two student unions on campus."
-                            imgSrc="/images/guu.jpeg"
-                            imgAlt="UofG GUU"
+                            imgSrc="/images/physics/physics1/opticsWavesAndLasers.jpg"
+                            imgAlt="Optics, Waves, & Lasers"
                             link="/academics/physics/physics1/opticswavesandlasers"
                         />
                     </Grid.Col>
@@ -56,8 +56,8 @@ export const Physics = () => {
                     <SubSectionCard
                             cardTitle="Dynamics & Relativity"
                             cardText="One of the two student unions on campus."
-                            imgSrc="/images/qmu.png"
-                            imgAlt="UofG QMU"
+                            imgSrc="/images/physics/physics1/dynamicsAndRelativity.jpg"
+                            imgAlt="Dynamics & Relativity"
                             link="/academics/physics/physics1/dynamicsandrelativity"
                         />
                     </Grid.Col>
@@ -65,17 +65,17 @@ export const Physics = () => {
                         <SubSectionCard
                             cardTitle="Thermal Physics"
                             cardText="One of the two student unions on campus."
-                            imgSrc="/images/guu.jpeg"
-                            imgAlt="UofG GUU"
+                            imgSrc="/images/physics/physics1/thermalPhysics.jpg"
+                            imgAlt="Thermal Physics"
                             link="/academics/physics/physics1/thermalphysics"
                         />
                     </Grid.Col>
                     <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                         <SubSectionCard
-                            cardTitle="Electricity, Electronics & Magnetism "
+                            cardTitle="Electricity, Electronics & Magnetism"
                             cardText="One of the two student unions on campus."
-                            imgSrc="/images/guu.jpeg"
-                            imgAlt="UofG GUU"
+                            imgSrc="/images/physics/physics1/electricityElectronicsAndMagnetism.jpeg"
+                            imgAlt="Electricity, Electronics & Magnetism"
                             link="/academics/physics/physics1/electricityelectronicsandmagnetism"
                         />
                     </Grid.Col>
@@ -83,8 +83,8 @@ export const Physics = () => {
                         <SubSectionCard
                             cardTitle="Quantum Phenomena"
                             cardText="One of the two student unions on campus."
-                            imgSrc="/images/guu.jpeg"
-                            imgAlt="UofG GUU"
+                            imgSrc="/images/physics/physics1/quantumPhenomena.jpg"
+                            imgAlt="Quantum Phenomena"
                             link="/academics/physics/physics1/quantumphenomena"
                         />
                     </Grid.Col>
@@ -107,7 +107,7 @@ export const Physics = () => {
                                 <SubSectionCard
                                     cardTitle="Mathematical Techniques"
                                     cardText="One of the two student unions on campus."
-                                    imgSrc="/images/physics/mathtech.jpg"
+                                    imgSrc="/images/physics/physics2/mathtech.jpg"
                                     imgAlt="Mathematical Techniques"
                                     link="/academics/physics/physics2/mathematicaltechniques"
                                 />
