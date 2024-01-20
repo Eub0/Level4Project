@@ -50,8 +50,8 @@ export const Chemistry = () => {
                         <SubSectionCard
                             cardTitle="Elements and Atoms"
                             cardText="One of the two student unions on campus."
-                            imgSrc="/images/guu.jpeg"
-                            imgAlt="UofG GUU"
+                            imgSrc="/images/chemistry/chemistry1/elementsAndAtoms.jpg"
+                            imgAlt="Elements and Atoms"
                             link="/academics/chemistry/chemistry1/elementsandatoms"
                         />
                     </Grid.Col>
@@ -59,8 +59,8 @@ export const Chemistry = () => {
                     <SubSectionCard
                             cardTitle="Compounds and Molecules"
                             cardText="One of the two student unions on campus."
-                            imgSrc="/images/qmu.png"
-                            imgAlt="UofG QMU"
+                            imgSrc="/images/chemistry/chemistry1/compoundsAndMolecules.jpg"
+                            imgAlt="Compounds and Molecules"
                             link="/academics/chemistry/chemistry1/compoundsandmolecules"
                         />
                     </Grid.Col>
@@ -68,8 +68,8 @@ export const Chemistry = () => {
                         <SubSectionCard
                             cardTitle="Organic Chemistry 1"
                             cardText="One of the two student unions on campus."
-                            imgSrc="/images/guu.jpeg"
-                            imgAlt="UofG GUU"
+                            imgSrc="/images/chemistry/chemistry1/organicChemistry.jpg"
+                            imgAlt="Organic Chemistry"
                             link="/academics/chemistry/chemistry1/organicchemistry1"
                         />
                     </Grid.Col>
@@ -77,8 +77,8 @@ export const Chemistry = () => {
                         <SubSectionCard
                             cardTitle="Organic Chemistry 2"
                             cardText="One of the two student unions on campus."
-                            imgSrc="/images/guu.jpeg"
-                            imgAlt="UofG GUU"
+                            imgSrc="/images/chemistry/chemistry1/organicChemistry.jpg"
+                            imgAlt="Organic Chemistry"
                             link="/academics/chemistry/chemistry1/organicchemistry2"
                         />
                     </Grid.Col>
@@ -86,8 +86,8 @@ export const Chemistry = () => {
                         <SubSectionCard
                             cardTitle="Organic Chemistry 3"
                             cardText="One of the two student unions on campus."
-                            imgSrc="/images/guu.jpeg"
-                            imgAlt="UofG GUU"
+                            imgSrc="/images/chemistry/chemistry1/organicChemistry.jpg"
+                            imgAlt="Organic Chemistry"
                             link="/academics/chemistry/chemistry1/organicchemistry3"
                         />
                     </Grid.Col>
@@ -95,8 +95,8 @@ export const Chemistry = () => {
                         <SubSectionCard
                             cardTitle="Attractions and Repulsions"
                             cardText="The Sports Council of the University of Glasgow."
-                            imgSrc="/images/gusa.jpg"
-                            imgAlt="UofG GUSA"
+                            imgSrc="/images/chemistry/chemistry1/attractionsAndRepulsions.jpg"
+                            imgAlt="Attractions and Repulsions"
                             link="/academics/chemistry/chemistry1/attractionsandrepulsions"
                         />
                     </Grid.Col>
@@ -111,8 +111,8 @@ export const Chemistry = () => {
                         <SubSectionCard
                             cardTitle="Data Analysis"
                             cardText="One of the two student unions on campus."
-                            imgSrc="/images/guu.jpeg"
-                            imgAlt="UofG GUU"
+                            imgSrc="/images/chemistry/chemistry1/dataAnalysis.jpg"
+                            imgAlt="Data Analysis"
                             link="/academics/chemistry/chemistry1/dataanalysis"
                         />
                     </Grid.Col>
@@ -120,8 +120,8 @@ export const Chemistry = () => {
                     <SubSectionCard
                             cardTitle="Chemical Energy Changes"
                             cardText="One of the two student unions on campus."
-                            imgSrc="/images/qmu.png"
-                            imgAlt="UofG QMU"
+                            imgSrc="/images/chemistry/chemistry1/chemicalEnergyChanges.jpg"
+                            imgAlt="Chemical Energy Changes"
                             link="/academics/chemistry/chemistry1/chemicalenergychanges"
                         />
                     </Grid.Col>
@@ -129,8 +129,8 @@ export const Chemistry = () => {
                         <SubSectionCard
                             cardTitle="Chemical Kenetics"
                             cardText="One of the two student unions on campus."
-                            imgSrc="/images/guu.jpeg"
-                            imgAlt="UofG GUU"
+                            imgSrc="/images/chemistry/chemistry1/chemicalKenetics.jpg"
+                            imgAlt="Chemical Kenetics"
                             link="/academics/chemistry/chemistry1/chemicalkenetics"
                         />
                     </Grid.Col>
@@ -138,8 +138,8 @@ export const Chemistry = () => {
                         <SubSectionCard
                             cardTitle="Aqueous Equilibria and pH"
                             cardText="One of the two student unions on campus."
-                            imgSrc="/images/guu.jpeg"
-                            imgAlt="UofG GUU"
+                            imgSrc="/images/chemistry/chemistry1/aqueousEquilibriaAndPH.jpg"
+                            imgAlt="Aqueous Equilibria and pH"
                             link="/academics/chemistry/chemistry1/aqueousequilibriaandph"
                         />
                     </Grid.Col>
@@ -147,8 +147,8 @@ export const Chemistry = () => {
                         <SubSectionCard
                             cardTitle="Transition Metals"
                             cardText="One of the two student unions on campus."
-                            imgSrc="/images/guu.jpeg"
-                            imgAlt="UofG GUU"
+                            imgSrc="/images/chemistry/chemistry1/transitionMetals.jpg"
+                            imgAlt="Transition Metals"
                             link="/academics/chemistry/chemistry1/transitionmetals"
                         />
                     </Grid.Col>
@@ -156,8 +156,8 @@ export const Chemistry = () => {
                         <SubSectionCard
                             cardTitle="Medicinal Chemistry"
                             cardText="The Sports Council of the University of Glasgow."
-                            imgSrc="/images/gusa.jpg"
-                            imgAlt="UofG GUSA"
+                            imgSrc="/images/chemistry/chemistry1/medicinalChemistry.jpg"
+                            imgAlt="Medicinal Chemistry"
                             link="/academics/chemistry/chemistry1/medicinalchemistry"
                         />
                     </Grid.Col>
