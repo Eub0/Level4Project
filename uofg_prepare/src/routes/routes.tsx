@@ -149,6 +149,76 @@ export const navigationItems: NavigationItem[] = [
                 name: 'School of Physics',
                 icon: <IoFlask size={20}/>,
                 path: '/physics',
+                subSubItems: [
+                    {
+                        name: 'Physics 1',
+                        path: '/physics1',
+                        subSubSubItems: [
+                            {
+                                name: 'Dynamics & Rlativity',
+                                path: '/dynamicsandrelativitys'
+                            },
+                            {
+                                name: 'Electricity, Electronics & Magnetism',
+                                path: '/electricityelectronicsandmagnetism'
+                            },
+                            {
+                                name: 'Optics, Waves & Lasers',
+                                path: '/opticswavesandlasers'
+                            },
+                            {
+                                name: 'Quantum Phenomena',
+                                path: '/quantumphenomena'
+                            },
+                            {
+                                name: 'Thermal Phyics',
+                                path: '/thermalphysics'
+                            },
+                        ]
+                    },
+                    {
+                        name: 'Physics 2',
+                        path: '/physics2',
+                        subSubSubItems: [
+                            {
+                                name: 'Classical & Quantum Waves',
+                                path: '/classicalandquantumwaves'
+                            },
+                            {
+                                name: 'Electricity & Magnetism',
+                                path: '/electricityandmagnetism'
+                            },
+                            {
+                                name: 'Mathematical Techniques',
+                                path: '/mathematicaltechniques'
+                            },
+                            {
+                                name: 'Newtonian Dynamics',
+                                path: '/newtoniandynamics'
+                            },
+                            {
+                                name: 'Nuclear & Particle Physics',
+                                path: '/nuclearandparticlephysics'
+                            },
+                            {
+                                name: 'Optics',
+                                path: '/optics'
+                            },
+                            {
+                                name: 'Oscillating Systems',
+                                path: '/oscillatingsystems'
+                            },
+                            {
+                                name: 'Physics of Solids',
+                                path: '/physicsofsolids'
+                            },
+                            {
+                                name: 'Thermal Physics',
+                                path: '/thermalphysics'
+                            },
+                        ]
+                    }
+                ]
             },
             {
                 name: 'The English Language',

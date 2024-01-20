@@ -35,8 +35,7 @@ export const Contacts = () => {
                     <ContactsGrid 
                         data={[
                             {
-                                role:"Level 1 Head",
-                                name: "Mr Test",
+                                role:"Level 1 Class Head",
                                 email: "test@test.com"
                             }
                         ]}            
@@ -47,9 +46,24 @@ export const Contacts = () => {
                         data={[
                             {
                                 role:"Level 1 Head",
-                                name: "Mr Test",
-                                email: "test@test.com"
-                            }
+                                email: "phas-classhead-p1@glasgow.ac.uk"
+                            },
+                            {
+                                role:"Level 1 Admin",
+                                email: "physics1-admin@glasgow.ac.uk."
+                            },
+                            {
+                                role:"Level 2 Head",
+                                email: "phas-classhead-p2@glasgow.ac.uk"
+                            },
+                            {
+                                role:"Level 2 Admin",
+                                email: "physics2-admin@glasgow.ac.uk."
+                            },
+                            {
+                                role:"Student Support Officer",
+                                email: "phas-studentsuport@glasgow.ac.uk"
+                            },
                         ]}            
                     />
                 </Tabs.Panel>

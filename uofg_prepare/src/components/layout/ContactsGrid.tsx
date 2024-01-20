@@ -11,9 +11,8 @@ interface Props {
 export const ContactsGrid = ({data}: Props) => {
     
     const rows = data.map((row) => (
-        <Table.Tr key={row.name}>
+        <Table.Tr key={row.role}>
           <Table.Td>{row.role}</Table.Td>
-          <Table.Td>{row.name}</Table.Td>
           <Table.Td>{row.email}</Table.Td>
         </Table.Tr>
       ));
@@ -27,7 +26,6 @@ export const ContactsGrid = ({data}: Props) => {
                             <Table.Thead classNames={classes}>
                             <Table.Tr>
                                 <Table.Th>Role</Table.Th>
-                                <Table.Th>Name</Table.Th>
                                 <Table.Th>Email</Table.Th>
                             </Table.Tr>
                             </Table.Thead>
