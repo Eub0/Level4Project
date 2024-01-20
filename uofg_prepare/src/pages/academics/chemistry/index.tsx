@@ -180,15 +180,15 @@ export const Chemistry = () => {
                                 <SubSectionCard
                                     cardTitle="Quantum Mechanics and Chemical Bonding"
                                     cardText="One of the two student unions on campus."
-                                    imgSrc="/images/guu.jpeg"
-                                    imgAlt="UofG GUU"
+                                    imgSrc="/images/chemistry/chemistry2x/quantumMechanicsAndChemicalBonding.jpg"
+                                    imgAlt="Quantum Mechanics and Chemical Bonding"
                                     link="/academics/chemistry/chemistry2x/quantummechanicsandchemicalbonding"
                                 />
                                 <SubSectionCard
                                     cardTitle="Enols and Enolates"
                                     cardText="The Sports Council of the University of Glasgow."
-                                    imgSrc="/images/gusa.jpg"
-                                    imgAlt="UofG GUSA"
+                                    imgSrc="/images/chemistry/chemistry2x/enolsAndEnolates.jpg"
+                                    imgAlt="Enols and Enolates"
                                     link="/academics/chemistry/chemistry2x/enolsandenolates"
                                 />
                             </Grid.Col>
@@ -196,15 +196,15 @@ export const Chemistry = () => {
                             <SubSectionCard
                                     cardTitle="Isomerism and Sterochemistry"
                                     cardText="One of the two student unions on campus."
-                                    imgSrc="/images/qmu.png"
-                                    imgAlt="UofG QMU"
+                                    imgSrc="/images/chemistry/chemistry2x/isomerismAndSterochemistry.jpg"
+                                    imgAlt="Isomerism and Sterochemistry"
                                     link="/academics/chemistry/chemistry2x/isomerismandsterochemistry"
                                 />
                                 <SubSectionCard
                                     cardTitle="Organometallic Chemistry"
                                     cardText="The Sports Council of the University of Glasgow."
-                                    imgSrc="/images/gusa.jpg"
-                                    imgAlt="UofG GUSA"
+                                    imgSrc="/images/chemistry/chemistry2x/organometallicChemistry.jpg"
+                                    imgAlt="Organometallic Chemistry"
                                     link="/academics/chemistry/chemistry2x/organometallicchemistry"
                                 />
                             </Grid.Col>
@@ -212,15 +212,15 @@ export const Chemistry = () => {
                                 <SubSectionCard
                                     cardTitle="Main Group Chemistry"
                                     cardText="One of the two student unions on campus."
-                                    imgSrc="/images/guu.jpeg"
-                                    imgAlt="UofG GUU"
-                                    link="/academics/chemistry/chemistry2x/organicchemistry1"
+                                    imgSrc="/images/chemistry/chemistry2x/mainGroupChemistry.png"
+                                    imgAlt="Main Group Chemistry"
+                                    link="/academics/chemistry/chemistry2x/maingroupchemistry"
                                 />
                                 <SubSectionCard
                                     cardTitle="Solids and Surfaces"
                                     cardText="The Sports Council of the University of Glasgow."
-                                    imgSrc="/images/gusa.jpg"
-                                    imgAlt="UofG GUSA"
+                                    imgSrc="/images/chemistry/chemistry2x/solidsAndSurfaces.jpg"
+                                    imgAlt="Solids and Surfaces"
                                     link="/academics/chemistry/chemistry2x/solidsandsurfaces"
                                 />
                             </Grid.Col>
@@ -228,8 +228,8 @@ export const Chemistry = () => {
                                 <SubSectionCard
                                     cardTitle="Principles of Spectroscopy"
                                     cardText="One of the two student unions on campus."
-                                    imgSrc="/images/guu.jpeg"
-                                    imgAlt="UofG GUU"
+                                    imgSrc="/images/chemistry/chemistry2x/principlesOfSpectroscopy.jpg"
+                                    imgAlt="Principles of Spectroscopy"
                                     link="/academics/chemistry/chemistry2x/principlesofspectroscopy"
                                 />
                             </Grid.Col>
