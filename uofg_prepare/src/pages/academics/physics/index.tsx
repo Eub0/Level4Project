@@ -116,8 +116,8 @@ export const Physics = () => {
                                 <SubSectionCard
                                     cardTitle="Oscillating Systems"
                                     cardText="One of the two student unions on campus."
-                                    imgSrc="/images/guu.jpeg"
-                                    imgAlt="UofG GUU"
+                                    imgSrc="/images/physics/physics2/oscillatingSystems.jpg"
+                                    imgAlt="Oscillating Systems"
                                     link="/academics/physics/physics2/oscillatingsystems"
                                 />
                             </Grid.Col>
@@ -125,8 +125,8 @@ export const Physics = () => {
                                 <SubSectionCard
                                     cardTitle="Thermal Physics"
                                     cardText="One of the two student unions on campus."
-                                    imgSrc="/images/guu.jpeg"
-                                    imgAlt="UofG GUU"
+                                    imgSrc="/images/physics/physics2/thermalPhysics.jpg"
+                                    imgAlt="Thermal Physics"
                                     link="/academics/physics/physics2/thermalphysics"
                                 />
                             </Grid.Col>
@@ -134,8 +134,8 @@ export const Physics = () => {
                                 <SubSectionCard
                                     cardTitle="Newtonian Dynamics"
                                     cardText="One of the two student unions on campus."
-                                    imgSrc="/images/guu.jpeg"
-                                    imgAlt="UofG GUU"
+                                    imgSrc="/images/physics/physics2/newtonianDynamics.png"
+                                    imgAlt="Newtonian Dynamics"
                                     link="/academics/physics/physics2/newtoniandynamics"
                                 />
                             </Grid.Col>
@@ -143,8 +143,8 @@ export const Physics = () => {
                                 <SubSectionCard
                                     cardTitle="Electricity & Magnetism"
                                     cardText="One of the two student unions on campus."
-                                    imgSrc="/images/guu.jpeg"
-                                    imgAlt="UofG GUU"
+                                    imgSrc="/images/physics/physics2/electricityAndMagnetism.jpeg"
+                                    imgAlt="Electricity & Magnetism"
                                     link="/academics/physics/physics2/electricityandmagnetism"
                                 />
                             </Grid.Col>
@@ -152,8 +152,8 @@ export const Physics = () => {
                                 <SubSectionCard
                                     cardTitle="Physics of Solids"
                                     cardText="One of the two student unions on campus."
-                                    imgSrc="/images/guu.jpeg"
-                                    imgAlt="UofG GUU"
+                                    imgSrc="/images/physics/physics2/physicsOfSolids.jpeg"
+                                    imgAlt="Physics of Solids"
                                     link="/academics/physics/physics2/physicsofsolids"
                                 />
                             </Grid.Col>
@@ -161,8 +161,8 @@ export const Physics = () => {
                                 <SubSectionCard
                                     cardTitle="Nuclear & Particle Physics"
                                     cardText="One of the two student unions on campus."
-                                    imgSrc="/images/guu.jpeg"
-                                    imgAlt="UofG GUU"
+                                    imgSrc="/images/physics/physics2/nuclearAndParticlePhysics.png"
+                                    imgAlt="Nuclear & Particle Physics"
                                     link="/academics/physics/physics2/nuclearandparticlephysics"
                                 />
                             </Grid.Col>
@@ -170,8 +170,8 @@ export const Physics = () => {
                                 <SubSectionCard
                                     cardTitle="Optics"
                                     cardText="One of the two student unions on campus."
-                                    imgSrc="/images/guu.jpeg"
-                                    imgAlt="UofG GUU"
+                                    imgSrc="/images/physics/physics2/optics.jpg"
+                                    imgAlt="Optics"
                                     link="/academics/physics/physics2/optics"
                                 />
                             </Grid.Col>
@@ -179,8 +179,8 @@ export const Physics = () => {
                                 <SubSectionCard
                                     cardTitle="Classical & Quantum Waves"
                                     cardText="One of the two student unions on campus."
-                                    imgSrc="/images/guu.jpeg"
-                                    imgAlt="UofG GUU"
+                                    imgSrc="/images/physics/physics2/classicalAndQuantumWaves.jpg"
+                                    imgAlt="Classical & Quantum Waves"
                                     link="/academics/physics/physics2/classicalandquantumwaves"
                                 />
                             </Grid.Col>
