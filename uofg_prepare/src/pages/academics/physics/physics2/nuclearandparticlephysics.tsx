@@ -12,22 +12,12 @@ export const NuclearAndParticlePhysics = () => {
                 Additionally, the course introduces essential concepts of special relativity, including Lorentz transformations and four-vectors. 
                 Students will acquire the skills to solve simple relativistic kinematic problems, particularly those involving invariant mass. 
                 Through this comprehensive approach, students will gain a foundational understanding of both nuclear physics and the principles of special relativity."
-                moduleOutline={["Water as a solvent",
-                "Hydrogen bonding",
-                "Dipoles; dielectric constant",
-                "Ice structure",
-                "Concentrations",
-                "Electrolytes",
-                "Degree of dissociation in relation to a range of solutes",
-                "Characteristics of sparingly soluble solutes, including the common ion effect and solubility product",
-                "Dissociation of weak acids and bases and associated constants such as Ka, pKa, Kb , pKb",
-                "Various definitions of acids and bases",
-                "pH and pOH calculations for strong and weak acids and bases",
-                "Degree of ionisation of weak acids and bases at various pHs",
-                "Salt hydrolysis and its influence upon pH; buffers",
-                "Le Chatelier’s Principle",
-                "Henderson-Hasselbalch equation, examples of buffers and their importance in biological systems; titrations",
-                "Indicators"]}
+                moduleOutline={["Describe radioactive decay processes and calculate decay rates.",
+                "Understand the properties and interactions of nucleons and elementary particles.",
+                "Apply Lorentz transformations and discuss concepts of four-vectors in relativity.",
+                "Explore the standard model of particle physics, including quarks and leptons.",
+                "Discuss the relationship between matter and antimatter.",
+                "Apply these concepts to solve unseen problems in nuclear and particle physics."]}
                 usefulWebsites=""
                 recommendedReading="Relativity: A Very Short Intoduction, Russell Stannard (ISBN 978-0-19-923622-0)
                                     Special Relativity, N.M.J. Woodhouse (ISBN 1-85233-426-6)

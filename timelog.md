@@ -247,3 +247,6 @@
 ## 16th January
 * *2 hours Populating Physics pages
 * *1 hour ensuring teams and moodle meeting minutes are up-to-date (I have been saving local copies on google drive, forget to move over to moodle sometimes)
+
+## 17th January
+* *0.5 hours Supervisor Meeting

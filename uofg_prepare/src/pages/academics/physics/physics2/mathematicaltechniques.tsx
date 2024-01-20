@@ -10,11 +10,13 @@ export const MathematicalTechniques = () => {
                 Students will gain the skills to calculate mean, standard deviation, and standard error from data sets, incorporating the combination of errors. 
                 The application of least squares fitting for straight-line analysis is emphasized, providing a foundation for understanding and utilizing this technique. 
                 Additionally, basic techniques in both differential and integral calculus are introduced, contributing to a comprehensive understanding of mathematical concepts in the context of physical measurements."
-                moduleOutline={["Construct frequency distributions and calculate mean and standard deviation.",
-                "Understand and apply standard error in the mean, and its relationship to standard deviation.",
-                "Differentiate between random and systematic errors.",
-                "Identify and comprehend properties of Poisson and Gaussian distributions, emphasizing Gaussian distributions in handling random errors.",
-                "Apply statistical concepts, such as least squares fitting, derivatives, and error propagation, to solve physics problems, demonstrating proficiency in tackling unseen problems."
+                moduleOutline={["Learn to construct frequency distributions, understand Poisson and Gaussian distributions.",
+                "Calculate mean, standard deviation, and standard error from data sets.",
+                "Understand and apply least squares technique for straight line fitting.",
+                "Discuss the significance of Gaussian distributions in random error treatment.",
+                "Explain the importance of Poisson distribution in events like radioactive decay.",
+                "Combine errors in functions of several variables.",
+                "Apply differential and integral calculus techniques to physics problems."
                 ]}
                 usefulWebsites=""
                 recommendedReading="Measurments and their Uncertainties, I. Hughes and T. Hase (ISBN 0-199-566-33X)"
