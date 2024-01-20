@@ -38,7 +38,7 @@ export const Extracurriculars = () => {
                             <SubSectionCard
                                 cardTitle="Glasgow University Union (GUU)"
                                 cardText="One of the two student unions on campus."
-                                imgSrc="/images/guu.jpeg"
+                                imgSrc="/images/extracurriculars/studentBodies/guu.png"
                                 imgAlt="UofG GUU"
                                 link="https://www.guu.co.uk/"
                             />
@@ -47,7 +47,7 @@ export const Extracurriculars = () => {
                         <SubSectionCard
                                 cardTitle="Queen Margret Union (QMU)"
                                 cardText="One of the two student unions on campus."
-                                imgSrc="/images/qmu.png"
+                                imgSrc="/images/extracurriculars/studentBodies/qmu.png"
                                 imgAlt="UofG QMU"
                                 link="https://www.qmunion.org.uk/"
                             />
@@ -56,7 +56,7 @@ export const Extracurriculars = () => {
                             <SubSectionCard
                                 cardTitle="Student Representatvive Council (SRC)"
                                 cardText="The University's Student Representative Council."
-                                imgSrc="/images/src.jpg"
+                                imgSrc="/images/extracurriculars/studentBodies/src.png"
                                 imgAlt="UofG SRC"
                                 link="https://www.glasgowunisrc.org/"
                             />
@@ -65,7 +65,7 @@ export const Extracurriculars = () => {
                         <SubSectionCard
                                 cardTitle="Glasgow University Soprts Association (GUSA)"
                                 cardText="The University's Sports Association."
-                                imgSrc="/images/gusa.jpg"
+                                imgSrc="/images/extracurriculars/studentBodies/gusa.png"
                                 imgAlt="UofG GUSA"
                                 link="https://www.gla.ac.uk/myglasgow/sport/gusa/"
                             />
@@ -78,9 +78,18 @@ export const Extracurriculars = () => {
                             <SubSectionCard
                                         cardTitle="Women in STEM Society (WiSTEM)"
                                         cardText="Instagram:@wistemglasgow"
-                                        imgSrc="/images/wistem.jpg"
+                                        imgSrc="/images/extracurriculars/societiesAndGroups/wistem.jpg"
                                         imgAlt="WiSTEM Glasgow"
                                         link="https://wistemglasgow.wordpress.com/"
+                                    />
+                        </Grid.Col>
+                        <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
+                            <SubSectionCard
+                                        cardTitle="UofG Alchemists"
+                                        cardText="Instagram:@uniofgalchemistsociety"
+                                        imgSrc="/images/extracurriculars/societiesAndGroups/alchemists.png"
+                                        imgAlt="UofG Alchemists"
+                                        link="https://www.uofgalchemists.com/"
                                     />
                         </Grid.Col>
                     </Grid>
