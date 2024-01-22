@@ -11,7 +11,7 @@ import router from 'next/router';
 
 interface Props {
 	cardTitle: string,
-  cardText: string,
+  cardText?: string,
   imgSrc: string,
   imgAlt: string,
   link: string,

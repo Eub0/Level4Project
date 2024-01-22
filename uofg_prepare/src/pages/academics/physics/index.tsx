@@ -46,7 +46,6 @@ export const Physics = () => {
                     <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                         <SubSectionCard
                             cardTitle="Optics, Waves, & Lasers"
-                            cardText="One of the two student unions on campus."
                             imgSrc="/images/physics/physics1/opticsWavesAndLasers.jpg"
                             imgAlt="Optics, Waves, & Lasers"
                             link="/academics/physics/physics1/opticswavesandlasers"
