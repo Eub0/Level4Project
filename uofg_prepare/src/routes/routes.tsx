@@ -231,6 +231,13 @@ export const navigationItems: NavigationItem[] = [
 		name: 'Timetable',
 		icon: <BsCalendar2Week size={20} />,
 		path: '/timetable',
+        subItems: [
+            {
+                name: 'Enrolment Advice',
+                icon: <IoFlask size={20}/>,
+                path: '/enrolmentadvice',
+            }
+        ]
 	},
     {
         name: 'Contacts',

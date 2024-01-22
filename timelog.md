@@ -254,3 +254,6 @@
 ## 20th January
 * *1.5 hours Populating Physics 2 module pages with objectives
 * *4.5 hours Adding graphics to all academic areas, most of this time was searching for suitable images that were usable. Also added a new card for Alchemist society,as well as updating student body images to up-to-date ones provided
+
+## 22nd January
+* *2 hours Began implementing timetable section contents. Created page for enrolment advice and populated
