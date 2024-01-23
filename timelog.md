@@ -266,3 +266,4 @@
 * *0.5 hours Meeting with Dr Yao to showcase physics academics section
 * *1 hours Looking into timetable component data handling issue
 * *1 hours Populating homepage
+* *2 hours Started implementing accounts system via Firebase
