@@ -1,9 +1,10 @@
 import { PageHeader } from "@/components/layout/PageHeader";
 import { SubSectionCard } from "@/components/shared/SubSectionCard";
-import { Stack, Title, Text, Grid } from "@mantine/core";
+import { Stack, Title, Text, Grid, useMantineColorScheme } from "@mantine/core";
 import React from "react";
 
 export const Timetable = () => {
+    
     return (
       <>
         <PageHeader
@@ -23,14 +24,14 @@ export const Timetable = () => {
             <Grid pt={20}>
             <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                     <SubSectionCard
-                        cardTitle="Timetable Advice"
-                        cardText="Tips about creating your timetable and managing your time."
+                        cardTitle="Enrolment Advice"
+                        cardText="Tips about enroling for your classes."
                         imgSrc="/images/src.jpg"
                         imgAlt="UofG"
-                        link="https://www.gla.ac.uk/apps/uofglife/#/timetable"
+                        link="timetable/enrolmentadvice"
                     />
                 </Grid.Col>
-                <Grid.Col span={{ base: 12, md: 10, lg: 3 }}>
+                <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                     <SubSectionCard
                         cardTitle="Chemistry Timetables"
                         cardText="See how the courses and their modules work for the School of Chemistry."
@@ -52,7 +53,7 @@ export const Timetable = () => {
                     <SubSectionCard
                         cardTitle="My Timetable"
                         cardText="Takes you stright to UofG Life to be avle to view your timetabe (once you have been given your GUID)."
-                        imgSrc="/images/src.jpg"
+                        imgSrc="/images/timetable/uofgLife.png"
                         imgAlt="UofG"
                         link="https://www.gla.ac.uk/apps/uofglife/#/timetable"
                     />
