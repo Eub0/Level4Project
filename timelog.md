@@ -258,3 +258,8 @@
 ## 22nd January
 * *2 hours Began implementing timetable section contents. Created page for enrolment advice and populated
 * *2 hours Started making timetable component for use in chem and phys timetable pages
+
+## 23rd January
+* *1 hours Looking into timetable component data handling issue
+* *0.5 hours Meeting with Dr Yao to showcase physics academics section
+* *1 hours Looking into timetable component data handling issue
