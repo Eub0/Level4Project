@@ -234,8 +234,15 @@ export const navigationItems: NavigationItem[] = [
         subItems: [
             {
                 name: 'Enrolment Advice',
-                icon: <IoFlask size={20}/>,
                 path: '/enrolmentadvice',
+            },
+            {
+                name: 'School of Chemistry',
+                path: '/chemistry',
+            },
+            {
+                name: 'School of Physics',
+                path: '/physics',
             }
         ]
 	},

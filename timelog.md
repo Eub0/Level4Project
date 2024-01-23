@@ -257,3 +257,4 @@
 
 ## 22nd January
 * *2 hours Began implementing timetable section contents. Created page for enrolment advice and populated
+* *2 hours Started making timetable component for use in chem and phys timetable pages

@@ -57,7 +57,7 @@ export const EnrolmentAdvice = () => {
                                 </Tabs.Panel>
                                 <Tabs.Panel value="School of Physics">
                                     <Text>
-                                        By the time you enter into honors physics, you must have completed the level 2 maths courses (Maths 2A,B,C,D,E,F).
+                                        By the time you enter into honors physics, you must have completed the following level 2 maths courses (Maths 2A,B,D,).
                                         WIth that said, you must take these courses if you are starting at level 2.
                                         If you are starting at level 1, the  you must take Maths1 as an elective course in order to progress into level 2.
                                         

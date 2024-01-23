@@ -16,17 +16,22 @@ export function ItemsToList(data: string[]) {
 }
 
 export function ToDoList({data}: Props) {
-    const thisList = ItemsToList(data)
+  const thisList = ItemsToList(data)
+
   const [selection, setSelection] = useState(['0']);
+
   const toggleRow = (id: string) =>
     setSelection((current) =>
       current.includes(id) ? current.filter((item) => item !== id) : [...current, id]
     );
+    
   const toggleAll = () =>
     setSelection((current) => (current.length === thisList.length ? [] : thisList.map((item) => item.id)));
 
   const rows = thisList.map((item) => {
-    const selected = selection.includes(item.id);
+
+  const selected = selection.includes(item.id);
+
     return (
       <Table.Tr key={item.id} className={cx({ [classes.rowSelected]: selected })}>
         <Table.Td>
