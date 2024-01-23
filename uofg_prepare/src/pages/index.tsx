@@ -1,50 +1,29 @@
-import {
-  Paper,
-  TextInput,
-  PasswordInput,
-  Checkbox,
-  Button,
-  Title,
-  Text,
-  Anchor,
-} from '@mantine/core';
-import classes from '@/styles/Index.module.css';
 import router from 'next/router';
+import { AuthenticationTitle } from '@/components/login/Signup';
+import { BackgroundImage } from '@mantine/core';
 
-export const Home = () => {
+export const Login = () => {
 
   const navigateToHomepage = () => {
     router.push('/homepage');
   };
 
   return (
-    <div className={classes.wrapper}>
-      <Paper className={classes.form} radius={0} p={30}>
-        <Title order={2} className={classes.title} ta="center" mt="md" mb={50}>
-          Welcome back to UofG Prepare!
-        </Title>
-
-        <TextInput label="Email address" placeholder="hello@gmail.com" size="md" />
-        <PasswordInput label="Password" placeholder="Your password" mt="md" size="md" />
-        <Checkbox label="Keep me logged in" mt="xl" size="md" />
-        <Button fullWidth mt="xl" size="md">
-          Login
-        </Button>
-
-        <Text ta="center" mt="md">
-          Don&apos;t have an account?{' '}
-          <Anchor<'a'> href="#" fw={700} onClick={(event) => event.preventDefault()}>
-            Register
-          </Anchor>
-        </Text>
-        <Text ta={"center"} pt={10}>
-          <Anchor fw={700} onClick={navigateToHomepage}>
-            Continue as guest.
-          </Anchor>
-        </Text>
-      </Paper>
-    </div>
+    <>
+      <BackgroundImage
+					src="@/images/homepage/welcome.jpeg"
+					style={{
+						display: 'flex',
+						justifyContent: 'center',
+						alignItems: 'center',
+						width: '100vw',
+						minHeight: '100vh',
+					}}
+			>
+          <AuthenticationTitle/>
+      </BackgroundImage>
+    </>
   );
 }
 
-export default Home;
+export default Login;
