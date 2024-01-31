@@ -278,4 +278,4 @@
 ## Week 19
 
 ## 30th January
-* *
+* *3.5 hours Finishing accounts implementation
