@@ -24,9 +24,6 @@ export const NavbarContent = ({ setNavbarOpened }: Props) => {
 					/>
 				))}
 			</AppShell.Section>
-			<div className={classes.footer}>
-        		<UserButton />
-      		</div>
 		</>
 	);
 };

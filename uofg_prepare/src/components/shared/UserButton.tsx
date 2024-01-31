@@ -1,37 +1,96 @@
-import { UnstyledButton, Group, Avatar, Text, rem, useMantineColorScheme } from '@mantine/core';
-import { FaChevronRight } from 'react-icons/fa';
-import { FiUser } from "react-icons/fi";
-import classes from '@/styles/UserButton.module.css';
-import router from 'next/router';
+import {
+	Avatar,
+	Divider,
+	Group,
+	Menu,
+	Modal,
+	PasswordInput,
+	Text,
+	UnstyledButton,
+	useMantineColorScheme,
+} from '@mantine/core';
+import { useMediaQuery } from '@mantine/hooks';
+import { useRouter } from 'next/router';
+import { useState } from 'react';
+import { GrUserSettings } from "react-icons/gr";
+import { BsSun, BsMoonStars } from 'react-icons/bs';
+import { LuLock } from "react-icons/lu";
+import { FaSignOutAlt } from 'react-icons/fa';
+import { useAuth } from '@/contexts/AuthContext';
 
-export function UserButton() {
+export const UserButton = () => {
+	const router = useRouter();
+	const { colorScheme, toggleColorScheme } = useMantineColorScheme();
+	const dark = colorScheme === 'dark';
+	const [menuOpened, setMenuOpened] = useState(false);
+  const [error, setError] = useState("")
+  const { currentUser, signout } = useAuth()
 
-    const navigateToAccountPage = () => {
-        router.push('/account');
+  const navigateToUpdate= () => {
+		router.push("/account");
 	};
 
-  const { colorScheme, toggleColorScheme } = useMantineColorScheme();
-  	const dark = colorScheme === 'dark';
+  async function handleLogout() {
+    setError("")
 
-  return (
-    <UnstyledButton className={classes.user} onClick={navigateToAccountPage}>
-      <Group>
-      <Avatar color={dark ? "white" : "blue.9"} radius="lg">
-        <FiUser size="1.5rem" />
-      </Avatar>
+    try{
+      await signout()
+      router.push("/")
+    }
+    catch {
+      setError("Failed to log out")
+    }
+  }
 
-        <div style={{ flex: 1 }}>
-          <Text size="sm" fw={500} c={dark ? "white" : "blue.9"}>
-            Mr Test Testington
-          </Text>
-
-          <Text c="dimmed" size="xs">
-            test@test.com
-          </Text>
-        </div>
-
-        <FaChevronRight className={dark ? classes.chevron_dark : classes.chevron} style={{ width: rem(45), height: rem(14) }}/>
-      </Group>
-    </UnstyledButton>
-  );
-}
+	return (
+		<>
+			<Menu
+				opened={menuOpened}
+				onOpen={() => setMenuOpened(true)}
+				onClose={() => setMenuOpened(false)}
+				styles={{ dropdown: { minWidth: 180, marginTop: 10 } }}
+			>
+				<Menu.Target>
+					<UnstyledButton>
+						<Group>
+							<Avatar size={40} w={150} color="white" radius="sm">
+								<Group>
+                  <GrUserSettings />
+                  <Text>
+                    User Settings
+                  </Text>
+                </Group>
+							</Avatar>
+						</Group>
+					</UnstyledButton>
+				</Menu.Target>
+				<Menu.Dropdown>
+					<Menu.Label>Settings</Menu.Label>
+          {currentUser ? 
+					<Menu.Item
+						leftSection={<LuLock />}
+            onClick={navigateToUpdate}
+					>
+						Change account details
+					</Menu.Item> : ""}
+					<Menu.Item
+						onClick={() => toggleColorScheme()}
+						leftSection={dark ? <BsSun /> : <BsMoonStars />}
+					>
+						{dark ? 'Light Mode' : 'Dark Mode'}
+					</Menu.Item>
+					<Divider />
+          {currentUser ? 
+					<Menu.Item
+						onClick={handleLogout}
+						color="red"
+						leftSection={<FaSignOutAlt />}
+						data-cy="logout-button"
+					>
+						Sign out
+					</Menu.Item> : ""}
+				</Menu.Dropdown>
+			</Menu>
+		</>
+	);
+};

@@ -267,3 +267,15 @@
 * *1 hours Looking into timetable component data handling issue
 * *1 hours Populating homepage
 * *2 hours Started implementing accounts system via Firebase
+
+## 24th January
+* *0.5 hours Supervisor meeting
+* *2 hours fixing issues with accounts implementation
+
+## 25th January
+* *1 hours Showcasing system to Chemistry Teaching Committee
+
+## Week 19
+
+## 30th January
+* *
