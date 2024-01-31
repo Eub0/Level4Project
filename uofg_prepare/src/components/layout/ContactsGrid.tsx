@@ -1,6 +1,6 @@
 import { PageHeader } from "@/components/layout/PageHeader";
 import { Stack, Title, Text, Grid, Card, Image, Table } from "@mantine/core";
-import classes from "@/styles/ContactsGrid.module.css"
+import classes from "@/styles/TableScrollArea.module.css"
 import cx from 'clsx';
 import { contacts } from "@/types/Contacts"
 

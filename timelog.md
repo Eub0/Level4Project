@@ -255,6 +255,8 @@
 * *1.5 hours Populating Physics 2 module pages with objectives
 * *4.5 hours Adding graphics to all academic areas, most of this time was searching for suitable images that were usable. Also added a new card for Alchemist society,as well as updating student body images to up-to-date ones provided
 
+## Week 19 -
+
 ## 22nd January
 * *2 hours Began implementing timetable section contents. Created page for enrolment advice and populated
 * *2 hours Started making timetable component for use in chem and phys timetable pages
@@ -263,3 +265,17 @@
 * *1 hours Looking into timetable component data handling issue
 * *0.5 hours Meeting with Dr Yao to showcase physics academics section
 * *1 hours Looking into timetable component data handling issue
+* *1 hours Populating homepage
+* *2 hours Started implementing accounts system via Firebase
+
+## 24th January
+* *0.5 hours Supervisor meeting
+* *2 hours fixing issues with accounts implementation
+
+## 25th January
+* *1 hours Showcasing system to Chemistry Teaching Committee
+
+## Week 19
+
+## 30th January
+* *

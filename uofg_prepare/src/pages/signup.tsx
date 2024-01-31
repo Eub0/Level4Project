@@ -1,5 +1,5 @@
 import router from 'next/router';
-import { Signin } from '@/components/login/Signin';
+import { Signup } from '@/components/login/Signup';
 import { BackgroundImage } from '@mantine/core';
 
 export const Login = () => {
@@ -20,7 +20,7 @@ export const Login = () => {
 						minHeight: '100vh',
 					}}
 			>
-          <Signin/>
+          <Signup/>
       </BackgroundImage>
     </>
   );
