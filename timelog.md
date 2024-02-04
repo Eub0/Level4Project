@@ -279,3 +279,10 @@
 
 ## 30th January
 * *3.5 hours Finishing accounts implementation
+
+##31st January
+* *0.5 hours Supervisor Meeting
+* *0.5 hours Meeting with Physics Level 1 Head
+
+## 4th Febuary
+* *4 hour Fixing bug with timetable data handelling. populated Physics timetable section
