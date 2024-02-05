@@ -45,7 +45,7 @@ export function Timetable({data,keyData}:{data: timetableContent[],keyData: tabl
               <Table.Th>Monday</Table.Th>
               <Table.Th>Tuesday</Table.Th>
               <Table.Th>Wednesday</Table.Th>
-              <Table.Th>Thursay</Table.Th>
+              <Table.Th>Thursday</Table.Th>
               <Table.Th>Firday</Table.Th>
               <Table.Th>Practical Component</Table.Th>
             </Table.Tr>
@@ -55,14 +55,14 @@ export function Timetable({data,keyData}:{data: timetableContent[],keyData: tabl
       </ScrollArea>
     </Card>
     <Title py={15} size="h4">
-      Table Key
+      Timetable Key
     </Title>
     <Card pt={15}>
         <Table miw={700}>
           <Table.Thead className={cx(classes.header, { [classes.scrolled]: scrolled })}>
             <Table.Tr>
               <Table.Th>Key</Table.Th>
-              <Table.Th>Mondule</Table.Th>
+              <Table.Th>Module</Table.Th>
             </Table.Tr>
           </Table.Thead>
           <Table.Tbody>{keys(keyData)}</Table.Tbody>

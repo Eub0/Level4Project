@@ -2,6 +2,7 @@ import { PageHeader } from "@/components/layout/PageHeader";
 import { Stack, Title, Text, Tabs, rem } from "@mantine/core";
 import { SiAtom } from "react-icons/si";
 import { TbWaveSine } from "react-icons/tb";
+import { PiNumberCircleOneBold, PiNumberCircleTwoBold } from "react-icons/pi";
 import classes from "@/styles/Tabs.module.css";
 import { Timetable } from "@/components/shared/Timetable";
 import { timetableContent } from '@/types/TimetableContent';
@@ -610,10 +611,10 @@ export const PhysicsTimetable = () => {
                 <Tabs.Panel value="Physics 1">
                     <Tabs variant="unstyled" defaultValue="Semester 1" classNames={classes} pt={15}>
                     <Tabs.List grow>
-                        <Tabs.Tab value="Semester 1" leftSection={<SiAtom style={iconStyle} />}>
+                        <Tabs.Tab value="Semester 1" leftSection={<PiNumberCircleOneBold style={iconStyle} />}>
                         Semester 1
                         </Tabs.Tab>
-                        <Tabs.Tab value="Semester 2" leftSection={<TbWaveSine style={iconStyle} />}>
+                        <Tabs.Tab value="Semester 2" leftSection={<PiNumberCircleTwoBold style={iconStyle} />}>
                         Semester 2
                         </Tabs.Tab>
                     </Tabs.List>
@@ -629,10 +630,10 @@ export const PhysicsTimetable = () => {
                 <Tabs.Panel value="Physics 2">
                 <Tabs variant="unstyled" defaultValue="Semester 1" classNames={classes} pt={15}>
                     <Tabs.List grow>
-                        <Tabs.Tab value="Semester 1" leftSection={<SiAtom style={iconStyle} />}>
+                        <Tabs.Tab value="Semester 1" leftSection={<PiNumberCircleOneBold style={iconStyle} />}>
                         Semester 1
                         </Tabs.Tab>
-                        <Tabs.Tab value="Semester 2" leftSection={<TbWaveSine style={iconStyle} />}>
+                        <Tabs.Tab value="Semester 2" leftSection={<PiNumberCircleTwoBold style={iconStyle} />}>
                         Semester 2
                         </Tabs.Tab>
                     </Tabs.List>
