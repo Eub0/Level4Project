@@ -30,7 +30,7 @@ export function ToDoList({data}: Props) {
 
   const rows = thisList.map((item) => {
 
-  const selected = selection.includes(item.id);
+    const selected = selection.includes(item.id);
 
     return (
       <Table.Tr key={item.id} className={cx({ [classes.rowSelected]: selected })}>

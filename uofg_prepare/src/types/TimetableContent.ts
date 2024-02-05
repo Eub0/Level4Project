@@ -5,5 +5,5 @@ export type timetableContent = {
     wednesday: string,
     thursday: string,
     friday: string,
-    practical:string,
+    practical: string,
 }
