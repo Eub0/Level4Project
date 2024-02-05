@@ -1,13 +1,19 @@
 import { PageHeader } from "@/components/layout/PageHeader";
 import { SubSectionCard } from "@/components/shared/SubSectionCard";
-import { Stack, Title, Text, Grid, Tabs, rem } from "@mantine/core";
+import { Stack, Title, Text, Grid, Tabs, rem, Anchor } from "@mantine/core";
 import classes from "@/styles/Tabs.module.css";
 import { SlChemistry } from "react-icons/sl";
 import { BiAtom } from "react-icons/bi";
 import ContactsGrid from "@/components/layout/ContactsGrid";
+import router from "next/router";
 
 export const Contacts = () => {
     const iconStyle = { width: rem(12), height: rem(12) };
+
+    const navigateToDisabilityService = () => {
+		router.push("https://www.gla.ac.uk/myglasgow/disability/");
+	};
+
     return (
       <>
         <PageHeader
@@ -19,7 +25,18 @@ export const Contacts = () => {
             </Title>
             <Text>
                 Its is important to know who to contact for issues and advice. 
-                We have compiled together the essential contacts for both schools for you.
+                We have compiled together the essential contacts for both schools for you, as well as important campus-wide contacts.
+            </Text>
+            <Title order={1} size="h4">
+                Disability Service
+            </Title>
+            <Text>
+                If you are a student with a disability then you should register with the universities disabilty service.
+                You can find out more information on the{" "}
+                <Anchor onClick={navigateToDisabilityService}>
+                    UofG Disability Service
+                </Anchor>
+                {" "} website.
             </Text>
             </Stack>
             <Tabs defaultValue="School of Chemistry" variant="unstyled" classNames={classes} pt={15}>
@@ -27,21 +44,26 @@ export const Contacts = () => {
                     <Tabs.Tab value="School of Chemistry" leftSection={<SlChemistry style={iconStyle} />}>
                     School of Chemistry
                     </Tabs.Tab>
-                    <Tabs.Tab value="School of Physics" leftSection={<BiAtom style={iconStyle} />}>
-                    School of Physics
+                    <Tabs.Tab value="School of Physics & Astronomy" leftSection={<BiAtom style={iconStyle} />}>
+                    School of Physics & Astronomy
                     </Tabs.Tab>
                 </Tabs.List>
                 <Tabs.Panel value="School of Chemistry">
                     <ContactsGrid 
                         data={[
                             {
-                                role:"Level 1 Class Head",
-                                email: "test@test.com"
-                            }
-                        ]}            
+                                role:"General Enquireies",
+                                email: "chem-ug-pgt-enquiries@glasgow.ac.uk"
+                            },
+                            {
+                                role:"Issues with Enrolment",
+                                email: "Beth.Paschke@glasgow.ac.uk"
+                            },
+                        ]}
+                        school="chemistry"        
                     />
                 </Tabs.Panel>
-                <Tabs.Panel value="School of Physics">
+                <Tabs.Panel value="School of Physics & Astronomy">
                     <ContactsGrid 
                         data={[
                             {
@@ -64,7 +86,8 @@ export const Contacts = () => {
                                 role:"Student Support Officer",
                                 email: "phas-studentsuport@glasgow.ac.uk"
                             },
-                        ]}            
+                        ]}
+                        school="physics"       
                     />
                 </Tabs.Panel>
             </Tabs> 

@@ -1,14 +1,27 @@
 import { PageHeader } from "@/components/layout/PageHeader";
-import { Stack, Title, Text, Grid, Card, Image, Table } from "@mantine/core";
+import { Stack, Title, Text, Grid, Card, Image, Table, Anchor } from "@mantine/core";
 import classes from "@/styles/TableScrollArea.module.css"
 import cx from 'clsx';
 import { contacts } from "@/types/Contacts"
+import router from "next/router";
 
 interface Props {
     data: contacts[],
 }
 
-export const ContactsGrid = ({data}: Props) => {
+export const ContactsGrid = ({data,school}:{data: Props, school: string}) => {
+
+    const navigateToChemistry = () => {
+		router.push("https://www.gla.ac.uk/schools/chemistry/");
+	};
+
+    const navigateToPhysics = () => {
+		router.push("https://www.gla.ac.uk/schools/physics/");
+	};
+
+    const navigateToSchoolTour = () => {
+		router.push("https://view.genial.ly/63c969a75d20a3001156b922");
+	};
     
     const rows = data.map((row) => (
         <Table.Tr key={row.role}>
@@ -32,6 +45,22 @@ export const ContactsGrid = ({data}: Props) => {
                             <Table.Tbody>{rows}</Table.Tbody>
                         </Table>
                     </Card>
+                    <Text pt={15}>
+                        If you cannot find what you're looking for here, then have a look on the{" "}
+                        <Anchor onClick={school === "physics" ? navigateToPhysics : navigateToChemistry}>
+                            UofG School of {school === "physics" ? "Physics & Astronomy" : "Chemistry"}
+                        </Anchor>
+                        {" "} official website. You might find it there.
+                    </Text>
+                    {school === "chemistry" ? 
+                    <Text pt={15}>
+                        If you haven't already, then make sure to check out the virtual{" "} 
+                        <Anchor onClick={navigateToSchoolTour}>
+                            tour of the school
+                        </Anchor>.
+                    </Text>
+                    : ""
+                    }
                 </Grid.Col>
                 <Grid.Col span={{ base: 12, md: 6, lg: 4 }}>
                     <Card visibleFrom="sm">

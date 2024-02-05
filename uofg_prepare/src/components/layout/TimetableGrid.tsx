@@ -17,7 +17,7 @@ interface Props {
     link: string,
 }
 
-export const ContentGrid = ({heading, title, moduleAims, moduleOutline, usefulWebsites, recommendedReading, cardTitle, cardText, imgSrc, imgAlt, link}: Props) => {
+export const ContentGrid = ({heading, title, moduleAims, moduleOutline, usefulWebsites, recommendedReading}: Props) => {
 
     function outlineList (moduleOutline: string[]) {
         const rows = [];

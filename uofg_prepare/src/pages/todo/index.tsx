@@ -41,7 +41,9 @@ export const ToDo = () => {
                     <ToDoList
                         data={[
                             'This is a test',
-                            'This is also a test'
+                            'This is also a test',
+                            'Decide on the modules you are going to take',
+                            'Enroll for you classes'
                         ]}
                     />
                 </Tabs.Panel>

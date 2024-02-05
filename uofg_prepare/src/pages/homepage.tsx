@@ -1,6 +1,6 @@
 import { PageHeader } from "@/components/layout/PageHeader";
 import { greetings } from "@/helpers/greetings";
-import { Stack, Text, Title, Image, rem, Center } from "@mantine/core";
+import { Stack, Text, Title, Image, rem, Center, Grid } from "@mantine/core";
 import { Carousel } from '@mantine/carousel';
 import '@mantine/carousel/styles.css';
 import classes from "@/styles/Carousel.module.css"
@@ -54,16 +54,26 @@ export const Homepage = () => {
                     </Carousel.Slide>
                 </Carousel>
                 <Title order={5}>
-                    Before you start you journey on prepare, why not have a little fun with the following quiz from the School of Chemistry.
+                    Before you start you journey on prepare, why not have a little fun with the following.
                 </Title>
-                <Center>
-                <SubSectionCard
-                    cardTitle="What Type of Chemist Are You?"
-                    imgSrc="/images/homepage/chemistQuiz.jpeg"
-                    imgAlt="Periodic Table"
-                    link="https://flgfkx0av58.typeform.com/to/ocks7FV6"
-                />
-                </Center>
+                <Grid>
+                    <Grid.Col span={{ base: 12, md: 6, lg: 6 }}>
+                        <SubSectionCard
+                            cardTitle="What Type of Chemist Are You?"
+                            imgSrc="/images/homepage/chemistQuiz.jpeg"
+                            imgAlt="Periodic Table"
+                            link="https://flgfkx0av58.typeform.com/to/ocks7FV6"
+                        />
+                    </Grid.Col>
+                    <Grid.Col span={{ base: 12, md: 6, lg: 6 }}>
+                        <SubSectionCard
+                            cardTitle="Take a Tour of the School of Chemistry"
+                            imgSrc="/images/homepage/chemistQuiz.jpeg"
+                            imgAlt="Periodic Table"
+                            link="https://view.genial.ly/63c969a75d20a3001156b922"
+                        />
+                    </Grid.Col>
+                </Grid>
             </Stack>
 		</>
 	);
