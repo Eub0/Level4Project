@@ -77,7 +77,7 @@ export const Extracurriculars = () => {
                         <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                             <SubSectionCard
                                         cardTitle="Women in STEM Society (WiSTEM)"
-                                        cardText="Instagram:@wistemglasgow"
+                                        cardText="Instagram: @wistemglasgow"
                                         imgSrc="/images/extracurriculars/societiesAndGroups/wistem.jpg"
                                         imgAlt="WiSTEM Glasgow"
                                         link="https://wistemglasgow.wordpress.com/"
@@ -86,10 +86,28 @@ export const Extracurriculars = () => {
                         <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                             <SubSectionCard
                                         cardTitle="UofG Alchemists"
-                                        cardText="Instagram:@uniofgalchemistsociety"
+                                        cardText="Instagram: @uniofgalchemistsociety"
                                         imgSrc="/images/extracurriculars/societiesAndGroups/alchemists.png"
                                         imgAlt="UofG Alchemists"
                                         link="https://www.uofgalchemists.com/"
+                                    />
+                        </Grid.Col>
+                        <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
+                            <SubSectionCard
+                                        cardTitle="UofG Physics Society (Physoc)"
+                                        cardText="Instagram: @guphysoc"
+                                        imgSrc="/images/extracurriculars/societiesAndGroups/physoc.png"
+                                        imgAlt="UofG Physics Society"
+                                        link="https://www.guphysoc.info/"
+                                    />
+                        </Grid.Col>
+                        <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
+                            <SubSectionCard
+                                        cardTitle="GU Technology Society (GUTS)"
+                                        cardText="Instagram: @gutechsoc"
+                                        imgSrc="/images/extracurriculars/societiesAndGroups/GUTS_Banner.png"
+                                        imgAlt="GU Technology Society"
+                                        link="https://www.gla.ac.uk/schools/computing/undergraduate/studentsociety/"
                                     />
                         </Grid.Col>
                     </Grid>
