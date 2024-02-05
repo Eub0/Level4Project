@@ -285,4 +285,9 @@
 * *0.5 hours Meeting with Physics Level 1 Head
 
 ## 4th Febuary
-* *4 hour Fixing bug with timetable data handelling. populated Physics timetable section
+* *4 hour Fixing bug with timetable data handelling. Populated Physics timetable section
+
+## Week 20
+
+## 5th Febuary
+* *2.5 hours Populating the Chemistry timetable section
