@@ -4,10 +4,6 @@ import { BackgroundImage } from '@mantine/core';
 
 export const Login = () => {
 
-  const navigateToHomepage = () => {
-    router.push('/homepage');
-  };
-
   return (
     <>
       <BackgroundImage

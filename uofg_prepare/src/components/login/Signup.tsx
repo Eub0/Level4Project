@@ -11,9 +11,9 @@ import {
     Button,
     Alert,
   } from '@mantine/core';
-  import classes from '@/styles/AuthenticationTitle.module.css';
-  import React, { useRef, useState } from "react";
-  import { useAuth } from "@/contexts/AuthContext"
+import classes from '@/styles/AuthenticationTitle.module.css';
+import React, { useRef, useState } from "react";
+import { useAuth } from "@/contexts/AuthContext"
 import router from 'next/router';
   
 export function Signup() {
@@ -25,7 +25,7 @@ export function Signup() {
     const [loading, setLoading] = useState(false)
 
     const navigateToLogin = () => {
-		router.push("/");
+		router.replace("/");
 	};
 
     async function handelSubmit(e) {
@@ -39,6 +39,7 @@ export function Signup() {
             setError("")
             setLoading(true)
             await signup(emailRef.current?.value, passwordRef.current?.value)
+            router.replace('/homepage')
         }
         catch {
             setError('Failed to create account')

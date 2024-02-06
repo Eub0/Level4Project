@@ -295,4 +295,5 @@
 
 ## 6th Febuary
 * *3 hours Finishing final population content
+* *2 hours Looking into database set-up and linking
 
