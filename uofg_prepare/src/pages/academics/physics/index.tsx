@@ -11,11 +11,11 @@ export const Physics = () => {
     return (
       <>
         <PageHeader
-            heading="School of Physics"
+            heading="School of Physics & Astronomy"
         />
             <Stack>
             <Title order={1} size="h1">
-                School of Physics
+                School of Physics & Astronomy
             </Title>
             <Text>
                 Select from level 1 (Physics 1) and level 2 (Physics 2) courses, and discover what modules are covered and how you can prepare for them.

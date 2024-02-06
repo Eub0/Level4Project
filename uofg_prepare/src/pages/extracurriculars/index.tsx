@@ -45,7 +45,7 @@ export const Extracurriculars = () => {
                         </Grid.Col>
                         <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                         <SubSectionCard
-                                cardTitle="Queen Margret Union (QMU)"
+                                cardTitle="Queen Maragret Union (QMU)"
                                 cardText="One of the two student unions on campus."
                                 imgSrc="/images/extracurriculars/studentBodies/qmu.png"
                                 imgAlt="UofG QMU"
@@ -54,7 +54,7 @@ export const Extracurriculars = () => {
                         </Grid.Col>
                         <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                             <SubSectionCard
-                                cardTitle="Student Representatvive Council (SRC)"
+                                cardTitle="Student Representative Council (SRC)"
                                 cardText="The University's Student Representative Council."
                                 imgSrc="/images/extracurriculars/studentBodies/src.png"
                                 imgAlt="UofG SRC"
@@ -63,7 +63,7 @@ export const Extracurriculars = () => {
                         </Grid.Col>
                         <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                         <SubSectionCard
-                                cardTitle="Glasgow University Soprts Association (GUSA)"
+                                cardTitle="Glasgow University Sports Association (GUSA)"
                                 cardText="The University's Sports Association."
                                 imgSrc="/images/extracurriculars/studentBodies/gusa.png"
                                 imgAlt="UofG GUSA"

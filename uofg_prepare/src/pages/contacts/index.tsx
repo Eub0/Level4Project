@@ -24,7 +24,7 @@ export const Contacts = () => {
                 Contacts
             </Title>
             <Text>
-                Its is important to know who to contact for issues and advice. 
+                It is important to know who to contact for issues and advice. 
                 We have compiled together the essential contacts for both schools for you, as well as important campus-wide contacts.
             </Text>
             <Title order={1} size="h4">

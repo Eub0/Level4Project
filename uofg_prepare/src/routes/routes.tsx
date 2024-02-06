@@ -146,7 +146,7 @@ export const navigationItems: NavigationItem[] = [
                 ]
             },
             {
-                name: 'School of Physics',
+                name: 'School of Physics & Astronomy',
                 icon: <IoFlask size={20}/>,
                 path: '/physics',
                 subSubItems: [
@@ -241,7 +241,7 @@ export const navigationItems: NavigationItem[] = [
                 path: '/chemistry',
             },
             {
-                name: 'School of Physics',
+                name: 'School of Physics & Astronomy',
                 path: '/physics',
             }
         ]
