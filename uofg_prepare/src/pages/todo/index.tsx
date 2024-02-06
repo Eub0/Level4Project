@@ -40,8 +40,16 @@ export const ToDo = () => {
                 <Tabs.Panel value="Pre-University">
                     <ToDoList
                         data={[
-                            'This is a test',
-                            'This is also a test'
+                            'Review your financial aid package (if applicable) and ensure that you understand your financial obligations, including tuition, fees, and any additional expenses.',
+                            'Arrange your housing accommodations if you plan to live on campus or off-campus. Complete any necessary paperwork or applications.',
+                            'Purchase or gather any necessary household items or accommidation essentials.',
+                            'Pack and organize your belongings for moving to campus or your new living arrangements.',
+                            'Submit any required health forms or immunization records to the university`s health services.',
+                            'Ensure that you have the necessary technology and software for your coursework, such as a laptop, software programs, and internet access.',
+                            'Reach out to your advisor of studies and introduce yourself.',
+                            'Decide on the modules you are going to take. See enrolment advice here for mandatory modules.',
+                            'Enroll for you classes following the help provided here.',
+                            'Set realistic expectations for yourself and be open to new experiences and challenges.'
                         ]}
                     />
                 </Tabs.Panel>
@@ -49,8 +57,14 @@ export const ToDo = () => {
                 <Tabs.Panel value="Welcome/First Week">
                     <ToDoList
                             data={[
-                                'This is a test',
-                                'This is also a test'
+                                'Settle into your accomidation room or new living arrangements.',
+                                'Take a campus tour to familiarize yourself with key locations such as academic buildings, the library, student unions, and recreational facilities.',
+                                'Attend the welcome fayre to discover all the clubs and societies availible on campus, and what they offer.',
+                                'Attend the sports fayre to discover more about sport life at UofG, and learn about potential clubs to join.',
+                                'Attend social events, mixers, and wlecome week events to meet new people and make friends.',
+                                'Attend your introductory lectures.',
+                                'Familiarize yourself with your timetable, and academic expectations for each course.',
+                                'Familiarize yourself with public transportation options and explore the gorgeous city of Glasgow.'
                             ]}
                         />
                 </Tabs.Panel>

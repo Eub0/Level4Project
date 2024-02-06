@@ -10,13 +10,11 @@ export const QuantumPhenomena = () => {
                 It establishes a foundation for comprehending the properties of individual atoms and emphasizes the appreciation of wave-particle duality. 
                 Additionally, the course serves as an introduction to particle physics and cosmology, offering insights into the nature of the universe and its origins. 
                 Through the study of quantum phenomena, students will gain the ability to perform basic calculations related to different scales within this realm and to solve simple problems in both atomic and nuclear physics."
-                moduleOutline={["Rutherford model of the atom",
-                "Particle properties of electromagnetic radiation",
-                "Wave-like properties of particles",
-                "Wave mechanics of particles",
-                "Quantum theory of the atom",
-                "Atomic structure",
-                "Particle physics and cosmology"]}
+                moduleOutline={["Explore the wave-particle duality concept and the uncertainty principle.",
+                "Study the basics of quantum mechanics, including the Schrödinger equation.",
+                "Analyze atomic and molecular structures through quantum theory.",
+                "Understand the principles of quantum tunneling and superposition.",
+                "Apply quantum concepts to practical problems, enriching the understanding of modern physics."]}
                 usefulWebsites=""
                 recommendedReading="Young & Freedman 15th Edition"
                 cardTitle="Unit Quiz"

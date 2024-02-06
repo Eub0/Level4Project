@@ -7,7 +7,9 @@ export const IsomerismAndSterochemistry = () => {
                 heading="Isomerism and Sterochemistry"
                 title="Isomerism and Sterochemistry"
                 moduleAims="Isomerism and Sterochemistry aims tTo give an understanding of molecular shape, and to introduce the importance of stereochemistry in organic reactions. "
-                moduleOutline={[""]}
+                moduleOutline={["Examine different types of isomerism, including structural and stereoisomerism.",
+                "Analyse conformational aspects of cyclohexanes and related molecules.",
+                "Understand chirality, stereocentres, and their configurations."]}
                 usefulWebsites=""
                 recommendedReading=""
                 cardTitle="Unit Quiz"

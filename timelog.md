@@ -291,3 +291,4 @@
 
 ## 5th Febuary
 * *2.5 hours Populating the Chemistry timetable section
+* *1.5 hours Started adding final bits to populate pages

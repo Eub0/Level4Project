@@ -32,7 +32,7 @@ export const HeaderContent = ({ setOpened, opened }: Props) => {
                     p={10}
 				/>
 				<Title size="h2" c='white' visibleFrom='sm'>
-					Prepare - Chemistry & Physics
+					Prepare - Chemistry and Physics & Astronomy
 				</Title>
                 <Affix position={{top:15, right: 15}}>
 					<UserButton />
