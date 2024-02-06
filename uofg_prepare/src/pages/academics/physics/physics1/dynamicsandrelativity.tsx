@@ -11,13 +11,11 @@ export const DynamicsAndRelativity = () => {
                 particles. The module will introduce ideas relating to conservation of energy, linear and angular momentum. Students should  be able 
                 to solve simple problems relating to current applications of dynamics and relativity"
                 moduleOutline={[
-                "Motion in one dimension",
-                "Uniform circular motion",
-                "Newton's laws of motion",
-                "Work and kinetic energy",
-                "Conservation of energy",
-                "Linear momentum and collisions",
-                "Special theory of relativity"
+                "Delve into Newton's laws of motion and their application in solving dynamics problems.",
+                "Explore conservation laws, including energy and momentum.",
+                "Examine circular motion, oscillatory motion, and gravitational fields.",
+                "Understand the basics of special relativity, including time dilation, length contraction, and the concept of spacetime.",
+                "Apply these principles to various theoretical and practical physics scenarios."
                 ]}
                 usefulWebsites=""
                 recommendedReading="Young & Freedman 15th Edition"

@@ -11,12 +11,11 @@ export const ThermalPhysics = () => {
                 and studying fundamental concepts of hydrostatics and hydrodynamics. Additionally, the course covers the behavior of matter under various forces, such as tensile, compressive, 
                 and shear forces, and introduces basic properties of solids, emphasizing the connection between structure, bonding, and mechanical properties. Ultimately, students are expected 
                 to acquire the skills to solve simple problems in diverse application areas involving both thermal and mechanical properties."
-                moduleOutline={["Temperature and heat",
-                "Mechanisms of heat transfer",
-                "Ideal and real gases",
-                "Molecular properties of matter",
-                "Hydrostatic and hydrodynamics",
-                "Elasticity and plasticity"]}
+                moduleOutline={["Examine the molecular theory of gases, temperature scales, and the concept of heat.",
+                "Exlore the laws of thermodynamics and their applications in various systems.",
+                "Study thermal properties of materials, including specific heat and phase changes.",
+                "Analyze heat engines, refrigerators, and the Carnot cycle.",
+                "Apply principles of thermal physics to solve theoretical and practical problems."]}
                 usefulWebsites=""
                 recommendedReading="Young & Freedman 15th Edition"
                 cardTitle="Unit Quiz"
