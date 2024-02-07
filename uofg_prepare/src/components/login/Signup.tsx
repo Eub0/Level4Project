@@ -1,19 +1,17 @@
 import {
     TextInput,
     PasswordInput,
-    Checkbox,
     Anchor,
     Paper,
     Title,
     Text,
     Container,
-    Group,
     Button,
     Alert,
   } from '@mantine/core';
 import classes from '@/styles/AuthenticationTitle.module.css';
 import React, { useRef, useState } from "react";
-import { useAuth } from "@/contexts/AuthContext"
+import { useAuth } from "@/contexts/AuthContext";
 import router from 'next/router';
   
 export function Signup() {
