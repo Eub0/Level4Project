@@ -297,3 +297,22 @@
 * *3 hours Finishing final population content
 * *2 hours Looking into database set-up and linking
 
+## 7th February
+* *0.5 hours supervisor meeting
+* *2 hours Working on database link issue
+
+## Week 21
+
+## 13th February
+* *3 hours Creating mock evaluation
+* *1 hour Working on database link issue
+
+## 14th February
+* *1.5 hours Working on database link issue
+* *0.5 hours Supervisor Meeting
+
+## 15th February
+* *2 hours Redoing evaluation from changes discussed in meeting
+* *1 hour Fixing and Fixed database link issue
+
+

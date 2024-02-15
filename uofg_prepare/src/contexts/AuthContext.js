@@ -1,5 +1,6 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { auth, db, writeUserData } from "../firebase";
+import { get, getDatabase, ref, remove, set, update } from "firebase/database"
 
 const AuthContext = React.createContext()
 
@@ -12,22 +13,25 @@ export function AuthProvider({ children }) {
   const [loading, setLoading] = useState(true)
 
   function signup(email, password) {
-    return auth.createUserWithEmailAndPassword(email, password).then(writeUserData)
-  }
+    return auth.createUserWithEmailAndPassword(email, password).then(function(result){
+      console.log("Account created")
+      var uuid = result.user.uid
+      var uemail = email
+      var todo = ["Add your own items and delete me."]
+      console.log("Vars created")
 
-//   useEffect(() => {
-//     const writeUserData = auth.onCreate((user) => {
-//       console.log("Account created")
-//         const reference = ref(db, 'users/' + user.uid)
-//         console.log("Ref created")
-//         set(reference, {
-//             email: user.email,
-//             todo: "todo"
-//         })
-//         console.log("Database set")
-//     })
-//     return writeUserData
-// })
+      const db = getDatabase();
+      console.log("got database")
+      const reference = ref(db, 'users/' + uuid)
+      console.log("Ref created")
+      set(reference, {
+          email: uemail,
+          todo: todo
+      })
+      console.log("Database set")
+      return ""
+    })
+  }
 
   function signin(email, password) {
     return auth.signInWithEmailAndPassword(email, password)
