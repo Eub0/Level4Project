@@ -1,11 +1,8 @@
 import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
 import { getDatabase, ref, set } from "firebase/database"
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 
-// const [todo, setTodo] = useState();
-// const [email, setEmail] = useState();
-// const [todos, setTodos] = useState([]);
 
 const app = firebase.initializeApp({
     apiKey: "AIzaSyCTLqpB-QuQa9KbAkw-c-TTnOC-WD5mRRI",
@@ -17,24 +14,20 @@ const app = firebase.initializeApp({
     appId: "1:394889069292:web:25964ec5110a1d7f5e9bc9"
 })
 
-// const handleTodoChange = (e) => {
-//     setTodo(e.target.value)
-// };
+export const db = getDatabase(app)
 
-function writeUserData = (thisEmail) => {
-    const [todo, setTodo] = useState();
-    const [email, setEmail] = useState();
-    const uuid = uid();
-    set(ref(db, `/${uid}`), {
-        todo,
-        email,
-        uuid,
-    });
-    setEmail(thisEmail);
-    setTodo("");
+export const writeUserData = () => {
+    var username = userRef.current?.value
+    var email = emailRef.current?.value
+    var todo = []
+
+    db.ref('users/' + auth.currentUser.uuid).set({
+        email: email,
+        todo: todo
+    })
 };
 
-function readUserData = () => {
+export const readUserData = () => {
     useEffect(() => {
         onValue(ref(db), snapshot => {
             const data = snapshot.val();
@@ -48,5 +41,4 @@ function readUserData = () => {
 }
 
 export const auth = app.auth()
-export const db = getDatabase(app)
 export default app

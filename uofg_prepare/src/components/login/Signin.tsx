@@ -51,36 +51,36 @@ export function Signin() {
 
     return (
         <Container size={420} my={40}>
-            <Title ta="center" className={classes.title}>
-            Welcome back to UofG Prepare!
-            </Title>
-            <Text c="dimmed" size="sm" ta="center" mt={5}>
-                Do not have an account yet?{' '}
-            <Anchor size="sm" component="button" onClick={navigateToSignup}>
-                Create account
-            </Anchor>
-            </Text>
-            <Text c="dimmed" size="sm" ta="center" mt={5} pb={20}>
-                Don't want the extra features?{' '}
-            <Anchor size="sm" component="button" onClick={navigateToHomepage}>
-                Continue as a guest
-            </Anchor>
-            </Text>
-            {error && <Alert variant="danger">{error}</Alert>}
             <Paper withBorder p="md" shadow="md" radius="sm" pos="relative">
-                <form onSubmit={handelSubmit}>
-                    <TextInput label="Email" ref={emailRef} placeholder="you@uofgprepare.com" required />
-                    <PasswordInput label="Password" ref={passwordRef} placeholder="Your password" required mt="md" />
-                    <Group justify="space-between" mt="lg">
-                        <Checkbox label="Remember me" />
-                        <Anchor component="button" size="sm" onClick={navigateToForgotPassword}>
-                        Forgot password?
-                        </Anchor>
-                    </Group>
-                    <Button fullWidth mt="xl" disabled={loading} type="submit">
-                        Sign in
-                    </Button>
-                </form>
+                <Title ta="center" className={classes.title}>
+                Welcome back to UofG Prepare!
+                </Title>
+                <Text c="dimmed" size="sm" ta="center" mt={5}>
+                    Do not have an account yet?{' '}
+                <Anchor size="sm" component="button" onClick={navigateToSignup}>
+                    Create account
+                </Anchor>
+                </Text>
+                <Text c="dimmed" size="sm" ta="center" mt={5} pb={20}>
+                    Don't want the extra features?{' '}
+                <Anchor size="sm" component="button" onClick={navigateToHomepage}>
+                    Continue as a guest
+                </Anchor>
+                </Text>
+                {error && <Alert variant="danger">{error}</Alert>}
+                    <form onSubmit={handelSubmit}>
+                        <TextInput label="Email" ref={emailRef} placeholder="you@uofgprepare.com" required />
+                        <PasswordInput label="Password" ref={passwordRef} placeholder="Your password" required mt="md" />
+                        <Group justify="space-between" mt="lg">
+                            <Checkbox label="Remember me" />
+                            <Anchor component="button" size="sm" onClick={navigateToForgotPassword}>
+                            Forgot password?
+                            </Anchor>
+                        </Group>
+                        <Button fullWidth mt="xl" disabled={loading} type="submit">
+                            Sign in
+                        </Button>
+                    </form>
             </Paper>
         </Container>
     );

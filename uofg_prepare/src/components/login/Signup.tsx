@@ -48,29 +48,29 @@ export function Signup() {
 
     return (
     <Container size={420} my={40}>
-        <Title ta="center" className={classes.title}>
-        Welcome to UofG Prepare!
-        </Title>
-        <Text c="dimmed" size="sm" ta="center" mt={5}>
-            Create an account and let's prepare!
-        </Text>
-        <Text c="dimmed" size="sm" ta="center" mt={5} pb={20}>
-            Already have an account?{' '}
-            <Anchor size="sm" component="button" onClick={navigateToLogin}>
-                Login
-            </Anchor>
-        </Text>
-        {error && <Alert variant="danger">{error}</Alert>}
         <Paper withBorder p="md" shadow="md" radius="sm" pos="relative">
-            <form onSubmit={handelSubmit}>
-                <TextInput label="Email" ref={emailRef} placeholder="you@uofgprepare.com" required />
-                <PasswordInput label="Password" ref={passwordRef} placeholder="Your password" required mt="md" />
-                <PasswordInput label="Password-Confirm" ref={passwordConfirmationRef} placeholder="Your password" required mt="md" />
-                <Button fullWidth mt="xl" disabled={loading} type="submit">
-                    Sign up
-                </Button>
-            </form>
-        </Paper>
+            <Title ta="center" className={classes.title}>
+            Welcome to UofG Prepare!
+            </Title>
+            <Text c="dimmed" size="sm" ta="center" mt={5}>
+                Create an account and let's prepare!
+            </Text>
+            <Text c="dimmed" size="sm" ta="center" mt={5} pb={20}>
+                Already have an account?{' '}
+                <Anchor size="sm" component="button" onClick={navigateToLogin}>
+                    Login
+                </Anchor>
+            </Text>
+            {error && <Alert variant="danger">{error}</Alert>}
+                <form onSubmit={handelSubmit}>
+                    <TextInput label="Email" ref={emailRef} placeholder="you@uofgprepare.com" required />
+                    <PasswordInput label="Password" ref={passwordRef} placeholder="Your password" required mt="md" />
+                    <PasswordInput label="Password-Confirm" ref={passwordConfirmationRef} placeholder="Your password" required mt="md" />
+                    <Button fullWidth mt="xl" disabled={loading} type="submit">
+                        Sign up
+                    </Button>
+                </form>
+            </Paper>
     </Container>
     );
   }

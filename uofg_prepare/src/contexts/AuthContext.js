@@ -1,6 +1,5 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { auth, db, writeUserData } from "../firebase";
-import { uid } from "uid";
 
 const AuthContext = React.createContext()
 
@@ -13,11 +12,22 @@ export function AuthProvider({ children }) {
   const [loading, setLoading] = useState(true)
 
   function signup(email, password) {
-    return auth.createUserWithEmailAndPassword(email, password).then(function(email){
-      console.log("created account")
-      {writeUserData(email)}
-    })
-  } 
+    return auth.createUserWithEmailAndPassword(email, password).then(writeUserData)
+  }
+
+//   useEffect(() => {
+//     const writeUserData = auth.onCreate((user) => {
+//       console.log("Account created")
+//         const reference = ref(db, 'users/' + user.uid)
+//         console.log("Ref created")
+//         set(reference, {
+//             email: user.email,
+//             todo: "todo"
+//         })
+//         console.log("Database set")
+//     })
+//     return writeUserData
+// })
 
   function signin(email, password) {
     return auth.signInWithEmailAndPassword(email, password)
