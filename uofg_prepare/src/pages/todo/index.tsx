@@ -1,10 +1,11 @@
 import { PageHeader } from "@/components/layout/PageHeader";
 import { SubSectionCard } from "@/components/shared/SubSectionCard";
-import { Stack, Title, Text, Tabs, rem, Input } from "@mantine/core";
-import React from "react";
+import { Stack, Title, Text, Tabs, rem, Input, CloseButton } from "@mantine/core";
+import React, { useState } from "react";
 import { IoPersonOutline, IoSchoolOutline,IoHomeOutline } from "react-icons/io5";
 import classes from "@/styles/Tabs.module.css";
 import { ToDoList } from "@/components/layout/ToDoList";
+import { UserToDoList } from "@/components/layout/UserToDoList";
 
 export const ToDo = () => {
 
@@ -70,11 +71,9 @@ export const ToDo = () => {
                 </Tabs.Panel>
 
                 <Tabs.Panel value="My To-Do List">
-                    <ToDoList
-                            data={[
-
-                            ]}
-                        />
+                    <UserToDoList 
+                        
+                    />
                 </Tabs.Panel>
             </Tabs>
         </>

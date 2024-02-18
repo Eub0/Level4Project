@@ -53,6 +53,45 @@ export function AuthProvider({ children }) {
     return currentPassword.updateEmail(password)
   }
 
+  async function getToDoList(){
+    const db = getDatabase();
+    const reference = ref(db, 'users/' + currentUser.uid)
+
+    try {
+      const snapshot = await get(reference);
+  
+      if (snapshot.exists()) {
+        var data = snapshot.val();
+        var userToDo = data["todo"]
+        var index = Object.keys(userToDo)
+        var showToDo = {}
+        for (let i = 0; i < index.length; i++){
+          showToDo[i] = userToDo[i]
+        };
+        return showToDo
+      }
+  
+  
+    }catch (error) {
+      console.error("Error getting to do list: ", error)
+    }
+  }
+
+  function addToDoItem(newItem){
+    const db = getDatabase();
+    const listRef = ref(db, 'users/' + currentUser.uid + '/todo');
+    listRef.setValue(newItem)
+    return ""
+  }
+
+  function updateToDoList(newList){
+    const db = getDatabase();
+    const listRef = ref(db, 'users/' + currentUser.uid + '/todo');
+    set(listRef, newList)
+    return ""
+  }
+
+
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged(user => {
       setCurrentUser(user)
@@ -61,7 +100,7 @@ export function AuthProvider({ children }) {
     return unsubscribe
 }, [])
   
-  const value = {currentUser, signin, signup, signout, resetPassword, updateEmail, updatePassword}
+  const value = {currentUser, signin, signup, signout, resetPassword, updateEmail, updatePassword, getToDoList, updateToDoList, addToDoItem}
 
   return (
     <AuthContext.Provider value={value}>
