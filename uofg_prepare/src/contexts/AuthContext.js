@@ -77,17 +77,40 @@ export function AuthProvider({ children }) {
     }
   }
 
-  function addToDoItem(newItem){
-    const db = getDatabase();
-    const listRef = ref(db, 'users/' + currentUser.uid + '/todo');
-    listRef.setValue(newItem)
-    return ""
+  function addToDoList(currentList, value){
+    if (value != "undefined") {
+      var newList = []
+      for (let i = 0; i < currentList.length; i++){
+          newList.push(currentList[i].item)
+      }
+      newList.push(value)
+      const db = getDatabase();
+      const listRef = ref(db, 'users/' + currentUser.uid);
+      set(listRef, {
+        email: currentUser.email,
+        todo: newList
+      })
+      return ""
+    }
   }
 
-  function updateToDoList(newList){
+  function deleteFromToDoList(currentList, value){
+    console.log(typeof(value))
+    var newList = []
+    for (let i = 0; i < currentList.length; i++){
+      if (currentList[i].item === value){
+        console.log("catches condition")
+        continue;
+      }
+      newList.push(currentList[i].item)
+    }
+    console.log(newList)
     const db = getDatabase();
-    const listRef = ref(db, 'users/' + currentUser.uid + '/todo');
-    set(listRef, newList)
+    const listRef = ref(db, 'users/' + currentUser.uid);
+    set(listRef, {
+      email: currentUser.email,
+      todo: newList
+    })
     return ""
   }
 
@@ -100,7 +123,7 @@ export function AuthProvider({ children }) {
     return unsubscribe
 }, [])
   
-  const value = {currentUser, signin, signup, signout, resetPassword, updateEmail, updatePassword, getToDoList, updateToDoList, addToDoItem}
+  const value = {currentUser, signin, signup, signout, resetPassword, updateEmail, updatePassword, getToDoList, addToDoList, deleteFromToDoList}
 
   return (
     <AuthContext.Provider value={value}>

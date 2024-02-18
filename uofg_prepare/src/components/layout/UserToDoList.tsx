@@ -7,18 +7,7 @@ import { useAuth } from "@/contexts/AuthContext";
 
 export function UserToDoList() {
 
-  // function removeListItem(listItemId: number){
-  //   delete thisList[listItemId]
-  //   var newList = {}
-  //   for (let i = 0; i < thisList.length; i++){
-  //     if (Object.prototype.hasOwnProperty.call(thisList, i)){
-  //       newList[i] = thisList[i]
-  //     }
-  //   }
-  //   updateToDoList(thisList)
-  // }
-
-  const { getToDoList, updateToDoList, addToDoItem } = useAuth();
+  const { getToDoList, addToDoList, deleteFromToDoList } = useAuth();
 
   const [userItems, setUserItems] = useState([]);
   
@@ -29,11 +18,6 @@ export function UserToDoList() {
   })
 
   const thisList = Object.entries(userItems).map(([key,value]) => ({id:key, item:value})) as any[];
-
-  function addToList(value: string){
-    thisList.push(value)
-    updateToDoList(thisList)
-  }
 
   const [value, setValue] = useState();
 
@@ -64,7 +48,7 @@ export function UserToDoList() {
           </Group>
         </Table.Td>
         <Table.Td style={{ width: rem(40) }}>
-          <ActionIcon size={25} variant="default">
+          <ActionIcon size={25} variant="default" onClick={ () => deleteFromToDoList(thisList, String(item.item)) }>
             <IoCloseSharp style={{ width: rem(20), height: rem(20) }} />
           </ActionIcon>
         </Table.Td>
@@ -92,7 +76,7 @@ export function UserToDoList() {
                           size={30} 
                           variant="light"
                           c={"blue.9"}
-                          onClick={addToList(value)}
+                          onClick={ () => addToDoList(thisList, String(value)) }
                           style={{ display: value ? undefined : 'none' }}
                         >
                             <IoAddSharp style={{ width: rem(20), height: rem(20) }} />
