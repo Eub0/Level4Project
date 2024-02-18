@@ -4,6 +4,7 @@ import "firebase/compat/auth";
 const app = firebase.initializeApp({
     apiKey: "AIzaSyCTLqpB-QuQa9KbAkw-c-TTnOC-WD5mRRI",
     authDomain: "uofgpreparechemphys.firebaseapp.com",
+    databaseURL: "https://uofgpreparechemphys-default-rtdb.europe-west1.firebasedatabase.app",
     projectId: "uofgpreparechemphys",
     storageBucket: "uofgpreparechemphys.appspot.com",
     messagingSenderId: "394889069292",

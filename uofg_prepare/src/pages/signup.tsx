@@ -4,14 +4,10 @@ import { BackgroundImage } from '@mantine/core';
 
 export const Login = () => {
 
-  const navigateToHomepage = () => {
-    router.push('/homepage');
-  };
-
   return (
     <>
       <BackgroundImage
-					src="@/images/homepage/welcome.jpeg"
+					src="/images/homepage/chemistry1.jpg"
 					style={{
 						display: 'flex',
 						justifyContent: 'center',
