@@ -592,10 +592,8 @@ export const PhysicsTimetable = () => {
                     Timetable
                 </Title>
                 <Text>
-                    Creating a good timetable is important when it comes to university. 
-                    Time management is (almost) everything. 
-                    You should aim to create a good balance of academics and extracurriculars. 
-                    This section gives advice on time management, class selection, and how to create/upload your timetable.
+                    Curious as to what a typical semester will look like for you? We've got you covered.
+                    Here is the week by week breakdown of what you will cover. Refer to the Academic Resources section for what will be covered.
                 </Text>
             </Stack>
             <Tabs variant="unstyled" defaultValue="Physics 1" classNames={classes} pt={15}>

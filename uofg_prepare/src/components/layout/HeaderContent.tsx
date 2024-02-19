@@ -12,6 +12,7 @@ import {
 import { LuMoonStar } from "react-icons/lu";
 import { LuSun } from "react-icons/lu";
 import { UserButton } from '../shared/UserButton';
+import router from 'next/router';
 
 interface Props {
 	setOpened: SetState<boolean>;
@@ -21,6 +22,10 @@ interface Props {
 export const HeaderContent = ({ setOpened, opened }: Props) => {
 	const { colorScheme, toggleColorScheme } = useMantineColorScheme();
   	const dark = colorScheme === 'dark';
+
+	const navigateToHomepage = () => {
+		router.replace("/homepage");
+	};
 	
 	return (
 			<Group>
@@ -30,6 +35,7 @@ export const HeaderContent = ({ setOpened, opened }: Props) => {
 					width={170}
                     height={70}
                     p={10}
+					onClick={navigateToHomepage}
 				/>
 				<Title size="h2" c='white' visibleFrom='sm'>
 					Prepare - Chemistry and Physics & Astronomy

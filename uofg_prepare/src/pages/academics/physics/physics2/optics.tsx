@@ -18,11 +18,6 @@ export const Optics = () => {
                 "Apply these concepts to solve unseen problems in optics."]}
                 usefulWebsites=""
                 recommendedReading="Optics, E. Hecht (ISBN 1292021578)"
-                cardTitle="Unit Quiz"
-                cardText="Take the quiz to test your knowlegde on the topic"
-                imgSrc="asasa"
-                imgAlt="quiz image"
-                link="asdfa"
             />
         </>
     );

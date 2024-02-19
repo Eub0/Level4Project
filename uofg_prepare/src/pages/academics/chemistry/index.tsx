@@ -49,7 +49,6 @@ export const Chemistry = () => {
                     <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                         <SubSectionCard
                             cardTitle="Elements and Atoms"
-                            cardText="One of the two student unions on campus."
                             imgSrc="/images/chemistry/chemistry1/elementsAndAtoms.jpg"
                             imgAlt="Elements and Atoms"
                             link="/academics/chemistry/chemistry1/elementsandatoms"
@@ -58,7 +57,6 @@ export const Chemistry = () => {
                     <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                     <SubSectionCard
                             cardTitle="Compounds and Molecules"
-                            cardText="One of the two student unions on campus."
                             imgSrc="/images/chemistry/chemistry1/compoundsAndMolecules.jpg"
                             imgAlt="Compounds and Molecules"
                             link="/academics/chemistry/chemistry1/compoundsandmolecules"
@@ -67,7 +65,6 @@ export const Chemistry = () => {
                     <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                         <SubSectionCard
                             cardTitle="Organic Chemistry 1"
-                            cardText="One of the two student unions on campus."
                             imgSrc="/images/chemistry/chemistry1/organicChemistry.jpg"
                             imgAlt="Organic Chemistry"
                             link="/academics/chemistry/chemistry1/organicchemistry1"
@@ -85,7 +82,6 @@ export const Chemistry = () => {
                     <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                         <SubSectionCard
                             cardTitle="Organic Chemistry 3"
-                            cardText="One of the two student unions on campus."
                             imgSrc="/images/chemistry/chemistry1/organicChemistry.jpg"
                             imgAlt="Organic Chemistry"
                             link="/academics/chemistry/chemistry1/organicchemistry3"
@@ -94,7 +90,6 @@ export const Chemistry = () => {
                     <Grid.Col span={{ base: 12, md: 6, lg:3 }}>
                         <SubSectionCard
                             cardTitle="Attractions and Repulsions"
-                            cardText="The Sports Council of the University of Glasgow."
                             imgSrc="/images/chemistry/chemistry1/attractionsAndRepulsions.jpg"
                             imgAlt="Attractions and Repulsions"
                             link="/academics/chemistry/chemistry1/attractionsandrepulsions"
@@ -110,7 +105,6 @@ export const Chemistry = () => {
                     <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                         <SubSectionCard
                             cardTitle="Data Analysis"
-                            cardText="One of the two student unions on campus."
                             imgSrc="/images/chemistry/chemistry1/dataAnalysis.jpg"
                             imgAlt="Data Analysis"
                             link="/academics/chemistry/chemistry1/dataanalysis"
@@ -119,7 +113,6 @@ export const Chemistry = () => {
                     <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                     <SubSectionCard
                             cardTitle="Chemical Energy Changes"
-                            cardText="One of the two student unions on campus."
                             imgSrc="/images/chemistry/chemistry1/chemicalEnergyChanges.jpg"
                             imgAlt="Chemical Energy Changes"
                             link="/academics/chemistry/chemistry1/chemicalenergychanges"
@@ -128,7 +121,6 @@ export const Chemistry = () => {
                     <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                         <SubSectionCard
                             cardTitle="Chemical Kenetics"
-                            cardText="One of the two student unions on campus."
                             imgSrc="/images/chemistry/chemistry1/chemicalKenetics.jpg"
                             imgAlt="Chemical Kenetics"
                             link="/academics/chemistry/chemistry1/chemicalkenetics"
@@ -137,7 +129,6 @@ export const Chemistry = () => {
                     <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                         <SubSectionCard
                             cardTitle="Aqueous Equilibria and pH"
-                            cardText="One of the two student unions on campus."
                             imgSrc="/images/chemistry/chemistry1/aqueousEquilibriaAndPH.jpg"
                             imgAlt="Aqueous Equilibria and pH"
                             link="/academics/chemistry/chemistry1/aqueousequilibriaandph"
@@ -146,7 +137,6 @@ export const Chemistry = () => {
                     <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                         <SubSectionCard
                             cardTitle="Transition Metals"
-                            cardText="One of the two student unions on campus."
                             imgSrc="/images/chemistry/chemistry1/transitionMetals.jpg"
                             imgAlt="Transition Metals"
                             link="/academics/chemistry/chemistry1/transitionmetals"
@@ -154,10 +144,9 @@ export const Chemistry = () => {
                     </Grid.Col>
                     <Grid.Col span={{ base: 12, md: 6, lg:3 }}>
                         <SubSectionCard
-                            cardTitle="Medicinal Chemistry"
-                            cardText="The Sports Council of the University of Glasgow."
+                            cardTitle="Macromolecules"
                             imgSrc="/images/chemistry/chemistry1/medicinalChemistry.jpg"
-                            imgAlt="Medicinal Chemistry"
+                            imgAlt="Macromolecules Chemistry"
                             link="/academics/chemistry/chemistry1/medicinalchemistry"
                         />
                     </Grid.Col>
@@ -169,7 +158,7 @@ export const Chemistry = () => {
                         <Stack pt={10}>
                         <Text>
                         Chemistry 2X is one of the two level 2 (second year) courses for Chemisrty. 
-                        It runs over semester 1, where you will cover the fundamentals of molecular chemistry.
+                        It runs over the full accadmic year (Semesters 1 & 2), where you will cover the fundamentals of molecular chemistry.
                         Click on the module pannles bellow to find more about what is covered in each, so that you can prepare yourself for begining.
                         </Text>
                         <Title order={3} size="h3">
@@ -184,13 +173,6 @@ export const Chemistry = () => {
                                     imgAlt="Quantum Mechanics and Chemical Bonding"
                                     link="/academics/chemistry/chemistry2x/quantummechanicsandchemicalbonding"
                                 />
-                                <SubSectionCard
-                                    cardTitle="Enols and Enolates"
-                                    cardText="The Sports Council of the University of Glasgow."
-                                    imgSrc="/images/chemistry/chemistry2x/enolsAndEnolates.jpg"
-                                    imgAlt="Enols and Enolates"
-                                    link="/academics/chemistry/chemistry2x/enolsandenolates"
-                                />
                             </Grid.Col>
                             <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                             <SubSectionCard
@@ -200,7 +182,9 @@ export const Chemistry = () => {
                                     imgAlt="Isomerism and Sterochemistry"
                                     link="/academics/chemistry/chemistry2x/isomerismandsterochemistry"
                                 />
-                                <SubSectionCard
+                            </Grid.Col>
+                            <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
+                            <SubSectionCard
                                     cardTitle="Organometallic Chemistry"
                                     cardText="The Sports Council of the University of Glasgow."
                                     imgSrc="/images/chemistry/chemistry2x/organometallicChemistry.jpg"
@@ -216,6 +200,17 @@ export const Chemistry = () => {
                                     imgAlt="Main Group Chemistry"
                                     link="/academics/chemistry/chemistry2x/maingroupchemistry"
                                 />
+                            </Grid.Col>
+                            <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
+                                <SubSectionCard
+                                    cardTitle="Enols and Enolates"
+                                    cardText="The Sports Council of the University of Glasgow."
+                                    imgSrc="/images/chemistry/chemistry2x/enolsAndEnolates.jpg"
+                                    imgAlt="Enols and Enolates"
+                                    link="/academics/chemistry/chemistry2x/enolsandenolates"
+                                />
+                            </Grid.Col>
+                            <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                                 <SubSectionCard
                                     cardTitle="Solids and Surfaces"
                                     cardText="The Sports Council of the University of Glasgow."
@@ -241,7 +236,7 @@ export const Chemistry = () => {
                 <Stack pt={10}>
                 <Text>
                     Chemistry 2Y is one of the two level 2 (second year) courses for Chemisrty. 
-                    It runs over semester 2, where you will cover the chemistry of the natural world.
+                    It runs over the full accadmic year (Semesters 1 & 2), where you will cover the chemistry of the natural world.
                     Click on the module pannles bellow to find more about what is covered in each, so that you can prepare yourself for begining.
                 </Text>
                 <Title order={3} size="h3">
@@ -256,6 +251,8 @@ export const Chemistry = () => {
                             imgAlt="Introduction to Spectroscopy"
                             link="/academics/chemistry/chemistry2y/introductiontospectroscopy"
                         />
+                    </Grid.Col>
+                    <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                         <SubSectionCard
                             cardTitle="Organic Synthesis"
                             cardText="The Sports Council of the University of Glasgow."
@@ -272,6 +269,8 @@ export const Chemistry = () => {
                             imgAlt="Co-ordination Chemistry"
                             link="/academics/chemistry/chemistry2y/coordinationchemistry"
                         />
+                    </Grid.Col>
+                    <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                         <SubSectionCard
                             cardTitle="Chemical Thermodynamics"
                             cardText="The Sports Council of the University of Glasgow."
@@ -288,6 +287,8 @@ export const Chemistry = () => {
                             imgAlt="Aromatic Chemistry"
                             link="/academics/chemistry/chemistry2y/aromaticchemistry"
                         />
+                    </Grid.Col>
+                    <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
                         <SubSectionCard
                             cardTitle="Applied Organic Chemistry"
                             cardText="The Sports Council of the University of Glasgow."

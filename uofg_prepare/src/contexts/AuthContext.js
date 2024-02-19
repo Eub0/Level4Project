@@ -1,6 +1,7 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { auth, db, writeUserData } from "../firebase";
 import { get, getDatabase, ref, remove, set, update } from "firebase/database"
+import useGuestHook from '@/hooks/guestProvider';
 
 const AuthContext = React.createContext()
 
@@ -70,12 +71,12 @@ export function AuthProvider({ children }) {
         };
         return showToDo
       }
-  
-  
-    }catch (error) {
+    }
+    catch (error) {
       console.error("Error getting to do list: ", error)
     }
   }
+  
 
   function addToDoList(currentList, value){
     if (value != "undefined") {

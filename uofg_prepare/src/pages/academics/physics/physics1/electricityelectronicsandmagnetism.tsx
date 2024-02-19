@@ -18,11 +18,6 @@ export const ElectricityElectronicsAndMagnetism = () => {
                 "Apply these principles in practical physics scenarios, enhancing problem-solving skills in electromagnetism and electronics."]}
                 usefulWebsites=""
                 recommendedReading="Young & Freedman 15th Edition"
-                cardTitle="Unit Quiz"
-                cardText="Take the quiz to test your knowlegde on the topic"
-                imgSrc="asasa"
-                imgAlt="quiz image"
-                link="asdfa"
             />
         </>
     );

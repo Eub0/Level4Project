@@ -1,6 +1,6 @@
 import { PageHeader } from "@/components/layout/PageHeader";
 import { SubSectionCard } from "@/components/shared/SubSectionCard";
-import { Stack, Title, Text, Grid, Card, List, ThemeIcon, rem } from "@mantine/core";
+import { Stack, Title, Text, Grid, Card, List, ThemeIcon, rem, Image } from "@mantine/core";
 import { BiAtom } from "react-icons/bi";
 
 interface Props {
@@ -8,16 +8,11 @@ interface Props {
     title: string,
     moduleAims: string,
     moduleOutline: string[],
-    usefulWebsites: string,
-    recommendedReading: string,
-    cardTitle: string,
-    cardText: string,
-    imgSrc: string,
-    imgAlt: string,
-    link: string,
+    usefulWebsites?: string,
+    recommendedReading?: string,
 }
 
-export const ContentGrid = ({heading, title, moduleAims, moduleOutline, usefulWebsites, recommendedReading, cardTitle, cardText, imgSrc, imgAlt, link}: Props) => {
+export const ContentGrid = ({heading, title, moduleAims, moduleOutline, usefulWebsites, recommendedReading}: Props) => {
 
     function outlineList (moduleOutline: string[]) {
         const rows = [];
@@ -69,7 +64,7 @@ export const ContentGrid = ({heading, title, moduleAims, moduleOutline, usefulWe
                             </Text>
                         </Card>
                         <Title order={4} size="h4">
-                            Recommended Reading::
+                            Recommended Reading:
                         </Title>
                         <Card>
                             <Text>
@@ -79,13 +74,9 @@ export const ContentGrid = ({heading, title, moduleAims, moduleOutline, usefulWe
                     </Stack>
                 </Grid.Col>
                 <Grid.Col span={{ base: 12, md: 6, lg: 4 }}>
-                    <SubSectionCard
-                        cardTitle={cardTitle}
-                        cardText={cardText}
-                        imgSrc={imgSrc}
-                        imgAlt={imgAlt}
-                        link={link}
-                    />
+                    <Card visibleFrom="sm">
+                        <Image src='/images/uofgSpire.jpg' alt='UofG Spire' />
+                    </Card>  
                 </Grid.Col>
             </Grid>
         </>

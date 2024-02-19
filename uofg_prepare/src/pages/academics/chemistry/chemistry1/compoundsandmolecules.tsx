@@ -12,11 +12,6 @@ export const CompoundsAndMolecules = () => {
                 "Ionic lattice structure, p-block elements, covalent bonding, polarity, VSEPR rules and molecular shape."]}
                 usefulWebsites=""
                 recommendedReading=""
-                cardTitle="Unit Quiz"
-                cardText="Take the quiz to test your knowlegde on the topic"
-                imgSrc="asasa"
-                imgAlt="quiz image"
-                link="asdfa"
             />
         </>
     );

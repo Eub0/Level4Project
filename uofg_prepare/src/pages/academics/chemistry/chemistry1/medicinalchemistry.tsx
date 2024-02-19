@@ -4,9 +4,9 @@ export const MedicinalChemistry = () => {
     return (
       <>
         <ContentGrid
-                heading="Medicinal Chemistry"
-                title="Medicinal Chemistry"
-                moduleAims="Medical Chemistry aims to discuss macromolecules within the context of diabetes, human cell membrane and bacteria/plant cell wall."
+                heading="Macromolecules"
+                title="Macromolecules"
+                moduleAims="Macromolecules aims to discuss macromolecules within the context of diabetes, human cell membrane and bacteria/plant cell wall."
                 moduleOutline={["Medicinal chemistry of diabetes (The process of glucose uptake)",
                 "DNA of α-amylase. Transcription. RNA of α-glucosidase",
                 "Translation. Insulin amino acids. Structure of insulin receptor",
@@ -17,11 +17,6 @@ export const MedicinalChemistry = () => {
                 "Figure out all the macromolecules (and their monomers) involved in diabetes"]}
                 usefulWebsites=""
                 recommendedReading=""
-                cardTitle="Unit Quiz"
-                cardText="Take the quiz to test your knowlegde on the topic"
-                imgSrc="asasa"
-                imgAlt="quiz image"
-                link="asdfa"
             />
         </>
     );

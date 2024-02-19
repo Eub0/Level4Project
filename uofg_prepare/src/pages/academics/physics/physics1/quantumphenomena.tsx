@@ -17,11 +17,6 @@ export const QuantumPhenomena = () => {
                 "Apply quantum concepts to practical problems, enriching the understanding of modern physics."]}
                 usefulWebsites=""
                 recommendedReading="Young & Freedman 15th Edition"
-                cardTitle="Unit Quiz"
-                cardText="Take the quiz to test your knowlegde on the topic"
-                imgSrc="asasa"
-                imgAlt="quiz image"
-                link="asdfa"
             />
         </>
     );

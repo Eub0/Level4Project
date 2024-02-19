@@ -6,10 +6,12 @@ import { IoPersonOutline, IoSchoolOutline,IoHomeOutline } from "react-icons/io5"
 import classes from "@/styles/Tabs.module.css";
 import { ToDoList } from "@/components/layout/ToDoList";
 import { UserToDoList } from "@/components/layout/UserToDoList";
+import useGuestHook from "@/hooks/guestProvider";
 
 export const ToDo = () => {
 
     const iconStyle = { width: rem(12), height: rem(12) };
+    const {isGuest} = useGuestHook()
     
     return (
       <>
@@ -33,9 +35,14 @@ export const ToDo = () => {
                     <Tabs.Tab value="Welcome/First Week" leftSection={<IoSchoolOutline style={iconStyle} />}>
                     Welcome/First Week
                     </Tabs.Tab>
-                    <Tabs.Tab value="My To-Do List" leftSection={<IoPersonOutline style={iconStyle} />}>
-                    My To-Do List
-                    </Tabs.Tab>
+                    {isGuest ? 
+                        (<Tabs.Tab value="My To-Do List" disabled={true} leftSection={<IoPersonOutline style={iconStyle} />}>
+                            My To-Do List
+                        </Tabs.Tab>) :
+                        (<Tabs.Tab value="My To-Do List" leftSection={<IoPersonOutline style={iconStyle} />}>
+                            My To-Do List
+                        </Tabs.Tab>)
+                    }
                 </Tabs.List>
 
                 <Tabs.Panel value="Pre-University">
@@ -71,9 +78,7 @@ export const ToDo = () => {
                 </Tabs.Panel>
 
                 <Tabs.Panel value="My To-Do List">
-                    <UserToDoList 
-                        
-                    />
+                    <UserToDoList />
                 </Tabs.Panel>
             </Tabs>
         </>

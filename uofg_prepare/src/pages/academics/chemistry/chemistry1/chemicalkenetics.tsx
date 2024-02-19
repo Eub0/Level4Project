@@ -26,11 +26,6 @@ export const ChemicalKenetics = () => {
                 "Reaction mechanisms, elementary steps, molecularity and rate determining step"]}
                 usefulWebsites=""
                 recommendedReading=""
-                cardTitle="Unit Quiz"
-                cardText="Take the quiz to test your knowlegde on the topic"
-                imgSrc="asasa"
-                imgAlt="quiz image"
-                link="asdfa"
             />
         </>
     );

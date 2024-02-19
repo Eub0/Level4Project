@@ -12,11 +12,6 @@ export const EnolsAndEnolates = () => {
                 "Explore α-substitution reactions in carbonyl compounds."]}
                 usefulWebsites=""
                 recommendedReading=""
-                cardTitle="Unit Quiz"
-                cardText="Take the quiz to test your knowlegde on the topic"
-                imgSrc="asasa"
-                imgAlt="quiz image"
-                link="asdfa"
             />
         </>
     );

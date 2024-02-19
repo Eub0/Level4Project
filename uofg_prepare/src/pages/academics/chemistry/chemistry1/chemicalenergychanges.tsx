@@ -14,11 +14,6 @@ export const ChemicalEnergyChanges = () => {
                 "Equilibrium: Free energy and equilibrium; equilibrium and the meaning of “the reaction will proceed”; the balance of equilibrium; examples of equilibrium; changing the position of equilibrium."]}
                 usefulWebsites=""
                 recommendedReading=""
-                cardTitle="Unit Quiz"
-                cardText="Take the quiz to test your knowlegde on the topic"
-                imgSrc="asasa"
-                imgAlt="quiz image"
-                link="asdfa"
             />
         </>
     );

@@ -17,30 +17,37 @@ import { BsSun, BsMoonStars } from 'react-icons/bs';
 import { LuLock } from "react-icons/lu";
 import { FaSignOutAlt } from 'react-icons/fa';
 import { useAuth } from '@/contexts/AuthContext';
+import useGuestHook from '@/hooks/guestProvider';
 
 export const UserButton = () => {
 	const router = useRouter();
 	const { colorScheme, toggleColorScheme } = useMantineColorScheme();
 	const dark = colorScheme === 'dark';
 	const [menuOpened, setMenuOpened] = useState(false);
-  const [error, setError] = useState("")
-  const { currentUser, signout } = useAuth()
+	const [error, setError] = useState("")
+	const { currentUser, signout } = useAuth()
+	const {isGuest, setIsGuest} = useGuestHook()
 
-  const navigateToUpdate= () => {
-		router.push("/account");
-	};
+	const navigateToUpdate= () => {
+			router.push("/account");
+		};
 
-  async function handleLogout() {
-    setError("")
+	async function handleLogout() {
+		setError("")
 
-    try{
-      await signout()
-      router.push("/")
-    }
-    catch {
-      setError("Failed to log out")
-    }
-  }
+		try{
+		await signout()
+		router.push("/")
+		}
+		catch {
+		setError("Failed to log out")
+		}
+	}
+
+	function toSignIn() {
+		setIsGuest(false)
+		router.push("/")
+	}
 
 	return (
 		<>
@@ -88,7 +95,16 @@ export const UserButton = () => {
 						data-cy="logout-button"
 					>
 						Sign out
-					</Menu.Item> : ""}
+					</Menu.Item> :
+					<Menu.Item
+					onClick={toSignIn}
+					color="blue.9"
+					leftSection={<FaSignOutAlt />}
+					data-cy="login-button"
+					>
+						Log In
+					</Menu.Item> 
+					}
 				</Menu.Dropdown>
 			</Menu>
 		</>

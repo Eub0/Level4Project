@@ -18,11 +18,6 @@ export const ElectricityAndMagnetism = () => {
                 "Apply these concepts to solve unseen problems in electricity and magnetism."]}
                 usefulWebsites=""
                 recommendedReading="Introduction to Electrodynamics, David J. Griffiths (ISBN 129202142X)"
-                cardTitle="Unit Quiz"
-                cardText="Take the quiz to test your knowlegde on the topic"
-                imgSrc="asasa"
-                imgAlt="quiz image"
-                link="asdfa"
             />
         </>
     );

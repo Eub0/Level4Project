@@ -15,6 +15,7 @@ import {
   import React, { useRef, useState } from "react";
   import { useAuth } from "@/contexts/AuthContext"
 import router from 'next/router';
+import useGuestHook from '@/hooks/guestProvider';
   
 export function Signin() {
     const emailRef = useRef<HTMLInputElement>(null);
@@ -22,11 +23,13 @@ export function Signin() {
     const { signin } = useAuth();
     const [error, setError] = useState('')
     const [loading, setLoading] = useState(false)
+    const {setIsGuest} = useGuestHook()
 
     const navigateToSignup = () => {
 		router.push("/signup");
 	};
     const navigateToHomepage = () => {
+        setIsGuest(true)
 		router.push("/homepage");
 	};
     const navigateToForgotPassword = () => {

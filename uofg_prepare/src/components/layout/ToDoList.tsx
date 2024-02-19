@@ -39,7 +39,7 @@ export function ToDoList({data}: Props) {
         </Table.Td>
         <Table.Td>
           <Group gap="sm">
-            <Text size="sm" fw={500}>
+            <Text size="md" fw={500}>
               {item.item}
             </Text>
           </Group>

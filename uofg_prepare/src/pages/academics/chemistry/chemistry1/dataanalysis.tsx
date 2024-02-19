@@ -13,11 +13,6 @@ export const DataAnalysis = () => {
                 "Precision and accuracy, random and systematic errors"]}
                 usefulWebsites=""
                 recommendedReading=""
-                cardTitle="Unit Quiz"
-                cardText="Take the quiz to test your knowlegde on the topic"
-                imgSrc="asasa"
-                imgAlt="quiz image"
-                link="asdfa"
             />
         </>
     );
