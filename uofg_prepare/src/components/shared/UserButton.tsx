@@ -45,8 +45,8 @@ export const UserButton = () => {
 	}
 
 	function toSignIn() {
-		setIsGuest(false)
 		router.push("/")
+		setIsGuest(false)
 	}
 
 	return (
@@ -97,10 +97,10 @@ export const UserButton = () => {
 						Sign out
 					</Menu.Item> :
 					<Menu.Item
-					onClick={toSignIn}
-					color="blue.9"
-					leftSection={<FaSignOutAlt />}
-					data-cy="login-button"
+						onClick={toSignIn}
+						color="blue.9"
+						leftSection={<FaSignOutAlt />}
+						data-cy="login-button"
 					>
 						Log In
 					</Menu.Item> 

@@ -29,8 +29,8 @@ export function Signin() {
 		router.push("/signup");
 	};
     const navigateToHomepage = () => {
-        setIsGuest(true)
 		router.push("/homepage");
+        setIsGuest(true)
 	};
     const navigateToForgotPassword = () => {
 		router.push("/forgotpassword");
