@@ -45,7 +45,7 @@ export const EnrolmentAdvice = () => {
                                 </Tabs.List>
                                 <Tabs.Panel value="School of Chemistry">
                                     <Text pt={10}>
-                                        Whether you are taking Chemistry 1 in level 1,or Chemistry 2X and 2Y in level 2,there are no mandatory modules for you to take.
+                                        Whether you are taking Chemistry 1 in level 1, or Chemistry 2X and 2Y in level 2, there are no mandatory modules for you to take.
                                         Again, it is highly recommended you take electives that you feel will benfifit you going forward.
                                         Here are some recomendations from the school:
 
@@ -69,7 +69,7 @@ export const EnrolmentAdvice = () => {
                             <Text>
                                 If you start a class and are not enjoying it, or it's not what you thought ti would be, that is completely fine.
                                 You have the ability to change you choices in the first 2 weeks of teaching. 
-                                Simply un-enrolfrom the class you do not want to take anymore, and enrol in the class you want to replace it with.
+                                Simply un-enrol from the class you do not want to take anymore, and enrol in the class you want to replace it with.
                                 Since this can be in the first 2 weeks of teaching, there may be spacing issues with the classes.
                                 If this is the case, contact your advisor of studies and/or the course co-ordinator for advice on what to do.
                             </Text>

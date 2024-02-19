@@ -20,11 +20,6 @@ export const MathematicalTechniques = () => {
                 ]}
                 usefulWebsites=""
                 recommendedReading="Measurments and their Uncertainties, I. Hughes and T. Hase (ISBN 0-199-566-33X)"
-                cardTitle="Unit Quiz"
-                cardText="Take the quiz to test your knowlegde on the topic"
-                imgSrc="asasa"
-                imgAlt="quiz image"
-                link="asdfa"
             />
         </>
     );

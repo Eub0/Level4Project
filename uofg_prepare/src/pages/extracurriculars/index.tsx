@@ -110,6 +110,31 @@ export const Extracurriculars = () => {
                                         link="https://www.gla.ac.uk/schools/computing/undergraduate/studentsociety/"
                                     />
                         </Grid.Col>
+                        <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
+                            <SubSectionCard
+                                        cardTitle="GU Atronomy Society (Astrosoc)"
+                                        cardText="Instagram: @uog_astrosoc"
+                                        imgSrc="/images/extracurriculars/societiesAndGroups/astronony.jpg"
+                                        imgAlt="GU Astronomy Society"
+                                        link="https://astrosocgla.wordpress.com/"
+                                    />
+                        </Grid.Col>
+                        <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
+                            <SubSectionCard
+                                        cardTitle="The Royal Society of Chemistry"
+                                        imgSrc="/images/extracurriculars/societiesAndGroups/rsoc.jpeg"
+                                        imgAlt="The Royal Society of Chemistry"
+                                        link="https://www.rsc.org/"
+                                    />
+                        </Grid.Col>
+                        <Grid.Col span={{ base: 12, md: 6, lg: 3 }}>
+                            <SubSectionCard
+                                        cardTitle="Institute of Physics"
+                                        imgSrc="/images/extracurriculars/societiesAndGroups/iop.jpg"
+                                        imgAlt="Institute of Physics"
+                                        link="https://www.iop.org/"
+                                    />
+                        </Grid.Col>
                     </Grid>
                 </Tabs.Panel>
             </Tabs> 

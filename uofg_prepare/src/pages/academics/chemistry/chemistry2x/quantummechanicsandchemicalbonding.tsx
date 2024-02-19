@@ -13,11 +13,6 @@ export const QuantumMechanicsAndChemicalBonding = () => {
                 "Learn molecular orbital theory and chemical bonding."]}
                 usefulWebsites=""
                 recommendedReading=""
-                cardTitle="Unit Quiz"
-                cardText="Take the quiz to test your knowlegde on the topic"
-                imgSrc="asasa"
-                imgAlt="quiz image"
-                link="asdfa"
             />
         </>
     );

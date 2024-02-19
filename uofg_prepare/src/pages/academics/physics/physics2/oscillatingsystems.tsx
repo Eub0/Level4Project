@@ -18,11 +18,6 @@ export const OscillatingSystems = () => {
                 "Apply these concepts to solve unseen problems in oscillating systems."]}
                 usefulWebsites=""
                 recommendedReading="Vibrations and Waves, A.P. French"
-                cardTitle="Unit Quiz"
-                cardText="Take the quiz to test your knowlegde on the topic"
-                imgSrc="asasa"
-                imgAlt="quiz image"
-                link="asdfa"
             />
         </>
     );

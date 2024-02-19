@@ -233,7 +233,7 @@ export const navigationItems: NavigationItem[] = [
 		path: '/timetable',
         subItems: [
             {
-                name: 'Enrolment Advice',
+                name: 'Module Selection',
                 path: '/enrolmentadvice',
             },
             {

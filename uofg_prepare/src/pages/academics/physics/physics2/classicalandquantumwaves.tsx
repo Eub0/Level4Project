@@ -18,11 +18,6 @@ export const ClassicalAndQuantumWaves = () => {
             ]}
                 usefulWebsites=""
                 recommendedReading="The Physics of Vibration and Waves, H.J.pain (ISBN 0-471-98543-0)"
-                cardTitle="Unit Quiz"
-                cardText="Take the quiz to test your knowlegde on the topic"
-                imgSrc="asasa"
-                imgAlt="quiz image"
-                link="asdfa"
             />
         </>
     );

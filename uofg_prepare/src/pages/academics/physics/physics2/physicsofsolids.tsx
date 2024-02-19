@@ -20,11 +20,6 @@ export const PhysicsOfSolids = () => {
                 usefulWebsites=""
                 recommendedReading="Introductory Solid State Physics, H.P. Myers (ISBN 0-7484-0660-3)
                                     Introduction to Solid State Physics, C. Kittel"
-                cardTitle="Unit Quiz"
-                cardText="Take the quiz to test your knowlegde on the topic"
-                imgSrc="asasa"
-                imgAlt="quiz image"
-                link="asdfa"
             />
         </>
     );

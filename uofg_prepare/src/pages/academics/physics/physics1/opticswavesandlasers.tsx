@@ -16,11 +16,6 @@ export const OpticsWavesAndLasers = () => {
                 "Comprehend laser fundamentals: coherent/incoherent light sources , stimulated emission, and laser applications."]}
                 usefulWebsites=""
                 recommendedReading="Young & Freedman 15th Edition"
-                cardTitle="Unit Quiz"
-                cardText="Take the quiz to test your knowlegde on the topic"
-                imgSrc="asasa"
-                imgAlt="quiz image"
-                link="asdfa"
             />
         </>
     );

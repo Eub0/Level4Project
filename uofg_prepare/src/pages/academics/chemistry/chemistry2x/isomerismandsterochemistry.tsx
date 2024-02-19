@@ -12,11 +12,6 @@ export const IsomerismAndSterochemistry = () => {
                 "Understand chirality, stereocentres, and their configurations."]}
                 usefulWebsites=""
                 recommendedReading=""
-                cardTitle="Unit Quiz"
-                cardText="Take the quiz to test your knowlegde on the topic"
-                imgSrc="asasa"
-                imgAlt="quiz image"
-                link="asdfa"
             />
         </>
     );

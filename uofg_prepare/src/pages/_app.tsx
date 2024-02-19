@@ -1,14 +1,13 @@
 import { Layout } from '@/components/layout/Layout';
-import { Signup } from '@/components/login/Signup';
 import { AuthProvider } from '@/contexts/AuthContext';
 import '@/styles/globals.css'
-import { MantineProvider, useMantineColorScheme } from '@mantine/core'
+import { MantineProvider } from '@mantine/core'
 import type { AppProps } from 'next/app'
-import Homepage from './homepage';
-import { Signin } from '@/components/login/Signin';
+import { GuestProvider } from '@/hooks/guestProvider';
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
+    <GuestProvider>
       <MantineProvider>
         <AuthProvider>
           <Layout>
@@ -16,5 +15,6 @@ export default function App({ Component, pageProps }: AppProps) {
           </Layout>
         </AuthProvider>
       </MantineProvider>
+    </GuestProvider>
   );
 }

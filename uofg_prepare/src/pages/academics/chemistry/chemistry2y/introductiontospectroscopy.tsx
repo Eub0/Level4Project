@@ -12,11 +12,6 @@ export const IntroductionToSpectroscopy = () => {
                 "Apply spectroscopic methods for molecular analysis."]}
                 usefulWebsites=""
                 recommendedReading=""
-                cardTitle="Unit Quiz"
-                cardText="Take the quiz to test your knowlegde on the topic"
-                imgSrc="asasa"
-                imgAlt="quiz image"
-                link="asdfa"
             />
         </>
     );

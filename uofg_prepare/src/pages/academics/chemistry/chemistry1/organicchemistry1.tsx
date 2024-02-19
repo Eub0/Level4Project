@@ -22,11 +22,6 @@ export const OrganicChemistry1 = () => {
                 "Combustion analysis and molecular weights."]}
                 usefulWebsites=""
                 recommendedReading=""
-                cardTitle="Unit Quiz"
-                cardText="Take the quiz to test your knowlegde on the topic"
-                imgSrc="asasa"
-                imgAlt="quiz image"
-                link="asdfa"
             />
         </>
     );

@@ -18,11 +18,6 @@ export const NewtonianDynamics = () => {
                 "Apply these concepts to solve unseen problems in Newtonian dynamics."]}
                 usefulWebsites=""
                 recommendedReading="Physics, Volume 1, K.S. Krane R. Resnick, D. Halliday (ISBN 0471559172)"
-                cardTitle="Unit Quiz"
-                cardText="Take the quiz to test your knowlegde on the topic"
-                imgSrc="asasa"
-                imgAlt="quiz image"
-                link="asdfa"
             />
         </>
     );

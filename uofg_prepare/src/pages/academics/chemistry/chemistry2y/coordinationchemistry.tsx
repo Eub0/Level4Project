@@ -11,11 +11,6 @@ export const CoordinationChemistry = () => {
                 "Explore structural, magnetic, and spectroscopic properties"]}
                 usefulWebsites=""
                 recommendedReading=""
-                cardTitle="Unit Quiz"
-                cardText="Take the quiz to test your knowlegde on the topic"
-                imgSrc="asasa"
-                imgAlt="quiz image"
-                link="asdfa"
             />
         </>
     );

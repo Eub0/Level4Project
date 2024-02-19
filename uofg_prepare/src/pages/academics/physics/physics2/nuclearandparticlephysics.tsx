@@ -23,11 +23,6 @@ export const NuclearAndParticlePhysics = () => {
                                     Special Relativity, N.M.J. Woodhouse (ISBN 1-85233-426-6)
                                     Introduction to Elemetary Particle Physics, Alessandro Bettini (ISBN 978-0-521-88023)
                                     Introductory Nuclear Physics, S. Krane (ISBN 0471859141)"
-                cardTitle="Unit Quiz"
-                cardText="Take the quiz to test your knowlegde on the topic"
-                imgSrc="asasa"
-                imgAlt="quiz image"
-                link="asdfa"
             />
         </>
     );

@@ -428,16 +428,28 @@ const chem2Sem1: timetableContent[] = [
 
 const chem2Sem1Keys = [
     {
+        key: "I",
+        name: "Inorganic",
+    },
+    {
         key: "ITU",
-        name: "",
+        name: "Interactive Teaching Unit",
     },
     {
         key: "M4C",
         name: "Maths for Chemistry",
     },
     {
+        key: "O",
+        name: "Organic",
+    },
+    {
+        key: "P",
+        name: "Physical",
+    },
+    {
         key: "Q",
-        name: "",
+        name: "Quantitative Laboratory",
     },
     {
         key: "X1",
@@ -581,12 +593,24 @@ const chem2Sem2Keys = [
         name: "Class Test",
     },
     {
+        key: "I",
+        name: "Inorganic",
+    },
+    {
         key: "ITU",
-        name: "",
+        name: "Interactive Teaching Unit",
+    },
+    {
+        key: "O",
+        name: "Organic",
+    },
+    {
+        key: "P",
+        name: "Physical",
     },
     {
         key: "S",
-        name: "",
+        name: "Synthesis Laboratory",
     },
     {
         key: "X5",
@@ -632,10 +656,8 @@ export const ChemistryTimetable = () => {
                     Timetable
                 </Title>
                 <Text>
-                    Creating a good timetable is important when it comes to university. 
-                    Time management is (almost) everything. 
-                    You should aim to create a good balance of academics and extracurriculars. 
-                    This section gives advice on time management, class selection, and how to create/upload your timetable.
+                    Curious as to what a typical semester will look like for you? We've got you covered.
+                    Here is the week by week breakdown of what you will cover. Refer to the Academic Resources section for what will be covered.
                 </Text>
             </Stack>
             <Tabs variant="unstyled" defaultValue="Chemistry 1" classNames={classes} pt={15}>
