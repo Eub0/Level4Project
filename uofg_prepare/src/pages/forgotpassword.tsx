@@ -63,7 +63,7 @@ import { useAuth } from '@/contexts/AuthContext';
           <Group justify="space-between" mt="lg" className={classes.controls}>
             <Anchor c="dimmed" size="sm" className={classes.control} onClick={navigateToLogin}>
               <Center inline>
-                <FaArrowLeft style={{ width: rem(12), height: rem(12) }} stroke={1.5} />
+                <FaArrowLeft style={{ width: rem(12), height: rem(12) }} stroke={'1.5'} />
                 <Box ml={5}>Back to the login page</Box>
               </Center>
             </Anchor>
