@@ -315,4 +315,11 @@
 * *2 hours Redoing evaluation from changes discussed in meeting
 * *1 hour Fixing and Fixed database link issue
 
+## 16th February
+* *2 hours Getting database object to read to ToDo list
 
+## 17th February
+* *3 hours Finishing getting database object to read to ToDo list, creating evaluation to be sent to high schools
+
+## 18th February
+* *9 hours Creating ability to add and delete from custom to-do list, made hook and provider so that guest mode blocks the My ToDo List tab, made it so log-in/sign-up page dont have navbar and header, final tidy-up of the code for grammar and presentation
