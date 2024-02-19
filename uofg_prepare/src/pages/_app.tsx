@@ -4,6 +4,7 @@ import '@/styles/globals.css'
 import { MantineProvider } from '@mantine/core'
 import type { AppProps } from 'next/app'
 import { GuestProvider } from '@/hooks/guestProvider';
+import { AccountCheck } from '@/components/login/AccountCheck';
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -11,7 +12,9 @@ export default function App({ Component, pageProps }: AppProps) {
       <MantineProvider>
         <AuthProvider>
           <Layout>
-            <Component {...pageProps}/>
+            <AccountCheck>
+              <Component {...pageProps}/>
+            </AccountCheck>
           </Layout>
         </AuthProvider>
       </MantineProvider>
