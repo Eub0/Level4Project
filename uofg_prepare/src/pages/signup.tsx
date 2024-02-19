@@ -7,7 +7,7 @@ export const Login = () => {
   return (
     <>
       <BackgroundImage
-					src="/images/homepage/chemistry1.jpg"
+					src="/images/uofgcloisters.jpg"
 					style={{
 						display: 'flex',
 						justifyContent: 'center',
