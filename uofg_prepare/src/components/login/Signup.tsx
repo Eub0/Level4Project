@@ -26,7 +26,7 @@ export function Signup() {
 		router.replace("/");
 	};
 
-    async function handelSubmit(e) {
+    async function handelSubmit(e: { preventDefault: () => void; }) {
         e.preventDefault()
 
         if (passwordRef.current?.value !== passwordConfirmationRef.current?.value){

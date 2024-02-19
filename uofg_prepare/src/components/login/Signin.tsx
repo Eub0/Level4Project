@@ -36,7 +36,7 @@ export function Signin() {
 		router.push("/forgotpassword");
 	};
 
-    async function handelSubmit(e) {
+    async function handelSubmit(e: { preventDefault: () => void; }) {
         e.preventDefault()
 
         try {

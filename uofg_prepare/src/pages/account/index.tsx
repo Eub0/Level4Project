@@ -26,7 +26,7 @@ export function UpdateAccount() {
 		router.push("/homepage");
 	};
 
-    function handelSubmit(e) {
+    function handelSubmit(e: { preventDefault: () => void; }) {
         e.preventDefault()
 
         if (passwordRef.current?.value !== passwordConfirmationRef.current?.value){

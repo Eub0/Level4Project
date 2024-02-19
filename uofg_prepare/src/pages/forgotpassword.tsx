@@ -30,7 +30,7 @@ import { useAuth } from '@/contexts/AuthContext';
 		router.push("/");
 	};
 
-    async function handelSubmit(e) {
+    async function handelSubmit(e: { preventDefault: () => void; }) {
         e.preventDefault()
 
         try {

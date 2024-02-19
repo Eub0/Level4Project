@@ -3,13 +3,9 @@ import { Stack, Title, Text, Grid, Card, Image, Table, Anchor } from "@mantine/c
 import classes from "@/styles/TableScrollArea.module.css"
 import cx from 'clsx';
 import { contacts } from "@/types/Contacts"
-import router from "next/router";
+import router from "next/router"
 
-interface Props {
-    data: contacts[],
-}
-
-export const ContactsGrid = ({data,school}:{data: Props, school: string}) => {
+export const ContactsGrid = ({data,school}:{data: contacts[], school: string}) => {
 
     const navigateToChemistry = () => {
 		router.push("https://www.gla.ac.uk/schools/chemistry/");

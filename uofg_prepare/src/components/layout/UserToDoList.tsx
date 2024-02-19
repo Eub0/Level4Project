@@ -1,5 +1,5 @@
 import cx from 'clsx';
-import { useEffect, useState } from 'react';
+import { SetStateAction, useEffect, useState } from 'react';
 import { Table, Checkbox, ScrollArea, Group, Text, rem, Grid, Card, Image, Input, CloseButton, ActionIcon, Flex, SimpleGrid } from '@mantine/core';
 import classes from '@/styles/ToDoList.module.css';
 import { IoAddSharp, IoCloseSharp } from "react-icons/io5";
@@ -15,14 +15,14 @@ export function UserToDoList() {
     const [userItems, setUserItems] = useState([]);
     
     useEffect(() => {
-        getToDoList().then(async(res) => {
+        getToDoList().then(async(res: SetStateAction<never[]> | PromiseLike<SetStateAction<never[]>>) => {
           setUserItems(await res);
         }); // Assuming `GetToDoList` returns the user items correctly
     })
 
     const thisList = Object.entries(userItems).map(([key,value]) => ({id:key, item:value})) as any[];
 
-    const [value, setValue] = useState();
+    const [value, setValue] = useState<string | number | readonly string[] | undefined>();
 
     const [selection, setSelection] = useState(['0']);
 
