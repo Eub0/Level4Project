@@ -321,5 +321,13 @@
 ## 17th February
 * *3 hours Finishing getting database object to read to ToDo list, creating evaluation to be sent to high schools
 
+## Week 22
+
 ## 18th February
 * *9 hours Creating ability to add and delete from custom to-do list, made hook and provider so that guest mode blocks the My ToDo List tab, made it so log-in/sign-up page dont have navbar and header, final tidy-up of the code for grammar and presentation
+
+## 19th February
+* *6 hours Final features and deployment. Tried firebase deployment and had issues, moved to vercel deploment.
+
+## 20th February
+* *0.5 hours Adding return links to error pages
