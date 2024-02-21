@@ -48,7 +48,7 @@ export function Signup() {
 
     return (
     <Container size={420} my={40}>
-        <Paper withBorder p="md" shadow="md" radius="sm" pos="relative">
+        <Paper withBorder p="md" shadow="md" radius="md" pos="relative">
             <Title ta="center" className={classes.title}>
             Welcome to UofG Prepare!
             </Title>

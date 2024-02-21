@@ -11,6 +11,7 @@ import {
     Box,
     rem,
     Alert,
+    BackgroundImage,
   } from '@mantine/core';
   import { FaArrowLeft } from "react-icons/fa";
   import classes from '@/styles/ForgotPassword.module.css';
@@ -48,30 +49,41 @@ import { useAuth } from '@/contexts/AuthContext';
     }
 
     return (
-      <Container size={460} my={30}>
-        <Title className={classes.title} ta="center">
-          Forgot your password?
-        </Title>
-        <Text c="dimmed" fz="sm" ta="center">
-          Enter your email to get a reset link
-        </Text>
-        {error && <Alert variant="danger">{error}</Alert>}
-        {message && <Alert variant="success">{message}</Alert>}
+      <BackgroundImage
+					src="/images/uofgcloisters.jpg"
+					style={{
+						display: 'flex',
+						justifyContent: 'center',
+						alignItems: 'center',
+						width: '100vw',
+						minHeight: '100vh',
+					}}
+			>
         <Paper withBorder shadow="md" p={30} radius="md" mt="xl">
-        <form onSubmit={handelSubmit}>
-          <TextInput label="Email" ref={emailRef} placeholder="you@uofgprepare.com" required />
-          <Group justify="space-between" mt="lg" className={classes.controls}>
-            <Anchor c="dimmed" size="sm" className={classes.control} onClick={navigateToLogin}>
-              <Center inline>
-                <FaArrowLeft style={{ width: rem(12), height: rem(12) }} stroke={'1.5'} />
-                <Box ml={5}>Back to the login page</Box>
-              </Center>
-            </Anchor>
-            <Button className={classes.control} disabled={loading} type='submit'>Reset password</Button>
-          </Group>
-          </form>
+          <Container size={460} my={30}>
+            <Title className={classes.title} ta="center">
+              Forgot your password?
+            </Title>
+            <Text c="dimmed" fz="sm" ta="center">
+              Enter your email to get a reset link
+            </Text>
+            {error && <Alert variant="danger">{error}</Alert>}
+            {message && <Alert variant="success">{message}</Alert>}
+            <form onSubmit={handelSubmit}>
+              <TextInput label="Email" ref={emailRef} placeholder="you@uofgprepare.com" required />
+              <Group justify="space-between" mt="lg" className={classes.controls}>
+                <Anchor c="dimmed" size="sm" className={classes.control} onClick={navigateToLogin}>
+                  <Center inline>
+                    <FaArrowLeft style={{ width: rem(12), height: rem(12) }} stroke={'1.5'} />
+                    <Box ml={5}>Back to the login page</Box>
+                  </Center>
+                </Anchor>
+                <Button className={classes.control} disabled={loading} type='submit'>Reset password</Button>
+              </Group>
+              </form>
+          </Container>
         </Paper>
-      </Container>
+      </BackgroundImage>
     );
   }
 

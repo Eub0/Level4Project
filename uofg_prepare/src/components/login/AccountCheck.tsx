@@ -16,7 +16,7 @@ export const AccountCheck = ({ children }: AccountCheckProps) => {
 
 	return (
 		<>
-			{(matchPath(location, '/') || matchPath(location, '/signup')) ?
+			{(matchPath(location, '/') || matchPath(location, '/signup') || matchPath(location, '/forgotpassword')) ?
 			children : (isGuest || (currentUser != null)) ? (
 				children
 			) : (

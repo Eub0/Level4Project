@@ -54,7 +54,7 @@ export function Signin() {
 
     return (
         <Container size={420} my={40}>
-            <Paper withBorder p="md" shadow="md" radius="sm" pos="relative">
+            <Paper withBorder p="md" shadow="md" radius="md" pos="relative">
                 <Title ta="center" className={classes.title}>
                 Welcome back to UofG Prepare!
                 </Title>
@@ -75,7 +75,6 @@ export function Signin() {
                         <TextInput label="Email" ref={emailRef} placeholder="you@uofgprepare.com" required />
                         <PasswordInput label="Password" ref={passwordRef} placeholder="Your password" required mt="md" />
                         <Group justify="space-between" mt="lg">
-                            <Checkbox label="Remember me" />
                             <Anchor component="button" size="sm" onClick={navigateToForgotPassword}>
                             Forgot password?
                             </Anchor>
