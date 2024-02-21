@@ -51,9 +51,14 @@ export function UserToDoList() {
             </Group>
           </Table.Td>
           <Table.Td style={{ width: rem(40) }}>
-            <ActionIcon size={25} variant="default" onClick={ () => deleteFromToDoList(thisList, String(item.item)) }>
+            {thisList.length > 1 ?
+              <ActionIcon size={25} variant="default" onClick={ () => deleteFromToDoList(thisList, String(item.item)) }>
+                <IoCloseSharp style={{ width: rem(20), height: rem(20) }} />
+              </ActionIcon> :
+              <ActionIcon size={25} variant="default" onClick={ () => deleteFromToDoList(thisList, String(item.item)) } disabled={true}>
               <IoCloseSharp style={{ width: rem(20), height: rem(20) }} />
             </ActionIcon>
+            }
           </Table.Td>
         </Table.Tr>
       );

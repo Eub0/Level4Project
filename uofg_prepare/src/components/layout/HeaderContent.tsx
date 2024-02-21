@@ -37,7 +37,7 @@ export const HeaderContent = ({ setOpened, opened }: Props) => {
                     p={10}
 					onClick={navigateToHomepage}
 				/>
-				<Title size="h2" c='white' visibleFrom='sm'>
+				<Title size="h2" c='white' visibleFrom='md'>
 					Prepare - Chemistry and Physics & Astronomy
 				</Title>
                 <Affix position={{top:15, right: 15}}>

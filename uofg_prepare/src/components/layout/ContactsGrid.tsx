@@ -1,5 +1,5 @@
 import { PageHeader } from "@/components/layout/PageHeader";
-import { Stack, Title, Text, Grid, Card, Image, Table, Anchor } from "@mantine/core";
+import { Stack, Title, Text, Grid, Card, Image, Table, Anchor, ScrollArea } from "@mantine/core";
 import classes from "@/styles/TableScrollArea.module.css"
 import cx from 'clsx';
 import { contacts } from "@/types/Contacts"
@@ -31,15 +31,17 @@ export const ContactsGrid = ({data,school}:{data: contacts[], school: string}) =
             <Grid pt={20}>
                 <Grid.Col span={{ base: 12, md: 10, lg: 8 }}>
                     <Card>
-                        <Table miw={700}>
-                            <Table.Thead classNames={classes}>
-                            <Table.Tr>
-                                <Table.Th>Role</Table.Th>
-                                <Table.Th>Email</Table.Th>
-                            </Table.Tr>
-                            </Table.Thead>
-                            <Table.Tbody>{rows}</Table.Tbody>
-                        </Table>
+                        <ScrollArea>
+                            <Table miw={700}>
+                                <Table.Thead classNames={classes}>
+                                <Table.Tr>
+                                    <Table.Th>Role</Table.Th>
+                                    <Table.Th>Email</Table.Th>
+                                </Table.Tr>
+                                </Table.Thead>
+                                <Table.Tbody>{rows}</Table.Tbody>
+                            </Table>
+                        </ScrollArea>
                     </Card>
                     <Text pt={15}>
                         If you cannot find what you're looking for here, then have a look on the{" "}

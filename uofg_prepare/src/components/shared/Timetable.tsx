@@ -37,26 +37,28 @@ export function Timetable({data,keyData}:{data: timetableContent[],keyData: tabl
       Semester Timetable
     </Title>
     <Card pt={15}>
-      <Table miw={700}>
-        <Table.Thead className={cx(classes.header, { [classes.scrolled]: scrolled })}>
-          <Table.Tr>
-            <Table.Th>Week</Table.Th>
-            <Table.Th>Monday</Table.Th>
-            <Table.Th>Tuesday</Table.Th>
-            <Table.Th>Wednesday</Table.Th>
-            <Table.Th>Thursday</Table.Th>
-            <Table.Th>Firday</Table.Th>
-            <Table.Th>Practical Component</Table.Th>
-          </Table.Tr>
-        </Table.Thead>
-        <Table.Tbody>{rows(data)}</Table.Tbody>
-      </Table>
+      <ScrollArea onScrollPositionChange={({ y }) => setScrolled(y !== 0)}>
+        <Table miw={700}>
+          <Table.Thead className={cx(classes.header, { [classes.scrolled]: scrolled })}>
+            <Table.Tr>
+              <Table.Th>Week</Table.Th>
+              <Table.Th>Monday</Table.Th>
+              <Table.Th>Tuesday</Table.Th>
+              <Table.Th>Wednesday</Table.Th>
+              <Table.Th>Thursday</Table.Th>
+              <Table.Th>Firday</Table.Th>
+              <Table.Th>Practical Component</Table.Th>
+            </Table.Tr>
+          </Table.Thead>
+          <Table.Tbody>{rows(data)}</Table.Tbody>
+        </Table>
+      </ScrollArea>
     </Card>
     <Title py={15} size="h4">
       Timetable Key
     </Title>
     <Card pt={15}>
-      <ScrollArea h={225} onScrollPositionChange={({ y }) => setScrolled(y !== 0)}>
+      <ScrollArea onScrollPositionChange={({ y }) => setScrolled(y !== 0)}>
           <Table miw={700}>
             <Table.Thead className={cx(classes.header, { [classes.scrolled]: scrolled })}>
               <Table.Tr>
