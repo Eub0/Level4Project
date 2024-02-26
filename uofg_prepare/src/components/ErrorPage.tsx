@@ -38,7 +38,7 @@ export const ErrorPage = ({ errorMessage, errorCode, ...props }: Props) => {
 	return (
 		<>
 			<Head>
-				<title>{`Backstage - ${errorPageTitle()}`}</title>
+				<title>{`uofgprepare - ${errorPageTitle()}`}</title>
 			</Head>
 			<Container {...props}>
 				{errorCode && <div className={classes.label}>{errorCode}</div>}
