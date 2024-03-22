@@ -45,7 +45,7 @@
 
 \usepackage{microtype} % improve typography
 \usepackage{anyfontsize} % allow any size of font
-\usepackage{amsmath,amsfonts,amsbsy,amssymb}
+\usepackage{amsmath}
 \usepackage[style]{abstract} % abstract styling
 
 % set bibliography styling
@@ -218,6 +218,9 @@ textfont=it,tableposition=above]{caption}
   \titlespacing*{\chapter}      
   {0pt}{0pt}{15pt}  
 
+% Include PDF's
+\usepackage{pdfpages}
+
 % Educational consent form
 \newcommand{\educationalconsent}{
     \ifdefined\consentname
@@ -241,6 +244,21 @@ textfont=it,tableposition=above]{caption}
         \chapter*{Education Use Consent}
         Consent for educational reuse withheld. Do not distribute.
     \fi 
+
+}
+
+
+% Acknowledgements
+\newcommand{\acknowledgements}{
+    \ifdefined\consentname
+          \newpage
+          \chapter*{Acknowledgements}
+
+          I would first like to thank my supervisor Dr. Mireilla Binkanga Ada for continuously supporting me and providing insightful input on this project. Without her guidance, this project would not have been completed to the standard to which it is.
+
+          I would like to thank my parents and sister for their continuous support throughout not just my university experience, but my life as a whole. Their love and compassion pushed me to pursue my passions and I simply would not be here without my number 1 fans. To my girlfriend for supporting me through all the ups and downs on this journey, thank you for always being there. Thank you to my flatmates and close friends for supporting me and ensuring I kept a healthy work-life balance through this project.
+
+          Finally, I would like to thank Mark, Alan, and the whole of the technology team at guitarguitar, both past and present, for their support in this project whilst I worked for them. Your guidance and advice have proved nothing but helpful, and your continued support in adjusting the rota to ensure that this project could be completed to my satisfaction.
 
 }
 
@@ -292,4 +310,3 @@ textfont=it,tableposition=above]{caption}
       \partopsep=0pt plus 1pt minus 1pt
       \parsep=1pt plus 1pt
       \itemsep=\parsep}
-

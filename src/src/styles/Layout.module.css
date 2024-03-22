@@ -1,0 +1,25 @@
+.header {
+    background-color: var(--mantine-color-blue-9);
+}
+
+.header_dark {
+    background-color: var(--mantine-color-dark-9);
+}
+
+.navbar {
+    background-color: var(--mantine-color-gray-3);
+}
+
+.navbar_dark {
+    background-color: var(--mantine-color-dark-7);
+}
+
+.main {
+    color: var(--mantine-color-black);
+    background-color: var(--mantine-color-white);
+}
+
+.main_dark {
+    color: var(--mantine-color-white);
+    background-color: var(--mantine-color-dark-5);
+}

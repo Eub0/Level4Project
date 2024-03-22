@@ -1,0 +1,106 @@
+.button {
+    font-weight: 500;
+    display: block;
+    width: calc(100% - 8px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: var(--spacing-xs) var(--spacing-md);
+    color: var(--mantine-color-blue-9);
+    font-size: var(--font-size-sm);
+    border-radius: var(--radius-sm);
+  
+    .navbar-icon {
+      color: var(--mantine-color-blue-9);
+      background-color: var(--mantine-color-blue-9);
+      display: flex;
+      align-items: center;
+    }
+  }
+  
+  .active {
+    background-color: var(--mantine-color-blue-2);
+    color: var(--mantine-color-blue-9);
+  
+    .navbar-icon {
+      color: var(--mantine-color-white);
+      background-color: var(--mantine-color-blue-9);
+    }
+  }
+  
+  .link {
+    font-weight: 500;
+    display: block;
+    text-decoration: none;
+    line-height: 1.15;
+    padding: var(--spacing-xs) var(--spacing-md);
+    padding-left: 18px;
+    margin-left: 18px;
+    margin-right: 3px;
+    width: auto;
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    font-size: var(--font-size-sm);
+    color: var(--mantine-color-blue-9);
+    border-left: 1px solid var(--mantine-color-blue-9);
+  }
+
+  .button_dark {
+    font-weight: 500;
+    display: block;
+    width: calc(100% - 8px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: var(--spacing-xs) var(--spacing-md);
+    color: var(--mantine-color-white);
+    font-size: var(--font-size-sm);
+    border-radius: var(--radius-sm);
+  
+    .navbar-icon {
+      color: var(--mantine-color-white);
+      background-color: var(--mantine-color-white);
+      display: flex;
+      align-items: center;
+    }
+  }
+  
+  .active_dark {
+    background-color: var(--mantine-color-dark-3);
+    color: var(--mantine-color-white);
+  
+    .navbar-icon {
+      color: var(--mantine-color-white);
+      background-color: var(--mantine-color-white);
+    }
+  }
+
+  .link_dark {
+    font-weight: 500;
+    display: block;
+    text-decoration: none;
+    line-height: 1.15;
+    padding: var(--spacing-xs) var(--spacing-md);
+    padding-left: 18px;
+    margin-left: 18px;
+    margin-right: 3px;
+    width: auto;
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    font-size: var(--font-size-sm);
+    color: var(--mantine-color-white);
+    border-left: 1px solid var(--mantine-color-white);
+  }
+  
+  .chevron {
+    transition: transform 200ms ease;
+  }
+
+  .box {
+    display: flex;
+    align-items: center;
+  }
+
+  .group {
+    position: 'apart';
+  }

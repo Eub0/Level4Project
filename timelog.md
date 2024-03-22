@@ -321,13 +321,79 @@
 ## 17th February
 * *3 hours Finishing getting database object to read to ToDo list, creating evaluation to be sent to high schools
 
-## Week 22
-
 ## 18th February
 * *9 hours Creating ability to add and delete from custom to-do list, made hook and provider so that guest mode blocks the My ToDo List tab, made it so log-in/sign-up page dont have navbar and header, final tidy-up of the code for grammar and presentation
+
+
+## Week 22
 
 ## 19th February
 * *6 hours Final features and deployment. Tried firebase deployment and had issues, moved to vercel deploment.
 
 ## 20th February
 * *0.5 hours Adding return links to error pages
+
+## 22nd February
+* *0.5 hours Supervisor Meeting
+
+## Week 23
+
+## 28th February
+* *0.5 hours Supervisor Meeting
+
+## 1st March
+#* 3 hours Reading hall-of-fame papers to gague an idea of how to conduct the write-up
+
+## Week 24
+
+## 5th March
+* *2 hours Planning out write-up
+
+## 7th March
+* *1 hour Meeting with Transitions Working Group
+* *0.5 hours Supervisor Meeting
+
+## 8th March
+* *4 hours Writing introduction and chapter introductions
+
+## 9th March
+* *4 hours Writting design chapter
+
+## 10th March
+* *6 hours Writting implementation chapter
+
+## Week 25
+
+## 11th March
+* *5 hours Finalising dissertation draft for hand in
+
+## 13th March
+* *0.5 hours Supervisor Meeting
+* *4 hours Working on feedback from draft
+
+## 14th March
+* *6 hours Started writing evaluation chapter, more work on background chapter
+
+## 15th March
+* 5.5 hours More writing of background and evaluation chapters
+
+## 16th March
+* *5 hours Research into evaluation analysis
+
+## 17th March
+* *7 hours Reading over and making additional changes, more work on background chapter
+
+## Week 26
+
+## 18th March
+* *6.5 hours Finishing background chapter
+
+## 19th March
+* *7 hours Adding final parts to evaluation chapter, calculating SUS scores
+
+## 20th March
+* *0.5 hours Supervisor Meeting
+* *2 hours Working on presentation slides
+
+## 21st March
+* *12 hours Redrafting dissertation, creating README files, tidying Git repo, and working on presentation slides
