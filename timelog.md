@@ -397,3 +397,6 @@
 
 ## 21st March
 * *12 hours Redrafting dissertation, creating README files, tidying Git repo, and working on presentation slides
+
+## 22nd March
+* *6.5 hours Final read over, changes, and recording of the presentation
